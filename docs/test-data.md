@@ -10,7 +10,7 @@
 | 商品與行銷 | 商品、行銷活動、通關密語 | [test-data-products.md](test-data-products.md) |
 | 付款與發票 | 信用卡、提貨券/禮券、發票 | [test-data-orders.md](test-data-orders.md) |
 | 電話與音檔 | 軟體電話、SIP/Avaya、調聽音檔 connId | [test-data-contacts.md](test-data-contacts.md) |
-| Lab 與正式區環境資訊 | Lab（測試開發環境）與正式區 URL/IP | [test-data-environments.md](test-data-environments.md) |
+| Lab 與正式區環境資訊 | Lab（測試開發環境）與正式區 URL/IP | [test-data-lab-environments.md](test-data-lab-environments.md) |
 
 ---
 
