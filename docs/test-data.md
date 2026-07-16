@@ -2,7 +2,7 @@
 
 來源：`測試資料、流程注意事項.pdf`
 
-測試資料依功能主題分類如下：
+## Lab 測試資料
 
 | 主題 | 內容 | 檔案 |
 |---|---|---|
@@ -10,7 +10,15 @@
 | Lab 商品與行銷 | 商品、行銷活動、通關密語 | [test-data-lab-products.md](test-data-lab-products.md) |
 | Lab 付款與發票 | 信用卡、提貨券/禮券、發票 | [test-data-lab-orders.md](test-data-lab-orders.md) |
 | Lab 電話與音檔 | 軟體電話、SIP/Avaya、調聽音檔 connId | [test-data-lab-contacts.md](test-data-lab-contacts.md) |
-| Lab 與正式區環境資訊 | Lab（測試開發環境）與正式區 URL/IP | [test-data-lab-environments.md](test-data-lab-environments.md) |
+| Lab 環境資訊 | Lab（測試開發環境）URL/IP | [test-data-lab-environments.md](test-data-lab-environments.md) |
+
+## 正式區測試資料
+
+| 主題 | 內容 | 檔案 |
+|---|---|---|
+| 正式區商品 | 正式區測試商品 | [test-data-production-products.md](test-data-production-products.md) |
+| 正式區付款 | 正式區測試信用卡 | [test-data-production-orders.md](test-data-production-orders.md) |
+| 正式區環境資訊 | 正式區 URL/IP | [test-data-production-environments.md](test-data-production-environments.md) |
 
 ---
 
