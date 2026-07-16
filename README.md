@@ -25,11 +25,11 @@ RuleBase **不取代** `project-docs/projects/CSP/data/business-flows` 等現有
 
 ```
 RuleBase/
-├── docs/               # 設計與架構文件
+├── docs/               # 設計與架構文件、測試資料參考表
 ├── data/               # 靜態資料與規則定義
 │   ├── rules/          # 規則與領域知識結構
 │   ├── samples/        # 測試資料樣本
-│   └── sources/        # 原始參考文件與整理後的資料表
+│   └── sources/        # 原始參考文件（PDF、OneNote 匯出檔等）
 ├── engine/             # 規則執行程式碼
 ├── tools/              # 資料匯入、同步、驗證、RAG 索引等工具
 └── scripts/            # 一次性或輔助腳本

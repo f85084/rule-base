@@ -6,7 +6,10 @@
 
 - 暫存從 OneNote、SharePoint、PDF 等處匯出的原始文件
 - 供 `tools/` 中的匯入/萃取工具處理
-- 萃取完成後，規則寫入 `data/rules/`，測試資料寫入 `data/samples/`
+
+## 整理後的資料位置
+
+- 測試資料整理表：`docs/test-data.md`
 
 ## 注意事項
 
