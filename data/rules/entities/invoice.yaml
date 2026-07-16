@@ -1,8 +1,0 @@
-id: invoice
-name: 發票
-description: |
-  發票載具與類型測試資料，包含手機載具、自然人憑證、統一編號、三聯式紙本發票等。
-schema: data/rules/schemas/invoice.yaml
-sample_file: data/samples/invoices.yaml
-related_entities:
-  - test-customer

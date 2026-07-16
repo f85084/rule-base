@@ -1,7 +1,0 @@
-id: environment
-name: 環境
-description: |
-  Lab 環境與正式區的 IP/URL 清單，用於區分測試與正式連線目標。
-schema: data/rules/schemas/environment.yaml
-sample_file: data/samples/environments.yaml
-related_entities: []

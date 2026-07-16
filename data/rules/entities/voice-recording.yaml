@@ -1,8 +1,0 @@
-id: voice-recording
-name: 調聽音檔
-description: |
-  客服通話錄音的 connId 清單，用於質檢調聽與語音路徑驗證。
-schema: data/rules/schemas/voice-recording.yaml
-sample_file: data/samples/voice-recordings.yaml
-related_entities:
-  - test-account
