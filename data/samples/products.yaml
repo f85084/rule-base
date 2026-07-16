@@ -1,0 +1,178 @@
+schema: data/rules/schemas/product.yaml
+source: 測試資料、流程注意事項.pdf
+items:
+  - product_id: "1175324"
+    product_name: 壓力測試--庫送商品
+    description: 庫送商品
+    restrictions:
+      - 不能海外配送
+    source_page: 2
+  - product_id: "1175897"
+    product_name: 庫送
+    description: 庫送商品
+    restrictions: []
+    source_page: 2
+  - product_id: "1176566"
+    product_name: 超取
+    description: 超商取貨商品
+    restrictions: []
+    source_page: 2
+  - product_id: "1175480"
+    product_name: 不能變價商品
+    description: 不能變價商品
+    restrictions:
+      - 不能變價
+    source_page: 2
+  - product_id: 小7家裡超取冷凍商品2020091701
+    product_name: 小7家裡超取冷凍商品2020091701
+    description: 711冷凍超取
+    restrictions:
+      - 冷凍超取
+    source_page: 2
+  - product_id: "1177296"
+    product_name: 小7家裡超取冷凍商品2020091701
+    description: 可用東森幣，只可貨到付款
+    restrictions:
+      - 可用東森幣
+      - 只可貨到付款
+    source_page: 2
+  - product_id: "1174396"
+    product_name: 測試-0915-款式(1)-冷凍
+    description: 7-11、全家冷凍超取
+    restrictions:
+      - 冷凍超取
+    source_page: 2
+  - product_id: "1175030"
+    product_name: 測試-全家商品-1108(快倉)
+    description: 可超商取貨
+    restrictions:
+      - 可超商取貨
+    source_page: 2
+  - product_id: "1174603"
+    product_name: 測試-0915-顏色(18)-超商-網
+    description: 可超取不能貨到付款
+    restrictions:
+      - 可超取
+      - 不能貨到付款
+    source_page: 2
+  - product_id: "1175338"
+    product_name: 旅遊-庫送0308-網
+    description: 旅遊商品
+    restrictions: []
+    source_page: 3
+  - product_id: "1173380"
+    product_name: 180620_旅遊品_001-網
+    description: 國旅使用 FUGO 分類ID 60105
+    restrictions:
+      - FUGO分類
+    source_page: 3
+  - product_id: "1171288"
+    product_name: 新排程測試02
+    description: 自動化測試24小時、快倉、海外(價格低於490) 不滿490網路商品，需要運費
+    restrictions:
+      - 不滿490需運費
+    source_page: 3
+  - product_id: "1176737"
+    product_name: 預購商品_test_庫1
+    description: 貨到付款 - 家裡蹲
+    restrictions:
+      - 貨到付款
+    source_page: 3
+  - product_id: "1172236"
+    product_name: ASHIYA肌因超級賦活保養組(OB)-半年份
+    description: 週期性商品
+    restrictions:
+      - 週期性商品
+    source_page: 3
+  - product_id: "1111366"
+    product_name: Kemin葉黃素羊奶嚼錠6瓶-網
+    description: 週期性商品-可超取
+    restrictions:
+      - 週期性商品
+      - 可超取
+    source_page: 3
+  - product_id: "1176525"
+    product_name: 套組測試套組測試
+    description: Kit 商品（廠送可至b2b出貨）
+    restrictions:
+      - Kit商品
+    source_page: 3
+  - product_id: "5004215"
+    product_name: Shining Star【幸運草誓約】鑽戒項鍊組
+    description: Kit商品（兩個）
+    restrictions:
+      - Kit商品
+    source_page: 3
+  - product_id: "1175907"
+    product_name: SKII青春超值優惠組合
+    description: Kit 商品（三個）
+    restrictions:
+      - Kit商品
+    source_page: 3
+  - product_id: "11140001"
+    product_name: 豆油伯缸底醬油粉亮加碼組
+    description: 新零售（同意視窗 舊客代沒有得易卡 是型錄商品）
+    restrictions:
+      - 新零售
+      - 舊客代沒有得易卡
+    source_page: 3
+  - product_id: "1146641"
+    product_name: 『粉領魅惑』滿鑽法國絨靴-(網)
+    description: 顏色樣式 show more link
+    restrictions: []
+    source_page: 3
+  - product_id: "581174603"
+    product_name: 測試-0915-顏色(18)-超商-網
+    description: 超取 + 東森幣 特殊情況
+    restrictions:
+      - 超取
+      - 可用東森幣
+    source_page: 3
+  - product_id: "1189515"
+    product_name: 店中店商品007(超取)
+    description: 商品無法使用前台接單
+    restrictions:
+      - 無法前台接單
+    source_page: 3
+  - product_id: "1204596"
+    product_name: ""
+    description: 公司別為歡樂旅行社
+    restrictions: []
+    source_page: 3
+  - product_id: "11091683"
+    product_name: ""
+    description: 可以快速到商品（地址是雙北的會顯示）
+    restrictions:
+      - 雙北地址快速到貨
+    source_page: 3
+  - product_id: "100000009076"
+    product_name: 不可使用E幣商品
+    description: 不可使用E幣商品
+    restrictions:
+      - 不可使用E幣
+    source_page: 3
+  - product_id: "2361874"
+    product_name: Crocodile鱷魚360度全透氣沁涼平口褲
+    description: 超取、貨到付款
+    restrictions:
+      - 超取
+      - 貨到付款
+    source_page: 5
+  - product_id: "2379659"
+    product_name: 華陀壽星帝藏賜珍膠固本8斤週期組(4期)-OB
+    description: 週期性商品-可超取
+    restrictions:
+      - 週期性商品
+      - 可超取
+    source_page: 5
+  - product_id: "3019973"
+    product_name: 冰淇淋(限全家冷凍)
+    description: 全家冷凍
+    restrictions:
+      - 全家冷凍
+    source_page: 5
+  - product_id: "2206356"
+    product_name: 便利商店
+    description: 便利商店商品
+    restrictions: []
+    source_page: 5

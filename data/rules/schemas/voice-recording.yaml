@@ -1,0 +1,29 @@
+name: VoiceRecording
+description: 調聽音檔的 connId 與相關資訊
+fields:
+  - name: conn_id
+    type: string
+    required: true
+    description: 通話連線編號
+  - name: reviewer
+    type: string
+    required: false
+    description: 調聽人員
+  - name: review_date
+    type: string
+    required: false
+    description: 調聽日期（YYYY-MM-DD）
+  - name: nas_path
+    type: string
+    required: false
+    description: NAS 音檔路徑
+  - name: source_page
+    type: integer
+    required: false
+    description: 資料來源頁碼
+example:
+  conn_id: 01a902e35024e4a2
+  reviewer: 林文婷
+  review_date: "2020-02-01"
+  nas_path: ""
+  source_page: 4

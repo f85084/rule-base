@@ -1,0 +1,10 @@
+id: test-customer
+name: 測試客代
+description: |
+  客戶代號（客代）是系統識別客戶的唯一編號。
+  不同客代對應不同測試情境，例如首購客戶、永捐客戶、A級/Z級客戶等。
+schema: data/rules/schemas/customer.yaml
+sample_file: data/samples/customers.yaml
+related_entities:
+  - test-account
+  - invoice

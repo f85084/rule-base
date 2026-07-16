@@ -1,0 +1,10 @@
+id: test-credit-card
+name: 測試信用卡
+description: |
+  用於訂單付款、分期驗證與卡別判斷的測試信用卡資料。
+  包含可分期/不可分期、15碼美國運通卡等特殊案例。
+schema: data/rules/schemas/credit-card.yaml
+sample_file: data/samples/credit-cards.yaml
+related_entities:
+  - test-product
+  - invoice

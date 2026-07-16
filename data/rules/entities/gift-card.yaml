@@ -1,0 +1,8 @@
+id: gift-card
+name: 提貨券/禮券
+description: |
+  已開卡的提貨券、禮券測試資料，用於驗證結帳時的折抵與綁定流程。
+schema: data/rules/schemas/gift-card.yaml
+sample_file: data/samples/gift-cards.yaml
+related_entities:
+  - test-customer

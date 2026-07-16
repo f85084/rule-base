@@ -1,0 +1,10 @@
+id: test-product
+name: 測試商品
+description: |
+  電商平台上各類測試商品，涵蓋庫送、超取、冷凍、旅遊、Kit組合、週期購、新零售等。
+  每筆商品伴隨特定限制條件，用於驗證接單、配送、變價與折抵規則。
+schema: data/rules/schemas/product.yaml
+sample_file: data/samples/products.yaml
+related_entities:
+  - marketing-campaign
+  - business-rule

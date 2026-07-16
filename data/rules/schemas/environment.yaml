@@ -1,0 +1,24 @@
+name: Environment
+description: 測試環境與正式區的 URL/IP 資訊
+fields:
+  - name: environment
+    type: string
+    required: true
+    description: 環境名稱，例如 Lab、正式區
+  - name: url
+    type: string
+    required: true
+    description: 網址或 IP
+  - name: description
+    type: string
+    required: false
+    description: 用途說明
+  - name: source_page
+    type: integer
+    required: false
+    description: 資料來源頁碼
+example:
+  environment: 正式區
+  url: http://10.33.55.11/
+  description: ""
+  source_page: 5

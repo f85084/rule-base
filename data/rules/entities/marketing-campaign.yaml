@@ -1,0 +1,10 @@
+id: marketing-campaign
+name: 行銷活動
+description: |
+  折扣、滿額、通路限定等行銷規則。
+  用於測試購物車計算、折扣疊加與單選/多選活動邏輯。
+schema: data/rules/schemas/marketing-campaign.yaml
+sample_file: data/samples/marketing-campaigns.yaml
+related_entities:
+  - test-product
+  - business-rule

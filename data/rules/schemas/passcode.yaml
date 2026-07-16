@@ -1,0 +1,34 @@
+name: Passcode
+description: 通關密語與其使用條件
+fields:
+  - name: code
+    type: string
+    required: true
+    description: 通關密語
+  - name: scope
+    type: string
+    required: true
+    description: 適用範圍，例如大通路都可以使用
+  - name: exclusions
+    type: array_of_string
+    required: false
+    description: 排除條件
+  - name: conditions
+    type: array_of_string
+    required: false
+    description: 觸發條件，例如子通路等於電視、商品金額大於890
+  - name: benefit
+    type: string
+    required: false
+    description: 優惠內容，例如折百
+  - name: source_page
+    type: integer
+    required: false
+    description: 資料來源頁碼
+example:
+  code: "11"
+  scope: 大通路都可以使用
+  exclusions: []
+  conditions: []
+  benefit: ""
+  source_page: 2

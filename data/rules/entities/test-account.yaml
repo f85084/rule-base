@@ -1,0 +1,10 @@
+id: test-account
+name: 測試帳號
+description: |
+  客服、質檢、專員等角色在 Lab 與正式區使用的測試登入帳號。
+  包含員工編號、角色與密碼，用於驗證權限分派與登入流程。
+schema: data/rules/schemas/account.yaml
+sample_file: data/samples/accounts.yaml
+related_entities:
+  - test-customer
+  - test-product

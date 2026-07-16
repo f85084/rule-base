@@ -1,0 +1,27 @@
+schema: data/rules/schemas/invoice.yaml
+source: 測試資料、流程注意事項.pdf
+items:
+  - invoice_type: 手機載具
+    value: /68CKDSR
+    description: ""
+    source_page: 3
+  - invoice_type: 自然人憑證
+    value: TP03131224328498
+    description: ""
+    source_page: 3
+  - invoice_type: 統一編號
+    value: "16097705"
+    description: ""
+    source_page: 3
+  - invoice_type: 三聯式紙本發票
+    value: "12718372"
+    description: ""
+    source_page: 3
+  - invoice_type: 代收轉付收據
+    value: ""
+    description: ""
+    source_page: 3
+  - invoice_type: 捐贈發票
+    value: ""
+    description: ""
+    source_page: 3

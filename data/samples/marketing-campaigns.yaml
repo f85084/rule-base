@@ -1,0 +1,73 @@
+schema: data/rules/schemas/marketing-campaign.yaml
+source: 測試資料、流程注意事項.pdf
+items:
+  - campaign_name: ob通路_折200
+    product_id: "841172607"
+    common_id: "47771549"
+    condition: 全部享折扣
+    discount: 折200
+    channel: ob通路
+    source_page: 2
+  - campaign_name: ob_第2個折10
+    product_id: ""
+    common_id: ""
+    condition: 第2享折扣
+    discount: 折10
+    channel: ob通路
+    source_page: 2
+  - campaign_name: ob_第4個折20
+    product_id: ""
+    common_id: ""
+    condition: 大於或等於4享折扣
+    discount: 折20
+    channel: ob通路
+    source_page: 2
+  - campaign_name: 網路第1個_折100
+    product_id: "901130069"
+    common_id: "90771549"
+    condition: 第1享折扣
+    discount: 折100
+    channel: 網路通路
+    source_page: 2
+  - campaign_name: 網路通路第2個折50
+    product_id: ""
+    common_id: ""
+    condition: 大於或等於2享折扣
+    discount: 折50
+    channel: 網路通路
+    source_page: 2
+  - campaign_name: 網路_折10%
+    product_id: ""
+    common_id: ""
+    condition: 全部享折扣比率
+    discount: 折10%
+    channel: 網路通路
+    source_page: 2
+  - campaign_name: 單一行銷活動
+    product_id: "11073256"
+    common_id: ""
+    condition: 單選對多選
+    discount: ""
+    channel: ""
+    source_page: 2
+  - campaign_name: 測試第一層活動多選
+    product_id: ""
+    common_id: ""
+    condition: 第1享折扣
+    discount: ""
+    channel: 所有通路
+    source_page: 2
+  - campaign_name: 測試第二層多選
+    product_id: ""
+    common_id: ""
+    condition: 第1享折扣
+    discount: ""
+    channel: 所有通路
+    source_page: 2
+  - campaign_name: 配送地
+    product_id: "5002423"
+    common_id: ""
+    condition: 接單時顯示配送地
+    discount: ""
+    channel: ""
+    source_page: 2

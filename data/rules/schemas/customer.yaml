@@ -1,0 +1,24 @@
+name: Customer
+description: 客代（客戶代號）與其用途說明
+fields:
+  - name: customer_id
+    type: string
+    required: true
+    description: 客代編號
+  - name: description
+    type: string
+    required: true
+    description: 此客代的測試用途說明
+  - name: tags
+    type: array_of_string
+    required: false
+    description: 分類標籤，例如銷退、首購客戶、永捐客戶
+  - name: source_page
+    type: integer
+    required: false
+    description: 資料來源頁碼
+example:
+  customer_id: "28019489"
+  description: 功能帳號
+  tags: []
+  source_page: 4

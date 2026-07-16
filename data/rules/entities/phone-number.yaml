@@ -1,0 +1,9 @@
+id: phone-number
+name: 電話號碼
+description: |
+  軟體電話、SIP 分機、Avaya 分機與 VDN 測試號碼。
+  用於語音系統、調聽音檔與客服來電路由測試。
+schema: data/rules/schemas/phone-number.yaml
+sample_file: data/samples/phone-numbers.yaml
+related_entities:
+  - test-account

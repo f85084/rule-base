@@ -1,0 +1,31 @@
+schema: data/rules/schemas/environment.yaml
+source: 測試資料、流程注意事項.pdf
+items:
+  - environment: Lab
+    url: http://172.21.15.78
+    description: VB6 Lab 環境
+    source_page: 1
+  - environment: 正式區
+    url: http://10.33.55.11/
+    description: ""
+    source_page: 5
+  - environment: 正式區
+    url: http://10.33.55.13
+    description: ""
+    source_page: 5
+  - environment: 正式區
+    url: http://10.33.55.15
+    description: ""
+    source_page: 5
+  - environment: 正式區
+    url: http://10.33.55.12
+    description: ""
+    source_page: 5
+  - environment: 正式區
+    url: http://10.33.55.14
+    description: ""
+    source_page: 5
+  - environment: 正式區
+    url: http://10.33.55.16
+    description: ""
+    source_page: 5

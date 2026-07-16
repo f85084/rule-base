@@ -1,0 +1,30 @@
+name: GiftCard
+description: 提貨券、禮券等預付卡測試資料
+fields:
+  - name: card_number
+    type: string
+    required: true
+    description: 券號
+  - name: pin
+    type: string
+    required: false
+    sensitive: true
+    description: 密碼或 PIN
+  - name: status
+    type: string
+    required: false
+    description: 狀態，例如已開卡、未開卡
+  - name: description
+    type: string
+    required: false
+    description: 用途說明
+  - name: source_page
+    type: integer
+    required: false
+    description: 資料來源頁碼
+example:
+  card_number: "0181000084"
+  pin: "2804626924"
+  status: 已開卡
+  description: ""
+  source_page: 1

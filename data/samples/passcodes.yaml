@@ -1,0 +1,20 @@
+schema: data/rules/schemas/passcode.yaml
+source: 測試資料、流程注意事項.pdf
+items:
+  - code: "11"
+    scope: 大通路都可以使用
+    exclusions: []
+    conditions: []
+    benefit: ""
+    source_page: 2
+  - code: "22"
+    scope: 大通路都可以使用
+    exclusions:
+      - 商品排除使用外（1130690 被排除）
+    conditions:
+      - 商品 218344
+      - 子通路等於電視
+      - 商品金額大於890
+      - 小分類不等於票券餐券住宿券
+    benefit: 折百
+    source_page: 2

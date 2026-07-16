@@ -1,0 +1,62 @@
+domain_entity: order
+description: 訂單與結帳相關業務規則
+rules:
+  - id: ORD-001
+    name: 網路商品低於490元需運費
+    description: 網路通路商品金額未滿 490 元時，需額外收取運費
+    condition:
+      operator: and
+      clauses:
+        - field: product_id
+          operator: in
+          values:
+            - "1171288"
+        - field: order_amount
+          operator: less_than
+          value: 490
+    action:
+      type: add_charge
+      charge_name: 運費
+      message: 網路商品未滿490元，需加收運費
+    sample_references:
+      - data/samples/products.yaml
+
+  - id: ORD-002
+    name: 舊客代不得綁定得易卡
+    description: 2019 年之前的舊客代無法綁定得易卡進行新零售交易
+    condition:
+      operator: and
+      clauses:
+        - field: customer_id
+          operator: in
+          values:
+            - "28019467"
+        - field: payment_method
+          operator: equals
+          value: 得易卡
+    action:
+      type: reject
+      message: 2019年之前客代無法綁定得易卡
+    sample_references:
+      - data/samples/customers.yaml
+
+  - id: ORD-003
+    name: 商品只可貨到付款
+    description: 特定商品僅能使用貨到付款方式
+    condition:
+      operator: and
+      clauses:
+        - field: product_id
+          operator: in
+          values:
+            - "1177296"
+            - "1176737"
+            - "2361874"
+        - field: payment_method
+          operator: not_equals
+          value: 貨到付款
+    action:
+      type: reject
+      message: 此商品僅限貨到付款
+    sample_references:
+      - data/samples/products.yaml

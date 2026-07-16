@@ -1,0 +1,8 @@
+id: passcode
+name: 通關密語
+description: |
+  行銷活動或特殊通路使用的通關密語，通常伴隨排除條件與金額門檻。
+schema: data/rules/schemas/passcode.yaml
+sample_file: data/samples/passcodes.yaml
+related_entities:
+  - marketing-campaign

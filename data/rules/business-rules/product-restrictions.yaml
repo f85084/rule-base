@@ -1,0 +1,86 @@
+domain_entity: test-product
+description: 商品層級的限制與配送條件
+rules:
+  - id: PRD-001
+    name: 庫送商品不可海外配送
+    description: 標示為庫送的特定商品不支援海外配送地址
+    condition:
+      operator: and
+      clauses:
+        - field: product_id
+          operator: in
+          values:
+            - "1175324"
+    action:
+      type: reject
+      message: 此商品不支援海外配送
+    sample_references:
+      - data/samples/products.yaml
+
+  - id: PRD-002
+    name: 不可變價商品禁止改價
+    description: 特定商品在接單或結帳流程中不得修改價格
+    condition:
+      operator: and
+      clauses:
+        - field: product_id
+          operator: in
+          values:
+            - "1175480"
+    action:
+      type: reject
+      message: 此商品不可變價
+    sample_references:
+      - data/samples/products.yaml
+
+  - id: PRD-003
+    name: 冷凍商品限定全家冷凍超取
+    description: 冷凍類商品僅能選擇支援冷凍配送的超取通路
+    condition:
+      operator: and
+      clauses:
+        - field: restrictions
+          operator: contains
+          value: 冷凍超取
+        - field: shipping_method
+          operator: not_in
+          values:
+            - 全家冷凍
+            - 7-11冷凍
+    action:
+      type: reject
+      message: 冷凍商品請選擇支援冷凍配送的超取通路
+    sample_references:
+      - data/samples/products.yaml
+
+  - id: PRD-004
+    name: 週期性商品限制
+    description: 週期購商品需遵循週期出貨規則，部分可超取
+    condition:
+      operator: and
+      clauses:
+        - field: restrictions
+          operator: contains
+          value: 週期性商品
+    action:
+      type: require
+      field: subscription_schedule
+      message: 請選擇週期出貨方案
+    sample_references:
+      - data/samples/products.yaml
+
+  - id: PRD-005
+    name: 不可使用E幣
+    description: 特定商品結帳時不得使用 E 幣折抵
+    condition:
+      operator: and
+      clauses:
+        - field: product_id
+          operator: in
+          values:
+            - "100000009076"
+    action:
+      type: reject
+      message: 此商品不可使用E幣
+    sample_references:
+      - data/samples/products.yaml
