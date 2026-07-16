@@ -28,7 +28,8 @@ RuleBase/
 ├── docs/               # 設計與架構文件
 ├── data/               # 靜態資料與規則定義
 │   ├── rules/          # 規則定義檔（YAML/JSON，描述業務規則）
-│   └── samples/        # 測試資料樣本
+│   ├── samples/        # 測試資料樣本
+│   └── sources/        # 原始參考文件（PDF、OneNote 匯出檔等輸入來源）
 ├── engine/             # 規則執行程式碼（讀取 data/rules/ 並執行判斷）
 ├── tools/              # 資料匯入、同步、驗證、RAG 索引等工具
 └── scripts/            # 一次性或輔助腳本
