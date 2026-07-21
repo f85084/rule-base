@@ -10,6 +10,21 @@
 ## 整理後的資料位置
 
 - 測試資料整理表：`docs/test-data.md`
+- 超商取貨商業規則：`docs/business-rules-pickup.md`
+- 軟體電話開發、測試與錯誤碼：`docs/softphone.md`
+- 音檔調聽操作：`docs/audio-recordings.md`
+- 音檔索引延遲案例：`docs/audio-index-delay.md`
+
+來源文件狀態基準：`data/sources/manifest.json`。新增或替換 PDF 後，可執行 `python3 scripts/check-source-status.py` 檢查是否需要重新整理。
+
+## 原始文件對照
+
+| 原始文件 | 整理文件 |
+|---|---|
+| `商業邏輯.pdf` | `docs/business-rules-pickup.md` |
+| `軟體電話開發用.pdf`、`軟體電話測試情境.pdf`、`軟體電話相關代碼.pdf` | `docs/softphone.md` |
+| `調聽音檔.pdf` | `docs/audio-recordings.md` |
+| `音檔相關.pdf` | `docs/audio-index-delay.md` |
 
 ## 注意事項
 

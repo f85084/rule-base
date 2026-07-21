@@ -1,0 +1,44 @@
+{
+  "商業邏輯.pdf": {
+    "sha256": "db16ee75cb4aef91a13fafa0a5bf91a7a305ba4e3ecf8bd5171b1671de21f35e",
+    "organized_in": ["docs/business-rules-pickup.md"]
+  },
+  "測試資料、流程注意事項.pdf": {
+    "sha256": "8fb3361c5fdb67fd2119495a132174335a7b3e0c5257b0f8f7247e0adc3a73dc",
+    "organized_in": [
+      "docs/test-data.md",
+      "docs/test-data-lab-accounts.md",
+      "docs/test-data-lab-products.md",
+      "docs/test-data-lab-orders.md",
+      "docs/test-data-lab-contacts.md",
+      "docs/test-data-lab-environments.md",
+      "docs/test-data-production-products.md",
+      "docs/test-data-production-orders.md",
+      "docs/test-data-production-environments.md"
+    ]
+  },
+  "訂單質檢.pdf": {
+    "sha256": "b0fd149b4142cbecf21173c8a0c45bfae1c6b2451d01667c2e052e3f6baafda5",
+    "organized_in": ["docs/test-data-order-qa.md"]
+  },
+  "調聽音檔.pdf": {
+    "sha256": "68e5b7ee02676cb899468e02e2f6d9e04d380eab2d6d4d106141adeaa1683be6",
+    "organized_in": ["docs/audio-recordings.md"]
+  },
+  "軟體電話測試情境.pdf": {
+    "sha256": "e03c059919d8bf190e099ee27257a0b737e69c3fd3f1c16de51e838b1bcdb0b5",
+    "organized_in": ["docs/softphone.md"]
+  },
+  "軟體電話相關代碼.pdf": {
+    "sha256": "2195a026af7ce9e9bfe4f5bce5b354add5a393f18cb535e1148938044cfa2b10",
+    "organized_in": ["docs/softphone.md"]
+  },
+  "軟體電話開發用.pdf": {
+    "sha256": "d9ae01982f827b8d04e634145d078d90df83b0c7ce1ece234c42af1723621804",
+    "organized_in": ["docs/softphone.md"]
+  },
+  "音檔相關.pdf": {
+    "sha256": "42f3d42b19ae07acd9e24304916ea7c83de7d909c96dd80e0f1d6ed79847b141",
+    "organized_in": ["docs/audio-index-delay.md"]
+  }
+}

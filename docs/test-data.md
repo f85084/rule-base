@@ -1,6 +1,12 @@
 # 測試資料整理
 
-來源：`測試資料、流程注意事項.pdf`
+來源：`測試資料、流程注意事項.pdf`、`訂單質檢.pdf`
+
+## 訂單質檢
+
+| 主題 | 內容 | 檔案 |
+|---|---|---|
+| 訂單質檢測試 | 測試帳號、質檢流程、案例驗證與 `order_qa` 初始化欄位 | [test-data-order-qa.md](test-data-order-qa.md) |
 
 ## Lab 測試資料
 
@@ -22,4 +28,7 @@
 
 ---
 
-原始 PDF 文件請見 `data/sources/測試資料、流程注意事項.pdf`。
+原始 PDF 文件請見：
+
+- `data/sources/測試資料、流程注意事項.pdf`
+- `data/sources/訂單質檢.pdf`

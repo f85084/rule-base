@@ -35,6 +35,13 @@ RuleBase/
 └── scripts/            # 一次性或輔助腳本
 ```
 
+## 已整理文件
+
+- 測試資料索引：`docs/test-data.md`
+- 商業規則：`docs/business-rules-pickup.md`
+- 軟體電話：`docs/softphone.md`
+- 音檔調聽與排查：`docs/audio-recordings.md`、`docs/audio-index-delay.md`
+
 ## 狀態
 
 目前為最小可行雛形（MVP skeleton），僅建立基本目錄與架構文件。
