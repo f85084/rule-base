@@ -30,5 +30,5 @@
 
 原始 PDF 文件請見：
 
-- `data/sources/測試資料、流程注意事項.pdf`
-- `data/sources/訂單質檢.pdf`
+- `data/sources/csp/測試資料、流程注意事項.pdf`
+- `data/sources/csp/訂單質檢.pdf`

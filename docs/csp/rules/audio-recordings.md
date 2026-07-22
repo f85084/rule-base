@@ -2,8 +2,8 @@
 
 來源：
 
-- `data/sources/調聽音檔.pdf`
-- `data/sources/測試資料、流程注意事項.pdf`
+- `data/sources/csp/調聽音檔.pdf`
+- `data/sources/csp/測試資料、流程注意事項.pdf`
 
 ## Lab 調聽流程摘要
 

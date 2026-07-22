@@ -1,6 +1,6 @@
 # 音檔：索引與檔案建立時間落差
 
-來源：`data/sources/音檔相關.pdf`
+來源：`data/sources/csp/音檔相關.pdf`
 
 ## 案例
 

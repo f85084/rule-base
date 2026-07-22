@@ -28,8 +28,8 @@ def main() -> int:
     manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
 
     counts = {"organized": 0, "changed": 0, "new": 0}
-    for source in sorted(source_dir.glob("*.pdf")):
-        name = source.name
+    for source in sorted(source_dir.rglob("*.pdf")):
+        name = source.relative_to(source_dir).as_posix()
         current = sha256(source)
         record = manifest.get(name)
         if record is None:

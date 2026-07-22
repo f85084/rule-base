@@ -10,7 +10,7 @@
 
 ## 來源文件狀態
 
-在 `data/sources/` 放入 PDF 後執行：
+在對應的 `data/sources/csp/` 或 `data/sources/msg/` 放入 PDF 後執行：
 
 ```bash
 python3 scripts/check-source-status.py

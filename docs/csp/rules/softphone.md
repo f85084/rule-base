@@ -2,10 +2,10 @@
 
 來源：
 
-- `data/sources/軟體電話開發用.pdf`
-- `data/sources/軟體電話測試情境.pdf`
-- `data/sources/軟體電話相關代碼.pdf`
-- `data/sources/測試資料、流程注意事項.pdf`
+- `data/sources/csp/軟體電話開發用.pdf`
+- `data/sources/csp/軟體電話測試情境.pdf`
+- `data/sources/csp/軟體電話相關代碼.pdf`
+- `data/sources/csp/測試資料、流程注意事項.pdf`
 
 ## 環境與測試連線
 

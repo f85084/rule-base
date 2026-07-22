@@ -1,6 +1,6 @@
 # 商業規則：超商取貨
 
-來源：`data/sources/商業邏輯.pdf`（Redmine #33071）
+來源：`data/sources/csp/商業邏輯.pdf`（Redmine #33071）
 
 ## 5,000 元以上的付款與配送組合
 

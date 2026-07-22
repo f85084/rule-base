@@ -35,12 +35,9 @@ RuleBase/
 └── scripts/            # 一次性或輔助腳本
 ```
 
-## 已整理文件
+## 文件
 
-- 測試資料索引：`docs/test-data.md`
-- 商業規則：`docs/business-rules-pickup.md`
-- 軟體電話：`docs/softphone.md`
-- 音檔調聽與排查：`docs/audio-recordings.md`、`docs/audio-index-delay.md`
+- 完整文件索引：`docs/README.md`
 
 ## 狀態
 
