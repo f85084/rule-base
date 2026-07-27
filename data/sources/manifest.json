@@ -23,23 +23,49 @@
   },
   "csp/調聽音檔.pdf": {
     "sha256": "68e5b7ee02676cb899468e02e2f6d9e04d380eab2d6d4d106141adeaa1683be6",
-    "organized_in": ["docs/csp/rules/audio-recordings.md"]
+    "organized_in": ["docs/csp/operations/audio-recordings.md"]
   },
   "csp/軟體電話測試情境.pdf": {
     "sha256": "e03c059919d8bf190e099ee27257a0b737e69c3fd3f1c16de51e838b1bcdb0b5",
-    "organized_in": ["docs/csp/rules/softphone.md"]
+    "organized_in": ["docs/csp/operations/softphone.md"]
   },
   "csp/軟體電話相關代碼.pdf": {
     "sha256": "2195a026af7ce9e9bfe4f5bce5b354add5a393f18cb535e1148938044cfa2b10",
-    "organized_in": ["docs/csp/rules/softphone.md"]
+    "organized_in": ["docs/csp/operations/softphone.md"]
   },
   "csp/軟體電話開發用.pdf": {
     "sha256": "d9ae01982f827b8d04e634145d078d90df83b0c7ce1ece234c42af1723621804",
-    "organized_in": ["docs/csp/rules/softphone.md"]
+    "organized_in": ["docs/csp/operations/softphone.md"]
   },
   "csp/音檔相關.pdf": {
     "sha256": "42f3d42b19ae07acd9e24304916ea7c83de7d909c96dd80e0f1d6ed79847b141",
-    "organized_in": ["docs/csp/rules/audio-index-delay.md"]
+    "organized_in": ["docs/csp/troubleshooting/audio-index-delay.md"]
+  },
+  "csp/MI操作手冊20251112.docx": {
+    "sha256": "4b83ae07dd38d5ced5b4834758e4875a2d333daa9b9f03b07e5b52dc43720e74",
+    "organized_in": ["docs/csp/operations/mi-user-guide.md"]
+  },
+  "csp/錯誤訊息排除總表_含提示與駐點資訊20260319.docx": {
+    "sha256": "fe4962c67ec2dd8480d9708187f51d885fa680bcddba9b05f137f5e27761d257",
+    "organized_in": ["docs/csp/troubleshooting/error-message-troubleshooting.md"]
+  },
+  "csp/website-menus.json": {
+    "sha256": "efeb2223281e44c6d7da1ea19de19cb9b03d95a4f89c2eff434c60c08251b319",
+    "organized_in": [
+      "docs/csp/requirements/website-page-classification.json",
+      "docs/csp/requirements/page-classification-index.md"
+    ]
+  },
+  "csp/redmine/issues_all.json": {
+    "sha256": "94a2ff5a7667c91dc4095f071554885c91dfcb781429071f43d628366168ed59",
+    "organized_in": [
+      "docs/csp/requirements/website-page-classification.json",
+      "docs/csp/requirements/page-classification-index.md"
+    ]
+  },
+  "csp/redmine/summary_all.md": {
+    "sha256": "eea2486054be316601b59de6bc0d1e9f6d1fd02718f3cb3b15f70c1d0f1ca580",
+    "organized_in": ["docs/csp/requirements/README.md"]
   },
   "msg/(原PHP)B區line@原PHP架構Lab資料.pdf": {
     "sha256": "f8f86768ff85e0e784439e7d866f06d85b427134ef8a9e29120e9d7baf80ecc2",
@@ -47,7 +73,7 @@
   },
   "msg/LIFF 頁設定.pdf": {
     "sha256": "1462075536f53f10ba6ab56a39449f2fb2af12c56f70884f2271c40867f25d22",
-    "organized_in": ["docs/msg/rules/message-operations.md"]
+    "organized_in": ["docs/msg/operations/message-operations.md"]
   },
   "msg/Lab資訊.pdf": {
     "sha256": "71a847ec20ccdd6faf14b6f1519685ae47dc442150def6e656fd560f27084008",
@@ -55,7 +81,7 @@
   },
   "msg/OB Message 筆記本.pdf": {
     "sha256": "9ad7cde8c80364c6813317fcba974848a52351cf3210a4162c571fb6c26ca58e",
-    "organized_in": ["docs/msg/rules/message-operations.md"]
+    "organized_in": ["docs/msg/operations/message-operations.md"]
   },
   "msg/Stage 資訊.pdf": {
     "sha256": "c4c073449bbba0856b2c932f12f6be0e10139931d2c2f7037c8f2149c19a26ac",
@@ -67,13 +93,13 @@
   },
   "msg/Wiki_APM其他設定.pdf": {
     "sha256": "eff5700bea284a783fb9cde49548ff6a6aa9d60a06a58fc827f012137adab0a1",
-    "organized_in": ["docs/msg/rules/message-operations.md"]
+    "organized_in": ["docs/msg/operations/message-operations.md"]
   },
   "msg/所有環境.pdf": {
     "sha256": "7eab6f7a37114ffa93890716f023228fb394d1ee1198030303930ae4c166c36e",
     "organized_in": [
       "docs/msg/test-data/test-data-environments.md",
-      "docs/msg/rules/message-operations.md"
+      "docs/msg/operations/message-operations.md"
     ]
   }
 }

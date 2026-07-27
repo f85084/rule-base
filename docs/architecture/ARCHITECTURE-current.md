@@ -1,66 +1,86 @@
-# RuleBase 架構（現行簡化版）
+# RuleBase 現行架構
 
-> 本文件描述 RuleBase **目前實際採用**的架構。若需與原始規劃比對，請參考 `ARCHITECTURE.md`。
+> 本文件描述 RuleBase 目前的文件庫定位與工作方式。早期的規則引擎與資料庫規劃請參考 `ARCHITECTURE.md`，但不代表目前的實作方向。
 
-## 現階段目標
+## 專案定位
 
-RuleBase 目前作為**統一測試資料與規則參考知識庫**，優先解決「測試資料散落各處、難以查詢」的問題。
+RuleBase 是 `project-docs` 的延伸層，目標是將既有的業務與技術文件整理成方便日常查詢與操作的文件庫。
 
-不強求機器可讀的規則引擎或結構化資料庫，而是先以**人類可讀、AI 可檢索**的 Markdown 文件為核心。
+RuleBase 不重新建立完整的業務流程文件，也不取代 `project-docs`。需要完整的 L1、L2、L3 或技術鏈路時，應回到來源專案查閱。
 
-## 高階架構
+## 文件分工
 
-```
-使用者 / AI bot
+```text
+project-docs
     │
-    ├── 查詢測試資料 → docs/csp/test-data/test-data.md
-    ├── 查詢原始文件 → data/sources/csp/
-    └── 未來擴充 → data/rules/、data/samples/、engine/、tools/
+    ├── 完整業務流程
+    ├── 頁面全貌
+    ├── Controller 技術解析
+    ├── API／日誌對照
+    └── 特殊機制與實作細節
+            │
+            ▼
+rule-base
+    ├── 操作摘要
+    ├── 規則快查
+    ├── 排錯手冊
+    ├── 測試資料索引
+    └── 需求單與文件對照
 ```
 
-## 目錄對應（現行）
+## 目前資料流
+
+1. 從 `project-docs`、需求單、原始 PDF、DOCX、JSON、Markdown 或其他受控來源取得資料。
+2. 依專案與用途分類保存原始來源。
+3. 將需要日常使用的內容整理成 Markdown。
+4. 在整理文件中保留來源與待確認事項。
+5. 透過文件索引讓人員快速找到對應內容。
+
+## 來源忠實整理原則
+
+這是整個 RuleBase 專案共用的整理規則，適用於 CSP、MSG，以及 `docs/` 下的操作、規則、排錯、測試資料、需求與索引文件：
+
+- 來源文件中的操作步驟、條件、例外情境、錯誤訊息、處理方式、聯絡資料、版本資訊與待確認事項，都必須保留。
+- 不得自行判斷某項內容「不需要」而省略，也不得只保留摘要卻讓使用者誤以為已涵蓋完整來源。
+- 若內容太長，應拆成多份主題文件，並透過 README／INDEX 串接；拆分不等於刪除內容。
+- 若來源內容互相矛盾或無法確認，保留各版本／說法並標記來源與待確認狀態，不自行合併成新規則。
+- 整理文件可增加導讀、分類與交叉連結，但不得改變來源原意；任何推論都要明確標記為推論。
+- 每份整理文件都要能回溯到原始來源；來源狀態應登錄在 `data/sources/manifest.json`。
+
+## 目錄用途
 
 | 目錄 | 用途 |
 |---|---|
-| `docs/` | 設計文件與測試資料參考表 |
-| `docs/architecture/ARCHITECTURE.md` | 原始完整架構規劃（規則引擎、RAG、資料庫） |
-| `docs/architecture/ARCHITECTURE-current.md` | 本文件，描述目前簡化架構 |
-| `docs/csp/test-data/test-data.md` | 主要測試資料整理表，供人員與 bot 查詢 |
-| `data/rules/` | 未來放置結構化規則與領域知識，目前為預留目錄 |
-| `data/samples/` | 未來放置結構化測試資料樣本，目前為預留目錄 |
-| `data/sources/csp/` | CSP 原始參考文件（PDF、OneNote 匯出檔等輸入來源） |
-| `engine/` | 未來規則執行引擎程式碼，目前為預留目錄 |
-| `tools/` | 未來資料匯入、同步、驗證工具，目前為預留目錄 |
-| `scripts/` | 未來一次性或輔助腳本，目前為預留目錄 |
+| `docs/` | 整理後的文件、索引、架構與工作流程 |
+| `docs/csp/` | CSP 的操作文件、規則、排錯、測試資料與需求對照 |
+| `docs/msg/` | MSG 的操作文件、規則、排錯、測試資料與需求對照 |
+| `docs/architecture/` | RuleBase 架構、定位與專案邊界 |
+| `docs/workflows/` | 文件整理與建圖等共用流程 |
+| `data/sources/csp/` | CSP 原始參考文件 |
+| `data/sources/msg/` | MSG 原始參考文件 |
+| `data/sources/manifest.json` | 原始文件與整理狀態的對照 |
+| `data/rules/` | 預留的規則資料區，目前不作為主要工作目標 |
+| `data/samples/` | 預留的樣本資料區，目前不作為主要工作目標 |
+| `engine/` | 預留的規則執行程式碼區 |
+| `tools/` | 文件匯入、同步或驗證工具區 |
+| `scripts/` | 文件狀態檢查與輔助腳本 |
 
-## 核心資料流
+## 文件索引原則
 
-1. **原始文件匯入**：從 OneNote、SharePoint、PDF 等處取得 CSP 原始文件，放入 `data/sources/csp/`。
-2. **人工整理**：將原始文件中的測試資料、注意事項整理成 Markdown 表格，放入 `docs/csp/test-data/test-data.md`。
-3. **查詢使用**：開發者、測試人員或 AI bot 直接閱讀 `docs/csp/test-data/test-data.md` 取得測試所需資訊。
+- `project-docs` 是完整業務與技術內容的主要來源。
+- RuleBase 以延伸、摘要、索引與操作支援為主。
+- 不複製完整的 L1、L2、L3 文件。
+- 新增文件前先確認是否已有對應的來源文件。
+- 無法確認的內容要標記來源與待確認狀態，不自行推測。
+- CSP 與 MSG 的文件分開管理，共用架構與工作流程則放在 `docs/` 直下。
 
-## 技術選型（現行）
+## 目前不在範圍內
 
-- **儲存格式**：Markdown（.md）
-- **檢索方式**：文字搜尋 / 未來可導入 RAG 向量檢索
-- **版本控制**：Git
-- **協作方式**：直接編輯 Markdown 文件
+以下項目先不作為現階段的主要目標：
 
-## 未來可擴充方向
+- 自動化規則執行引擎
+- 結構化商業規則 DSL
+- PostgreSQL 或向量資料庫
+- 全面複製 `project-docs` 的 L1／L2／L3 內容
 
-當測試資料與規則數量增加、需要機器自動判斷時，再逐步引入：
-
-1. 結構化 schema 與商業規則（`data/rules/`）
-2. 規則執行引擎（`engine/`）
-3. 資料匯入與驗證工具（`tools/`）
-4. 結構化資料庫（PostgreSQL）與向量資料庫（pgvector）
-
-## 與原始規劃的差異
-
-| 項目 | 原始規劃（ARCHITECTURE.md） | 現行簡化版 |
-|---|---|---|
-| 核心格式 | YAML/JSON + 自訂 DSL | Markdown 表格 |
-| 規則引擎 | Rules Evaluator | 尚未實作 |
-| 資料庫 | PostgreSQL + pgvector | 無，以 Git + Markdown 管理 |
-| RAG | 向量資料庫檢索 | 未來可導入，目前靠文字搜尋 |
-| 資料來源 | business-flows、原始碼、fixtures、專家知識 | 目前先整理現有測試資料 PDF |
+若未來需求改變，再另行評估是否啟用預留的 `engine/`、`data/rules/` 或其他工具。

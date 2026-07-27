@@ -1,0 +1,81 @@
+{
+  "source": "user-provided-website-menu",
+  "project": "CSP",
+  "groups": [
+    {"id": 1, "name": "權限管理", "pages": [
+      {"id": 1, "name": "系統功能", "url": "/Function"},
+      {"id": 8, "name": "系統角色", "url": "/Role"},
+      {"id": 77, "name": "帳號設定", "url": "/User"}
+    ]},
+    {"id": 13, "name": "訂單客服管理", "pages": [
+      {"id": 79, "name": "TM名單推薦", "url": "/OutBoundTmList"},
+      {"id": 28, "name": "客戶查詢", "url": "/CustomerService"},
+      {"id": 31, "name": "接單作業", "url": "/Order"},
+      {"id": 46, "name": "訂單管理", "url": "/OrderHistory"},
+      {"id": 48, "name": "銷退管理", "url": "/Return"},
+      {"id": 54, "name": "客訴處理", "url": "/CustomerComplaint"},
+      {"id": 49, "name": "會員明細", "url": "/Customer"},
+      {"id": 58, "name": "帳戶明細", "url": "/DiscountTransaction"},
+      {"id": 56, "name": "聯繫歷史", "url": "/ContactHistory"},
+      {"id": 55, "name": "電話小結作業", "url": "/CallSummary"},
+      {"id": 80, "name": "客服員待辦事項", "url": "/OutBoundTodoList"},
+      {"id": 72, "name": "問卷管理", "url": "/Survey"},
+      {"id": 100, "name": "活動管理", "url": "/Activity"},
+      {"id": 109, "name": "票劵/預約", "url": "/NaturalBeauty"},
+      {"id": 114, "name": "直播/見面會報名", "url": "/LiveStreamSignUp"},
+      {"id": 137, "name": "商品訊息", "url": "/SaleMessage"}
+    ]},
+    {"id": 5, "name": "訊息管理", "pages": [
+      {"id": 14, "name": "訊息查詢", "url": "/Message"},
+      {"id": 18, "name": "通知中心", "url": "/Notifications"}
+    ]},
+    {"id": 36, "name": "音檔管理", "pages": [
+      {"id": 82, "name": "調聽音檔", "url": "/AudioLog"},
+      {"id": 83, "name": "優質音檔", "url": "/AudioShared"},
+      {"id": 87, "name": "訂單質檢", "url": "/OrderQA"},
+      {"id": 88, "name": "質檢查核", "url": "/OrderQACheck"},
+      {"id": 89, "name": "質檢查詢", "url": "/OrderQAQuery"},
+      {"id": 96, "name": "質檢項目維護", "url": "/OrderQAStandard"}
+    ]},
+    {"id": 8, "name": "內部工作管理", "pages": [
+      {"id": 128, "name": "客戶進階查詢", "url": "/SuperiorQuery"},
+      {"id": 16, "name": "客服即時狀態", "url": "/OutBoundStatus"},
+      {"id": 81, "name": "客服文件管理", "url": "/Document"},
+      {"id": 90, "name": "使用者設定", "url": "/Agent"},
+      {"id": 92, "name": "審核作業", "url": "/Review"},
+      {"id": 99, "name": "跑馬燈管理", "url": "/Marquee"},
+      {"id": 84, "name": "公告管理", "url": "/Announcement"},
+      {"id": 86, "name": "組織部門設定", "url": "/Department"},
+      {"id": 103, "name": "商品話術管理", "url": "/SalesPitch"},
+      {"id": 112, "name": "直播/見面會管理", "url": "/LiveStreamManage"},
+      {"id": 120, "name": "行事曆", "url": "/Calendar"},
+      {"id": 121, "name": "行事曆管理", "url": "/Meeting"},
+      {"id": 127, "name": "商品加量管理", "url": "/ProductIncrease"}
+    ]},
+    {"id": 9, "name": "名單管理", "pages": [
+      {"id": 17, "name": "外呼組別管理", "url": "/OutBoundTeam"},
+      {"id": 44, "name": "名單歷程查詢", "url": "/OutBoundCustomer"},
+      {"id": 97, "name": "名單轉派申請", "url": "/OutBoundListTransferApply"},
+      {"id": 95, "name": "名單轉派審核", "url": "/OutBoundListTransferReview"},
+      {"id": 94, "name": "名單轉派查詢", "url": "/OutBoundListTransfer"},
+      {"id": 102, "name": "名單小組管理", "url": "/OutBoundListManagement"}
+    ]},
+    {"id": 19, "name": "系統管理", "pages": [
+      {"id": 110, "name": "小結清單", "url": "/ContactSummary"},
+      {"id": 133, "name": "撥號日期管理", "url": "/DialScheduler"},
+      {"id": 53, "name": "Domain管理", "url": "/DomainData"},
+      {"id": 98, "name": "排程工作狀態", "url": "/JobStatus"},
+      {"id": 101, "name": "工作日管理", "url": "/WorkingDay"},
+      {"id": 116, "name": "外部服務呼叫紀錄", "url": "/ApiLog"},
+      {"id": 134, "name": "AI Prompt 管理", "url": "/PromptManagement"},
+      {"id": 135, "name": "AI 費用報表", "url": "/AiCostReport"},
+      {"id": 138, "name": "小m文件管理", "url": "/DocumentQA"},
+      {"id": 139, "name": "小m使用紀錄", "url": "/DocumentQARecord"},
+      {"id": 141, "name": "郵件通知紀錄", "url": "/MailNotice"}
+    ]}
+  ],
+  "non_menu_categories": [
+    {"name": "非頁面／共用功能", "slug": "non-menu-shared"},
+    {"name": "待人工確認頁面", "slug": "needs-manual-page"}
+  ]
+}

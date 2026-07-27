@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Check whether source PDFs are new or changed since they were organized."""
+"""Check whether supported source files are new or changed since they were organized."""
 
 from __future__ import annotations
 
@@ -7,6 +7,9 @@ import argparse
 import hashlib
 import json
 from pathlib import Path
+
+
+SUPPORTED_SUFFIXES = {".pdf", ".docx", ".json", ".md"}
 
 
 def sha256(path: Path) -> str:
@@ -28,7 +31,14 @@ def main() -> int:
     manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
 
     counts = {"organized": 0, "changed": 0, "new": 0}
-    for source in sorted(source_dir.rglob("*.pdf")):
+    sources = sorted(
+        source
+        for source in source_dir.rglob("*")
+        if source.is_file()
+        and source.name not in {"manifest.json", "README.md"}
+        and source.suffix.lower() in SUPPORTED_SUFFIXES
+    )
+    for source in sources:
         name = source.relative_to(source_dir).as_posix()
         current = sha256(source)
         record = manifest.get(name)

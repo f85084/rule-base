@@ -1,10 +1,9 @@
 # Rules
 
-此目錄未來存放 RuleBase 的規則與領域知識結構，例如：
+此目錄目前為預留區，未來若需要機器可讀的規則與領域知識結構，可考慮存放：
 
 - 領域實體（DomainEntity）定義
 - 商業規則（BusinessRule）描述
 - 文件片段（DocumentChunk）與向量索引設定
 
-目前 CSP 測試資料先以 Markdown 表格整理在 `docs/csp/test-data/test-data.md` 及其拆分文件。
-未來若需要機器可讀的規則格式，再將此目錄擴充為 schema / entity / business-rule 結構。
+現階段規則與操作內容以 `docs/csp/`、`docs/msg/` 下的 Markdown 文件為主，不在此建立可執行規則。
