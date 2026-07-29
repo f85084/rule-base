@@ -55,3 +55,4 @@
 ### 規則與操作說明
 
 - [訊息系統操作與設定](msg/operations/message-operations.md)
+- [MSG 簽到印章設定流程](msg/operations/check-in-stamp-setup.md)
