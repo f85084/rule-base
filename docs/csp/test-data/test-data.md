@@ -16,6 +16,7 @@
 | Lab 商品與行銷 | 商品、行銷活動、通關密語 | [test-data-lab-products.md](test-data-lab-products.md) |
 | Lab 付款與發票 | 信用卡、提貨券/禮券、發票 | [test-data-lab-orders.md](test-data-lab-orders.md) |
 | Lab 電話與音檔 | 軟體電話、SIP/Avaya、調聽音檔 connId | [test-data-lab-contacts.md](test-data-lab-contacts.md) |
+| 調聽音檔測試 | Lab 調聽流程與測試 ConnectionId | [test-data-audio-log.md](test-data-audio-log.md) |
 | Lab 環境資訊 | Lab（測試開發環境）URL/IP | [test-data-lab-environments.md](test-data-lab-environments.md) |
 
 ## 正式區測試資料

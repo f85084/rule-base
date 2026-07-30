@@ -8,10 +8,11 @@
 /home/art/openab-repos/project-docs/projects/CSP/data/business-flows/
 ```
 
-建立對照表時，至少記錄需求單編號、功能、來源文件、RuleBase 文件、狀態與待確認事項。
+建立對照表時，至少記錄需求單編號、功能、來源文件、RuleBase 文件與待確認事項。
 
 ## 目前整理結果
 
+- [CSP 整理進度表](progress.md)
 - [頁面分類 Index（判斷順序與關鍵字）](page-classification-index.md)
 - [頁面用途索引（來源：project-docs）](page-purpose-index.md)
 - [網站頁面分類結果與命中依據](website-page-classification.json)
