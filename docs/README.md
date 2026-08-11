@@ -17,7 +17,7 @@
 - [超商取貨商業規則](csp/rules/business-rules-pickup.md)
 - [軟體電話](csp/operations/軟體電話.md)
 - [MI 維運操作入口](csp/operations/MI維運操作入口.md)
-- [調聽音檔](csp/operations/調聽音檔.md)
+- [調聽音檔](csp/operations/22-調聽音檔.md)
 - [CSP 排錯資料說明](csp/troubleshooting/README.md)
 - [CSP 錯誤訊息快速排查](csp/troubleshooting/error-message-troubleshooting.md)
 - [音檔索引延遲](csp/troubleshooting/audio-index-delay.md)

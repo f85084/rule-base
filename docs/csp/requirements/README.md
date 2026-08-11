@@ -17,10 +17,11 @@
 - [頁面用途索引（來源：project-docs）](page-purpose-index.md)
 - [網站頁面分類結果與命中依據](website-page-classification.json)
 - [需求單對應的操作文件缺口](missing-operation-pages.md)
-- [網站選單來源](../../data/sources/csp/website-menus.json)
+- [網站選單來源](../../../data/sources/csp/website-menus.json)
 
 分類文件以使用者提供的網站選單為基準，需求單標題優先、描述補充；每張需求單先歸入一個主要頁面，並保留原始需求單編號與狀態。
 
-## 待整理事項
+## 整理狀態
 
-- 補強 `page-purpose-index.md` 中過於泛用的頁面用途摘要，優先處理目前僅描述為「承接對應的業務流程與操作入口」的頁面。
+- `page-purpose-index.md` 的泛用用途摘要已依對應 L1／L2 與操作文件補強；`郵件通知紀錄` 保留目前只有選單、route 與 0 issue 可確認的來源邊界。
+- 後續若來源快照或網站選單變更，需同步校正頁面用途、route、分類規則與各操作入口。
