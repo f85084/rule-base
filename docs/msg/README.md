@@ -7,7 +7,7 @@
 - `operations/`：[日常操作與系統使用說明](operations/message-operations.md)、[簽到印章設定流程](operations/check-in-stamp-setup.md)
 - `rules/`：規則與業務限制快查
 - `troubleshooting/`：[排錯資料說明](troubleshooting/README.md)與症狀導向排查文件
-- `test-data/`：[測試資料與環境索引](test-data/test-data-environments.md)
+- `test-data/`：[測試資料與環境索引](test-data/test-data-environments.md)、[Redmine #50368 報到管理](test-data/Redmine-50368-報到管理.xlsx)
 - `requirements/`：[需求單與來源文件對照](requirements/README.md)
 
 ## 附屬資源

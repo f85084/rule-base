@@ -1,14 +1,22 @@
 # Domain管理
 
+## 敘述狀態與查核界線
+
+- **現行事實**：本頁正文依目前列出的頁面用途、操作流程與來源整理。
+- **runtime 未確認**：未在目前環境實際驗證的角色按鈕、API 回應、資料同步、保存期限與版本差異，不視為目前保證；以當期 UI、API 與授權設定為準。
+
 本頁對應 `/DomainData` 的系統設定入口。Domain Schema 定義欄位的 `Key`、型別與限制，Domain Data 則把實際值組成 JSON 儲存；兩者不是一般業務頁面的查詢條件。此頁在需求盤點中為 0 筆需求單，內容僅依 [Domain管理需求頁](../requirements/pages/49-Domain管理.md)、選單與既有操作來源整理。
 
 ## 入口與權限
 
 - 網站路由：`/DomainData`；可由 [website-menus.json](../../../data/sources/csp/website-menus.json) 的 `id: 53` 核對，選單分類為「系統管理」。
-- 查詢 API 是登入後查詢範圍；建立 Schema、建立／更新 Data、切換啟用與刪除屬於維護操作，應具相應功能權限。實際按鈕顯示與 API 授權以登入帳號角色為準。
+- 查詢、建立、更新、啟用／停用與刪除都受目前帳號功能權限控制；實際按鈕以當期 UI 為準。
 - 這是通用動態設定頁，不能因為某個 Domain 名稱出現在其他流程，就推定本頁知道其業務意義或可任意修改。
+- 一般操作順序是先選 Domain 查看 Schema／Data，再依核准內容新增或修改；每次異動後重新查詢確認。
 
-## 查詢與維護流程
+## 維運查核補充
+
+以下 Schema／Data、驗證、Redis／資料庫寫入與例外資訊只供維運查核；一般讀者先依前文 Domain 表單操作。設定值、快取更新與權限若未 runtime 驗證，以當期回應與設定為準。
 
 | 操作 | API 路由 | 流程與結果 |
 |---|---|---|
@@ -21,14 +29,14 @@
 | 啟用／停用 | `GET api/DomainData/UpdateDomainDataEnable?id={id}` | 依 ID 反轉 `Enable`；查無資料回 `false` 與「找不到指定的 DomainData」。 |
 | 刪除 Domain | `GET api/DomainData/DeleteDomain?domain={domain}` | 以 Domain 為邊界刪除其 Schema 與 Data，並清除兩組快取；不是單筆資料的隱藏刪除。 |
 
-## 欄位、驗證與狀態
+### 欄位、驗證與狀態
 
 - Schema 的核心欄位是 Domain、`Key`、Type、Limit。Domain 不可重複；`Key` 受 validator 限制為英文字母；`Limit` 必須是正整數。
 - Data 以 Schema 定義的欄位值送出。新增／更新會逐欄位檢查字串、數字與長度限制；Schema 對不上、型別不符或無法序列化為 JSON 時，不進入成功寫入。
 - Data 狀態由 `Enable` 表示。更新資料與單獨切換狀態共用 update SP；尤其更新內容時會把 `Enable` 送成 true，若目的是停用，應使用 `UpdateDomainDataEnable` 後重新查詢確認。
 - DomainId 是每個 Domain 內的遞增識別值，不是跨 Domain 的全域流水號；新增空 Domain 時從 `1001` 起算。
 
-## 資料邊界、例外與排錯
+### 資料邊界、例外與排錯
 
 - MariaDB：`usp_domain_schema_getall`、`usp_domain_data_getall`、`usp_domain_schema_add`、`usp_domain_data_add`、`usp_domain_data_update`、`usp_domain_data_delete`；Redis 快取鍵為 `DomainManagement_DomainSchema` 與 `DomainManagement_DomainData`。所有寫入成功後都應清除相應快取。
 - `QueryDomainModel` 遇到非法 JSON 會在反序列化時失敗；新增失敗可能回 `SystemError: 新增失敗`；刪除底層失敗會包成 `InvalidArgument` 並保留原始訊息。

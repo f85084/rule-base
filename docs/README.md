@@ -50,6 +50,7 @@
 ### 測試資料
 
 - [MSG 環境資訊](msg/test-data/test-data-environments.md)
+- [Redmine #50368 報到管理](msg/test-data/Redmine-50368-報到管理.xlsx)
 - [MSG 需求單與文件對照](msg/requirements/README.md)
 
 ### 規則與操作說明
