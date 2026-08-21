@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="MSG／CSP 操作手冊本機原型">
+    <title>MSG Manual Site Prototype</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="brand" href="./" aria-label="回到手冊首頁">
+        <span class="brand-mark">M</span>
+        <span>
+          <strong>Manual Site</strong>
+          <small>MSG／CSP 操作手冊原型</small>
+        </span>
+      </a>
+      <label class="search-box" for="search-input">
+        <span aria-hidden="true">⌕</span>
+        <input id="search-input" type="search" placeholder="搜尋頁面、路徑或關鍵字" autocomplete="off">
+        <kbd>/</kbd>
+      </label>
+      <div class="runtime-badge" title="本機原型尚未做 production runtime 驗證">
+        <span class="status-dot"></span>
+        <span>local prototype</span>
+      </div>
+    </header>
+
+    <div class="app-shell">
+      <aside class="sidebar" aria-label="手冊導覽">
+        <div class="sidebar-heading">
+          <span class="eyebrow">WORKSPACE</span>
+          <span id="nav-count" class="count-badge">載入中</span>
+        </div>
+        <nav id="site-nav" class="site-nav" aria-live="polite">
+          <p class="loading-line">正在載入導覽…</p>
+        </nav>
+        <div class="sidebar-note">
+          <span class="note-icon">i</span>
+          <p>正文由 canonical Markdown 在瀏覽器執行期載入；本站不複製操作手冊正文。</p>
+        </div>
+      </aside>
+
+      <main id="main-content" class="main-content" tabindex="-1">
+        <div id="load-error" class="notice error" hidden></div>
+        <section class="hero" aria-labelledby="page-title">
+          <div class="hero-copy">
+            <div class="eyebrow" id="page-category">MSG · OPERATION</div>
+            <h1 id="page-title">正在載入聊天室與客服…</h1>
+            <p id="page-lede" class="lede">從 canonical 操作手冊整理出可直接照做的工作入口。</p>
+            <div id="source-chip" class="source-chip">source: loading…</div>
+          </div>
+          <div class="hero-glow" aria-hidden="true"><span>CHAT</span></div>
+        </section>
+
+        <section class="status-strip" aria-label="來源狀態">
+          <div class="status-item"><span class="status-label">來源狀態</span><strong id="source-status">載入中</strong></div>
+          <div class="status-item"><span class="status-label">runtime</span><strong class="unknown">未驗證</strong></div>
+          <div class="status-item"><span class="status-label">文件格式</span><strong>Markdown · live fetch</strong></div>
+        </section>
+
+        <div id="search-message" class="search-message" hidden></div>
+
+        <section class="operation-grid" aria-label="操作摘要">
+          <div class="content-card operation-card">
+            <div class="card-heading">
+              <div>
+                <span class="eyebrow">DO THIS</span>
+                <h2>操作步驟</h2>
+              </div>
+              <span id="step-count" class="count-badge">—</span>
+            </div>
+            <div id="steps" class="steps-list">
+              <p class="loading-line">正在從來源整理步驟…</p>
+            </div>
+          </div>
+
+          <div class="content-card side-card">
+            <div class="card-heading">
+              <div>
+                <span class="eyebrow">CHECK</span>
+                <h2>完成與排錯</h2>
+              </div>
+            </div>
+            <div id="completion" class="completion-box"></div>
+            <div id="faq" class="faq-list"></div>
+          </div>
+        </section>
+
+        <section class="content-card source-card" aria-labelledby="source-heading">
+          <div class="card-heading source-heading">
+            <div>
+              <span class="eyebrow">CANONICAL CONTENT</span>
+              <h2 id="source-heading">來源正文</h2>
+            </div>
+            <a id="source-path-link" class="text-link" href="#source-body">查看來源路徑</a>
+          </div>
+          <div id="source-status-note" class="source-status-note"></div>
+          <details id="source-details" class="source-details" open>
+            <summary>展開／收合來源 Markdown</summary>
+            <article id="source-body" class="markdown-body">
+              <p class="loading-line">正在載入 canonical Markdown…</p>
+            </article>
+          </details>
+        </section>
+
+        <section class="content-card technical-card">
+          <details id="technical-details">
+            <summary>
+              <span>
+                <span class="eyebrow">REFERENCE</span>
+                <strong>技術附錄與來源界線</strong>
+              </span>
+              <span class="summary-hint">可收合</span>
+            </summary>
+            <div id="technical-body" class="technical-body">
+              <p class="loading-line">正在整理來源狀態…</p>
+            </div>
+          </details>
+        </section>
+
+        <footer class="site-footer">
+          <span>Manual Site prototype · single-source principle</span>
+          <a href="README.md">啟動與維護說明</a>
+        </footer>
+      </main>
+    </div>
+
+    <script src="app.js" defer></script>
+  </body>
+</html>

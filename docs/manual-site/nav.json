@@ -1,0 +1,44 @@
+{
+  "siteTitle": "MSG／CSP 操作手冊原型",
+  "defaultDocument": "msg-chat",
+  "groups": [
+    {
+      "id": "msg",
+      "title": "MSG",
+      "description": "現有操作手冊",
+      "documents": [
+        {
+          "id": "msg-chat",
+          "title": "聊天室與客服",
+          "category": "MSG · 一般人員",
+          "route": "/chat/:uuid",
+          "source": "docs/msg/operations/02-聊天室與客服.md",
+          "sourceStatus": "current source · runtime UI 未驗證"
+        },
+        {
+          "id": "msg-operations-index",
+          "title": "MSG 一般人員操作手冊",
+          "category": "MSG · 導覽",
+          "route": "operations index",
+          "source": "docs/msg/operations/一般人員操作手冊.md",
+          "sourceStatus": "current source · runtime UI 未驗證"
+        }
+      ]
+    },
+    {
+      "id": "csp",
+      "title": "CSP",
+      "description": "後續擴充入口",
+      "documents": [
+        {
+          "id": "csp-next",
+          "title": "CSP 文件入口（待補）",
+          "category": "CSP · navigation skeleton",
+          "route": "待指定",
+          "source": null,
+          "sourceStatus": "來源未提供／待補"
+        }
+      ]
+    }
+  ]
+}
