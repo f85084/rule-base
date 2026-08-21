@@ -78,15 +78,15 @@ docs/csp/requirements/website-page-classification.json
 - `pages/` 負責保存各頁面的需求單明細。
 - 不再另外維護與上述內容重複的總需求分類索引。
 
-## MSG 套用時的建議順序
+## MSG 實際套用流程
 
-1. 先找 MSG 的原始需求單資料。
-2. 找到 MSG 實際網站選單或頁面 URL 清單，保存到 `data/sources/msg/website-menus.json`。
-3. 找 `project-docs` 中 MSG 對應的 L2 頁面文件，建立用途索引。
-4. 依頁面用途先定義分類邊界，再建立關鍵字規則。
-5. 產生每頁需求清單與命中依據。
-6. 做總數、唯一性、遺漏與原始資料未修改等驗證。
-7. 將結果與待人工確認項目寫入 MSG 的文件入口。
+1. 先取得 MSG 三個專案的原始需求單資料，保存於 `data/sources/msg/redmine/issues_all.json`。
+2. 將 MSG 實際網站選單 API 回應保存於 `data/sources/msg/website-menus.json`。
+3. 讀取 `project-docs` 中 MSG 對應的 B2E L2 頁面文件，產生 `docs/msg/requirements/page-purpose-index.md`。
+4. 執行 `scripts/classify-msg-by-website-menu.py`，依頁面用途、URL、標題與描述產生分類。
+5. 產生 `docs/msg/requirements/pages/` 下的每頁需求清單與 `website-page-classification.json` 命中依據。
+6. 做總數、唯一性、遺漏、選單頁面完整性與原始來源未修改等驗證。
+7. 將結果與待人工確認項目寫入 `docs/msg/requirements/README.md`。
 
 ## 重要原則
 

@@ -1,0 +1,3226 @@
+{
+  "source": "data/sources/msg/redmine/issues_all.json",
+  "menu": "data/sources/msg/website-menus.json",
+  "total": 532,
+  "menu_pages": 22,
+  "categories": {
+    "功能管理|/Function": 0,
+    "角色管理|/Role": 2,
+    "使用者管理|/User": 15,
+    "待確認使用者|/PendingUser": 3,
+    "統計資訊|/Metrics": 13,
+    "訊息統計資訊|/MessagesMetrics": 8,
+    "AI 費用報表|/AiCostReport": 1,
+    "離線訊息管理|/LeaveMessages": 15,
+    "商品維護|/Product": 3,
+    "模板訊息|/Combo": 14,
+    "遊戲管理|/GameManage": 26,
+    "圖庫|/Gallery": 16,
+    "指派|/Assign": 9,
+    "受眾管理|/Audience": 19,
+    "客戶管理|/Customer": 27,
+    "對話查詢|/Dialog": 12,
+    "客戶名單檢查|/CustomerCheck": 5,
+    "圖文選單|/Richmenu": 11,
+    "直播設定|/Stream": 82,
+    "簽到活動管理|/CheckIn": 28,
+    "照片合成功能|/FrameMergeActivity": 10,
+    "圖庫頁籤管理|/GalleryManage": 2,
+    "非頁面／共用功能|": 192,
+    "待人工確認頁面|": 19
+  },
+  "evidence": {
+    "50418": {
+      "page": "非頁面／共用功能",
+      "url": "",
+      "reason": "標題",
+      "matched_rule": "API|JOB|排程|Webhook|webhook|Redis|資料庫|DB|SP|SQL|Sonarqube|SonarQube|架構|效能|快取|SSO|登入|login|登出|Session|Token|OTP|手機驗證|綁定|LIFF|LINE|Line SDK|AI助手|AI 摘要|聊天室|聊天|訊息|SignalR|Hub|Log|LOG|錯誤|異常|重構|版本|版號|環境|權限|元件|UI|前端|後端|資料遮蔽|個資|密碼|白名單|網址|LDAP|nginx|IP|int\\s*溢位|table|欄位|container|appsettings|DAO|Facade|依賴注入|FUGO|用戶狀態|事件紀錄|測試框架|電話隱碼|資料表|Controller|Model"
+    },
+    "50403": {
+      "page": "非頁面／共用功能",
+      "url": "",
+      "reason": "標題",
+      "matched_rule": "API|JOB|排程|Webhook|webhook|Redis|資料庫|DB|SP|SQL|Sonarqube|SonarQube|架構|效能|快取|SSO|登入|login|登出|Session|Token|OTP|手機驗證|綁定|LIFF|LINE|Line SDK|AI助手|AI 摘要|聊天室|聊天|訊息|SignalR|Hub|Log|LOG|錯誤|異常|重構|版本|版號|環境|權限|元件|UI|前端|後端|資料遮蔽|個資|密碼|白名單|網址|LDAP|nginx|IP|int\\s*溢位|table|欄位|container|appsettings|DAO|Facade|依賴注入|FUGO|用戶狀態|事件紀錄|測試框架|電話隱碼|資料表|Controller|Model"
+    },
+    "50393": {
+      "page": "簽到活動管理",
+      "url": "/CheckIn",
+      "reason": "標題",
+      "matched_rule": "簽到|報到|印章|CheckIn"
+    },
+    "50368": {
+      "page": "簽到活動管理",
+      "url": "/CheckIn",
+      "reason": "標題",
+      "matched_rule": "簽到|報到|印章|CheckIn"
+    },
+    "50350": {
+      "page": "簽到活動管理",
+      "url": "/CheckIn",
+      "reason": "標題",
+      "matched_rule": "簽到|報到|印章|CheckIn"
+    },
+    "50348": {
+      "page": "簽到活動管理",
+      "url": "/CheckIn",
+      "reason": "標題",
+      "matched_rule": "簽到|報到|印章|CheckIn"
+    },
+    "50347": {
+      "page": "待人工確認頁面",
+      "url": "",
+      "reason": "未命中規則",
+      "matched_rule": ""
+    },
+    "50346": {
+      "page": "簽到活動管理",
+      "url": "/CheckIn",
+      "reason": "標題",
+      "matched_rule": "簽到|報到|印章|CheckIn"
+    },
+    "50345": {
+      "page": "簽到活動管理",
+      "url": "/CheckIn",
+      "reason": "標題",
+      "matched_rule": "簽到|報到|印章|CheckIn"
+    },
+    "50339": {
+      "page": "非頁面／共用功能",
+      "url": "",
+      "reason": "標題",
+      "matched_rule": "API|JOB|排程|Webhook|webhook|Redis|資料庫|DB|SP|SQL|Sonarqube|SonarQube|架構|效能|快取|SSO|登入|login|登出|Session|Token|OTP|手機驗證|綁定|LIFF|LINE|Line SDK|AI助手|AI 摘要|聊天室|聊天|訊息|SignalR|Hub|Log|LOG|錯誤|異常|重構|版本|版號|環境|權限|元件|UI|前端|後端|資料遮蔽|個資|密碼|白名單|網址|LDAP|nginx|IP|int\\s*溢位|table|欄位|container|appsettings|DAO|Facade|依賴注入|FUGO|用戶狀態|事件紀錄|測試框架|電話隱碼|資料表|Controller|Model"
+    },
+    "50338": {
+      "page": "簽到活動管理",
+      "url": "/CheckIn",
+      "reason": "標題",
+      "matched_rule": "簽到|報到|印章|CheckIn"
+    },
+    "50333": {
+      "page": "簽到活動管理",
+      "url": "/CheckIn",
+      "reason": "標題",
+      "matched_rule": "簽到|報到|印章|CheckIn"
+    },
+    "50270": {
+      "page": "非頁面／共用功能",
+      "url": "",
+      "reason": "標題",
+      "matched_rule": "API|JOB|排程|Webhook|webhook|Redis|資料庫|DB|SP|SQL|Sonarqube|SonarQube|架構|效能|快取|SSO|登入|login|登出|Session|Token|OTP|手機驗證|綁定|LIFF|LINE|Line SDK|AI助手|AI 摘要|聊天室|聊天|訊息|SignalR|Hub|Log|LOG|錯誤|異常|重構|版本|版號|環境|權限|元件|UI|前端|後端|資料遮蔽|個資|密碼|白名單|網址|LDAP|nginx|IP|int\\s*溢位|table|欄位|container|appsettings|DAO|Facade|依賴注入|FUGO|用戶狀態|事件紀錄|測試框架|電話隱碼|資料表|Controller|Model"
+    },
+    "50226": {
+      "page": "非頁面／共用功能",
+      "url": "",
+      "reason": "標題",
+      "matched_rule": "API|JOB|排程|Webhook|webhook|Redis|資料庫|DB|SP|SQL|Sonarqube|SonarQube|架構|效能|快取|SSO|登入|login|登出|Session|Token|OTP|手機驗證|綁定|LIFF|LINE|Line SDK|AI助手|AI 摘要|聊天室|聊天|訊息|SignalR|Hub|Log|LOG|錯誤|異常|重構|版本|版號|環境|權限|元件|UI|前端|後端|資料遮蔽|個資|密碼|白名單|網址|LDAP|nginx|IP|int\\s*溢位|table|欄位|container|appsettings|DAO|Facade|依賴注入|FUGO|用戶狀態|事件紀錄|測試框架|電話隱碼|資料表|Controller|Model"
+    },
+    "50183": {
+      "page": "非頁面／共用功能",
+      "url": "",
+      "reason": "內容",
+      "matched_rule": "API|JOB|排程|Webhook|webhook|Redis|資料庫|DB|SP|SQL|Sonarqube|SonarQube|架構|效能|快取|SSO|登入|login|登出|Session|Token|OTP|手機驗證|綁定|LIFF|LINE|Line SDK|AI助手|AI 摘要|聊天室|聊天|訊息|SignalR|Hub|Log|LOG|錯誤|異常|重構|版本|版號|環境|權限|元件|UI|前端|後端|資料遮蔽|個資|密碼|白名單|網址|LDAP|nginx|IP|int\\s*溢位|table|欄位|container|appsettings|DAO|Facade|依賴注入|FUGO|用戶狀態|事件紀錄|測試框架|電話隱碼|資料表|Controller|Model"
+    },
+    "50154": {
+      "page": "非頁面／共用功能",
+      "url": "",
+      "reason": "標題",
+      "matched_rule": "API|JOB|排程|Webhook|webhook|Redis|資料庫|DB|SP|SQL|Sonarqube|SonarQube|架構|效能|快取|SSO|登入|login|登出|Session|Token|OTP|手機驗證|綁定|LIFF|LINE|Line SDK|AI助手|AI 摘要|聊天室|聊天|訊息|SignalR|Hub|Log|LOG|錯誤|異常|重構|版本|版號|環境|權限|元件|UI|前端|後端|資料遮蔽|個資|密碼|白名單|網址|LDAP|nginx|IP|int\\s*溢位|table|欄位|container|appsettings|DAO|Facade|依賴注入|FUGO|用戶狀態|事件紀錄|測試框架|電話隱碼|資料表|Controller|Model"
+    },
+    "50143": {
+      "page": "簽到活動管理",
+      "url": "/CheckIn",
+      "reason": "標題",
+      "matched_rule": "簽到|報到|印章|CheckIn"
+    },
+    "50012": {
+      "page": "非頁面／共用功能",
+      "url": "",
+      "reason": "標題",
+      "matched_rule": "API|JOB|排程|Webhook|webhook|Redis|資料庫|DB|SP|SQL|Sonarqube|SonarQube|架構|效能|快取|SSO|登入|login|登出|Session|Token|OTP|手機驗證|綁定|LIFF|LINE|Line SDK|AI助手|AI 摘要|聊天室|聊天|訊息|SignalR|Hub|Log|LOG|錯誤|異常|重構|版本|版號|環境|權限|元件|UI|前端|後端|資料遮蔽|個資|密碼|白名單|網址|LDAP|nginx|IP|int\\s*溢位|table|欄位|container|appsettings|DAO|Facade|依賴注入|FUGO|用戶狀態|事件紀錄|測試框架|電話隱碼|資料表|Controller|Model"
+    },
+    "49117": {
+      "page": "非頁面／共用功能",
+      "url": "",
+      "reason": "標題",
+      "matched_rule": "API|JOB|排程|Webhook|webhook|Redis|資料庫|DB|SP|SQL|Sonarqube|SonarQube|架構|效能|快取|SSO|登入|login|登出|Session|Token|OTP|手機驗證|綁定|LIFF|LINE|Line SDK|AI助手|AI 摘要|聊天室|聊天|訊息|SignalR|Hub|Log|LOG|錯誤|異常|重構|版本|版號|環境|權限|元件|UI|前端|後端|資料遮蔽|個資|密碼|白名單|網址|LDAP|nginx|IP|int\\s*溢位|table|欄位|container|appsettings|DAO|Facade|依賴注入|FUGO|用戶狀態|事件紀錄|測試框架|電話隱碼|資料表|Controller|Model"
+    },
+    "48725": {
+      "page": "非頁面／共用功能",
+      "url": "",
+      "reason": "標題",
+      "matched_rule": "API|JOB|排程|Webhook|webhook|Redis|資料庫|DB|SP|SQL|Sonarqube|SonarQube|架構|效能|快取|SSO|登入|login|登出|Session|Token|OTP|手機驗證|綁定|LIFF|LINE|Line SDK|AI助手|AI 摘要|聊天室|聊天|訊息|SignalR|Hub|Log|LOG|錯誤|異常|重構|版本|版號|環境|權限|元件|UI|前端|後端|資料遮蔽|個資|密碼|白名單|網址|LDAP|nginx|IP|int\\s*溢位|table|欄位|container|appsettings|DAO|Facade|依賴注入|FUGO|用戶狀態|事件紀錄|測試框架|電話隱碼|資料表|Controller|Model"
+    },
+    "48723": {
+      "page": "非頁面／共用功能",
+      "url": "",
+      "reason": "標題",
+      "matched_rule": "API|JOB|排程|Webhook|webhook|Redis|資料庫|DB|SP|SQL|Sonarqube|SonarQube|架構|效能|快取|SSO|登入|login|登出|Session|Token|OTP|手機驗證|綁定|LIFF|LINE|Line SDK|AI助手|AI 摘要|聊天室|聊天|訊息|SignalR|Hub|Log|LOG|錯誤|異常|重構|版本|版號|環境|權限|元件|UI|前端|後端|資料遮蔽|個資|密碼|白名單|網址|LDAP|nginx|IP|int\\s*溢位|table|欄位|container|appsettings|DAO|Facade|依賴注入|FUGO|用戶狀態|事件紀錄|測試框架|電話隱碼|資料表|Controller|Model"
+    },
+    "48499": {
+      "page": "離線訊息管理",
+      "url": "/LeaveMessages",
+      "reason": "標題",
+      "matched_rule": "離線訊息|離線留言|LeaveMessages"
+    },
+    "48313": {
+      "page": "非頁面／共用功能",
+      "url": "",
+      "reason": "內容",
+      "matched_rule": "API|JOB|排程|Webhook|webhook|Redis|資料庫|DB|SP|SQL|Sonarqube|SonarQube|架構|效能|快取|SSO|登入|login|登出|Session|Token|OTP|手機驗證|綁定|LIFF|LINE|Line SDK|AI助手|AI 摘要|聊天室|聊天|訊息|SignalR|Hub|Log|LOG|錯誤|異常|重構|版本|版號|環境|權限|元件|UI|前端|後端|資料遮蔽|個資|密碼|白名單|網址|LDAP|nginx|IP|int\\s*溢位|table|欄位|container|appsettings|DAO|Facade|依賴注入|FUGO|用戶狀態|事件紀錄|測試框架|電話隱碼|資料表|Controller|Model"
+    },
+    "47988": {
+      "page": "使用者管理",
+      "url": "/User",
+      "reason": "標題",
+      "matched_rule": "使用者管理|新增使用者|新增帳號|系統使用者|AD帳號|使用者帳號|使用者狀態|User"
+    },
+    "47875": {
+      "page": "非頁面／共用功能",
+      "url": "",
+      "reason": "標題",
+      "matched_rule": "API|JOB|排程|Webhook|webhook|Redis|資料庫|DB|SP|SQL|Sonarqube|SonarQube|架構|效能|快取|SSO|登入|login|登出|Session|Token|OTP|手機驗證|綁定|LIFF|LINE|Line SDK|AI助手|AI 摘要|聊天室|聊天|訊息|SignalR|Hub|Log|LOG|錯誤|異常|重構|版本|版號|環境|權限|元件|UI|前端|後端|資料遮蔽|個資|密碼|白名單|網址|LDAP|nginx|IP|int\\s*溢位|table|欄位|container|appsettings|DAO|Facade|依賴注入|FUGO|用戶狀態|事件紀錄|測試框架|電話隱碼|資料表|Controller|Model"
+    },
+    "47858": {
+      "page": "非頁面／共用功能",
+      "url": "",
+      "reason": "標題",
+      "matched_rule": "API|JOB|排程|Webhook|webhook|Redis|資料庫|DB|SP|SQL|Sonarqube|SonarQube|架構|效能|快取|SSO|登入|login|登出|Session|Token|OTP|手機驗證|綁定|LIFF|LINE|Line SDK|AI助手|AI 摘要|聊天室|聊天|訊息|SignalR|Hub|Log|LOG|錯誤|異常|重構|版本|版號|環境|權限|元件|UI|前端|後端|資料遮蔽|個資|密碼|白名單|網址|LDAP|nginx|IP|int\\s*溢位|table|欄位|container|appsettings|DAO|Facade|依賴注入|FUGO|用戶狀態|事件紀錄|測試框架|電話隱碼|資料表|Controller|Model"
+    },
+    "47857": {
+      "page": "非頁面／共用功能",
+      "url": "",
+      "reason": "標題",
+      "matched_rule": "API|JOB|排程|Webhook|webhook|Redis|資料庫|DB|SP|SQL|Sonarqube|SonarQube|架構|效能|快取|SSO|登入|login|登出|Session|Token|OTP|手機驗證|綁定|LIFF|LINE|Line SDK|AI助手|AI 摘要|聊天室|聊天|訊息|SignalR|Hub|Log|LOG|錯誤|異常|重構|版本|版號|環境|權限|元件|UI|前端|後端|資料遮蔽|個資|密碼|白名單|網址|LDAP|nginx|IP|int\\s*溢位|table|欄位|container|appsettings|DAO|Facade|依賴注入|FUGO|用戶狀態|事件紀錄|測試框架|電話隱碼|資料表|Controller|Model"
+    },
+    "47839": {
+      "page": "非頁面／共用功能",
+      "url": "",
+      "reason": "標題",
+      "matched_rule": "API|JOB|排程|Webhook|webhook|Redis|資料庫|DB|SP|SQL|Sonarqube|SonarQube|架構|效能|快取|SSO|登入|login|登出|Session|Token|OTP|手機驗證|綁定|LIFF|LINE|Line SDK|AI助手|AI 摘要|聊天室|聊天|訊息|SignalR|Hub|Log|LOG|錯誤|異常|重構|版本|版號|環境|權限|元件|UI|前端|後端|資料遮蔽|個資|密碼|白名單|網址|LDAP|nginx|IP|int\\s*溢位|table|欄位|container|appsettings|DAO|Facade|依賴注入|FUGO|用戶狀態|事件紀錄|測試框架|電話隱碼|資料表|Controller|Model"
+    },
+    "47793": {
+      "page": "圖文選單",
+      "url": "/Richmenu",
+      "reason": "標題",
+      "matched_rule": "圖文選單|Richmenu"
+    },
+    "47437": {
+      "page": "非頁面／共用功能",
+      "url": "",
+      "reason": "標題",
+      "matched_rule": "API|JOB|排程|Webhook|webhook|Redis|資料庫|DB|SP|SQL|Sonarqube|SonarQube|架構|效能|快取|SSO|登入|login|登出|Session|Token|OTP|手機驗證|綁定|LIFF|LINE|Line SDK|AI助手|AI 摘要|聊天室|聊天|訊息|SignalR|Hub|Log|LOG|錯誤|異常|重構|版本|版號|環境|權限|元件|UI|前端|後端|資料遮蔽|個資|密碼|白名單|網址|LDAP|nginx|IP|int\\s*溢位|table|欄位|container|appsettings|DAO|Facade|依賴注入|FUGO|用戶狀態|事件紀錄|測試框架|電話隱碼|資料表|Controller|Model"
+    },
+    "47359": {
+      "page": "非頁面／共用功能",
+      "url": "",
+      "reason": "標題",
+      "matched_rule": "API|JOB|排程|Webhook|webhook|Redis|資料庫|DB|SP|SQL|Sonarqube|SonarQube|架構|效能|快取|SSO|登入|login|登出|Session|Token|OTP|手機驗證|綁定|LIFF|LINE|Line SDK|AI助手|AI 摘要|聊天室|聊天|訊息|SignalR|Hub|Log|LOG|錯誤|異常|重構|版本|版號|環境|權限|元件|UI|前端|後端|資料遮蔽|個資|密碼|白名單|網址|LDAP|nginx|IP|int\\s*溢位|table|欄位|container|appsettings|DAO|Facade|依賴注入|FUGO|用戶狀態|事件紀錄|測試框架|電話隱碼|資料表|Controller|Model"
+    },
+    "47357": {
+      "page": "訊息統計資訊",
+      "url": "/MessagesMetrics",
+      "reason": "標題",
+      "matched_rule": "訊息統計|訊息資料統計|MessagesMetrics|好友統計|每日好友"
+    },
+    "47348": {
+      "page": "使用者管理",
+      "url": "/User",
+      "reason": "標題",
+      "matched_rule": "使用者管理|新增使用者|新增帳號|系統使用者|AD帳號|使用者帳號|使用者狀態|User"
+    },
+    "47292": {
+      "page": "非頁面／共用功能",
+      "url": "",
+      "reason": "標題",
+      "matched_rule": "API|JOB|排程|Webhook|webhook|Redis|資料庫|DB|SP|SQL|Sonarqube|SonarQube|架構|效能|快取|SSO|登入|login|登出|Session|Token|OTP|手機驗證|綁定|LIFF|LINE|Line SDK|AI助手|AI 摘要|聊天室|聊天|訊息|SignalR|Hub|Log|LOG|錯誤|異常|重構|版本|版號|環境|權限|元件|UI|前端|後端|資料遮蔽|個資|密碼|白名單|網址|LDAP|nginx|IP|int\\s*溢位|table|欄位|container|appsettings|DAO|Facade|依賴注入|FUGO|用戶狀態|事件紀錄|測試框架|電話隱碼|資料表|Controller|Model"
+    },
+    "47291": {
+      "page": "非頁面／共用功能",
+      "url": "",
+      "reason": "標題",
+      "matched_rule": "API|JOB|排程|Webhook|webhook|Redis|資料庫|DB|SP|SQL|Sonarqube|SonarQube|架構|效能|快取|SSO|登入|login|登出|Session|Token|OTP|手機驗證|綁定|LIFF|LINE|Line SDK|AI助手|AI 摘要|聊天室|聊天|訊息|SignalR|Hub|Log|LOG|錯誤|異常|重構|版本|版號|環境|權限|元件|UI|前端|後端|資料遮蔽|個資|密碼|白名單|網址|LDAP|nginx|IP|int\\s*溢位|table|欄位|container|appsettings|DAO|Facade|依賴注入|FUGO|用戶狀態|事件紀錄|測試框架|電話隱碼|資料表|Controller|Model"
+    },
+    "47284": {
+      "page": "非頁面／共用功能",
+      "url": "",
+      "reason": "標題",
+      "matched_rule": "API|JOB|排程|Webhook|webhook|Redis|資料庫|DB|SP|SQL|Sonarqube|SonarQube|架構|效能|快取|SSO|登入|login|登出|Session|Token|OTP|手機驗證|綁定|LIFF|LINE|Line SDK|AI助手|AI 摘要|聊天室|聊天|訊息|SignalR|Hub|Log|LOG|錯誤|異常|重構|版本|版號|環境|權限|元件|UI|前端|後端|資料遮蔽|個資|密碼|白名單|網址|LDAP|nginx|IP|int\\s*溢位|table|欄位|container|appsettings|DAO|Facade|依賴注入|FUGO|用戶狀態|事件紀錄|測試框架|電話隱碼|資料表|Controller|Model"
+    },
+    "47276": {
+      "page": "非頁面／共用功能",
+      "url": "",
+      "reason": "標題",
+      "matched_rule": "API|JOB|排程|Webhook|webhook|Redis|資料庫|DB|SP|SQL|Sonarqube|SonarQube|架構|效能|快取|SSO|登入|login|登出|Session|Token|OTP|手機驗證|綁定|LIFF|LINE|Line SDK|AI助手|AI 摘要|聊天室|聊天|訊息|SignalR|Hub|Log|LOG|錯誤|異常|重構|版本|版號|環境|權限|元件|UI|前端|後端|資料遮蔽|個資|密碼|白名單|網址|LDAP|nginx|IP|int\\s*溢位|table|欄位|container|appsettings|DAO|Facade|依賴注入|FUGO|用戶狀態|事件紀錄|測試框架|電話隱碼|資料表|Controller|Model"
+    },
+    "47259": {
+      "page": "圖庫",
+      "url": "/Gallery",
+      "reason": "標題",
+      "matched_rule": "圖庫|圖片庫|圖庫管理|縮圖|FaceAI|Gallery"
+    },
+    "47186": {
+      "page": "非頁面／共用功能",
+      "url": "",
+      "reason": "標題",
+      "matched_rule": "API|JOB|排程|Webhook|webhook|Redis|資料庫|DB|SP|SQL|Sonarqube|SonarQube|架構|效能|快取|SSO|登入|login|登出|Session|Token|OTP|手機驗證|綁定|LIFF|LINE|Line SDK|AI助手|AI 摘要|聊天室|聊天|訊息|SignalR|Hub|Log|LOG|錯誤|異常|重構|版本|版號|環境|權限|元件|UI|前端|後端|資料遮蔽|個資|密碼|白名單|網址|LDAP|nginx|IP|int\\s*溢位|table|欄位|container|appsettings|DAO|Facade|依賴注入|FUGO|用戶狀態|事件紀錄|測試框架|電話隱碼|資料表|Controller|Model"
+    },
+    "47139": {
+      "page": "圖庫",
+      "url": "/Gallery",
+      "reason": "標題",
+      "matched_rule": "圖庫|圖片庫|圖庫管理|縮圖|FaceAI|Gallery"
+    },
+    "47108": {
+      "page": "訊息統計資訊",
+      "url": "/MessagesMetrics",
+      "reason": "標題",
+      "matched_rule": "訊息統計|訊息資料統計|MessagesMetrics|好友統計|每日好友"
+    },
+    "47102": {
+      "page": "圖文選單",
+      "url": "/Richmenu",
+      "reason": "標題",
+      "matched_rule": "圖文選單|Richmenu"
+    },
+    "47101": {
+      "page": "非頁面／共用功能",
+      "url": "",
+      "reason": "標題",
+      "matched_rule": "API|JOB|排程|Webhook|webhook|Redis|資料庫|DB|SP|SQL|Sonarqube|SonarQube|架構|效能|快取|SSO|登入|login|登出|Session|Token|OTP|手機驗證|綁定|LIFF|LINE|Line SDK|AI助手|AI 摘要|聊天室|聊天|訊息|SignalR|Hub|Log|LOG|錯誤|異常|重構|版本|版號|環境|權限|元件|UI|前端|後端|資料遮蔽|個資|密碼|白名單|網址|LDAP|nginx|IP|int\\s*溢位|table|欄位|container|appsettings|DAO|Facade|依賴注入|FUGO|用戶狀態|事件紀錄|測試框架|電話隱碼|資料表|Controller|Model"
+    },
+    "47098": {
+      "page": "非頁面／共用功能",
+      "url": "",
+      "reason": "標題",
+      "matched_rule": "API|JOB|排程|Webhook|webhook|Redis|資料庫|DB|SP|SQL|Sonarqube|SonarQube|架構|效能|快取|SSO|登入|login|登出|Session|Token|OTP|手機驗證|綁定|LIFF|LINE|Line SDK|AI助手|AI 摘要|聊天室|聊天|訊息|SignalR|Hub|Log|LOG|錯誤|異常|重構|版本|版號|環境|權限|元件|UI|前端|後端|資料遮蔽|個資|密碼|白名單|網址|LDAP|nginx|IP|int\\s*溢位|table|欄位|container|appsettings|DAO|Facade|依賴注入|FUGO|用戶狀態|事件紀錄|測試框架|電話隱碼|資料表|Controller|Model"
+    },
+    "47076": {
+      "page": "遊戲管理",
+      "url": "/GameManage",
+      "reason": "標題",
+      "matched_rule": "遊戲|抽獎|刮刮卡|搖搖樂|獎項|GameManage"
+    },
+    "47062": {
+      "page": "非頁面／共用功能",
+      "url": "",
+      "reason": "標題",
+      "matched_rule": "API|JOB|排程|Webhook|webhook|Redis|資料庫|DB|SP|SQL|Sonarqube|SonarQube|架構|效能|快取|SSO|登入|login|登出|Session|Token|OTP|手機驗證|綁定|LIFF|LINE|Line SDK|AI助手|AI 摘要|聊天室|聊天|訊息|SignalR|Hub|Log|LOG|錯誤|異常|重構|版本|版號|環境|權限|元件|UI|前端|後端|資料遮蔽|個資|密碼|白名單|網址|LDAP|nginx|IP|int\\s*溢位|table|欄位|container|appsettings|DAO|Facade|依賴注入|FUGO|用戶狀態|事件紀錄|測試框架|電話隱碼|資料表|Controller|Model"
+    },
+    "47001": {
+      "page": "非頁面／共用功能",
+      "url": "",
+      "reason": "標題",
+      "matched_rule": "API|JOB|排程|Webhook|webhook|Redis|資料庫|DB|SP|SQL|Sonarqube|SonarQube|架構|效能|快取|SSO|登入|login|登出|Session|Token|OTP|手機驗證|綁定|LIFF|LINE|Line SDK|AI助手|AI 摘要|聊天室|聊天|訊息|SignalR|Hub|Log|LOG|錯誤|異常|重構|版本|版號|環境|權限|元件|UI|前端|後端|資料遮蔽|個資|密碼|白名單|網址|LDAP|nginx|IP|int\\s*溢位|table|欄位|container|appsettings|DAO|Facade|依賴注入|FUGO|用戶狀態|事件紀錄|測試框架|電話隱碼|資料表|Controller|Model"
+    },
+    "47000": {
+      "page": "非頁面／共用功能",
+      "url": "",
+      "reason": "標題",
+      "matched_rule": "API|JOB|排程|Webhook|webhook|Redis|資料庫|DB|SP|SQL|Sonarqube|SonarQube|架構|效能|快取|SSO|登入|login|登出|Session|Token|OTP|手機驗證|綁定|LIFF|LINE|Line SDK|AI助手|AI 摘要|聊天室|聊天|訊息|SignalR|Hub|Log|LOG|錯誤|異常|重構|版本|版號|環境|權限|元件|UI|前端|後端|資料遮蔽|個資|密碼|白名單|網址|LDAP|nginx|IP|int\\s*溢位|table|欄位|container|appsettings|DAO|Facade|依賴注入|FUGO|用戶狀態|事件紀錄|測試框架|電話隱碼|資料表|Controller|Model"
+    },
+    "46837": {
+      "page": "AI 費用報表",
+      "url": "/AiCostReport",
+      "reason": "標題",
+      "matched_rule": "AI\\s*費用|AI\\s*成本|費用報表|AiCostReport"
+    },
+    "46785": {
+      "page": "非頁面／共用功能",
+      "url": "",
+      "reason": "標題",
+      "matched_rule": "API|JOB|排程|Webhook|webhook|Redis|資料庫|DB|SP|SQL|Sonarqube|SonarQube|架構|效能|快取|SSO|登入|login|登出|Session|Token|OTP|手機驗證|綁定|LIFF|LINE|Line SDK|AI助手|AI 摘要|聊天室|聊天|訊息|SignalR|Hub|Log|LOG|錯誤|異常|重構|版本|版號|環境|權限|元件|UI|前端|後端|資料遮蔽|個資|密碼|白名單|網址|LDAP|nginx|IP|int\\s*溢位|table|欄位|container|appsettings|DAO|Facade|依賴注入|FUGO|用戶狀態|事件紀錄|測試框架|電話隱碼|資料表|Controller|Model"
+    },
+    "46769": {
+      "page": "直播設定",
+      "url": "/Stream",
+      "reason": "標題",
+      "matched_rule": "直播|見面會|直播設定|直播活動|LIFF活動頁|Stream"
+    },
+    "46763": {
+      "page": "使用者管理",
+      "url": "/User",
+      "reason": "標題",
+      "matched_rule": "使用者管理|新增使用者|新增帳號|系統使用者|AD帳號|使用者帳號|使用者狀態|User"
+    },
+    "46756": {
+      "page": "直播設定",
+      "url": "/Stream",
+      "reason": "標題",
+      "matched_rule": "直播|見面會|直播設定|直播活動|LIFF活動頁|Stream"
+    },
+    "46751": {
+      "page": "直播設定",
+      "url": "/Stream",
+      "reason": "標題",
+      "matched_rule": "直播|見面會|直播設定|直播活動|LIFF活動頁|Stream"
+    },
+    "46750": {
+      "page": "遊戲管理",
+      "url": "/GameManage",
+      "reason": "標題",
+      "matched_rule": "遊戲|抽獎|刮刮卡|搖搖樂|獎項|GameManage"
+    },
+    "46749": {
+      "page": "遊戲管理",
+      "url": "/GameManage",
+      "reason": "標題",
+      "matched_rule": "遊戲|抽獎|刮刮卡|搖搖樂|獎項|GameManage"
+    },
+    "46651": {
+      "page": "非頁面／共用功能",
+      "url": "",
+      "reason": "標題",
+      "matched_rule": "API|JOB|排程|Webhook|webhook|Redis|資料庫|DB|SP|SQL|Sonarqube|SonarQube|架構|效能|快取|SSO|登入|login|登出|Session|Token|OTP|手機驗證|綁定|LIFF|LINE|Line SDK|AI助手|AI 摘要|聊天室|聊天|訊息|SignalR|Hub|Log|LOG|錯誤|異常|重構|版本|版號|環境|權限|元件|UI|前端|後端|資料遮蔽|個資|密碼|白名單|網址|LDAP|nginx|IP|int\\s*溢位|table|欄位|container|appsettings|DAO|Facade|依賴注入|FUGO|用戶狀態|事件紀錄|測試框架|電話隱碼|資料表|Controller|Model"
+    },
+    "46585": {
+      "page": "非頁面／共用功能",
+      "url": "",
+      "reason": "標題",
+      "matched_rule": "API|JOB|排程|Webhook|webhook|Redis|資料庫|DB|SP|SQL|Sonarqube|SonarQube|架構|效能|快取|SSO|登入|login|登出|Session|Token|OTP|手機驗證|綁定|LIFF|LINE|Line SDK|AI助手|AI 摘要|聊天室|聊天|訊息|SignalR|Hub|Log|LOG|錯誤|異常|重構|版本|版號|環境|權限|元件|UI|前端|後端|資料遮蔽|個資|密碼|白名單|網址|LDAP|nginx|IP|int\\s*溢位|table|欄位|container|appsettings|DAO|Facade|依賴注入|FUGO|用戶狀態|事件紀錄|測試框架|電話隱碼|資料表|Controller|Model"
+    },
+    "46579": {
+      "page": "非頁面／共用功能",
+      "url": "",
+      "reason": "標題",
+      "matched_rule": "API|JOB|排程|Webhook|webhook|Redis|資料庫|DB|SP|SQL|Sonarqube|SonarQube|架構|效能|快取|SSO|登入|login|登出|Session|Token|OTP|手機驗證|綁定|LIFF|LINE|Line SDK|AI助手|AI 摘要|聊天室|聊天|訊息|SignalR|Hub|Log|LOG|錯誤|異常|重構|版本|版號|環境|權限|元件|UI|前端|後端|資料遮蔽|個資|密碼|白名單|網址|LDAP|nginx|IP|int\\s*溢位|table|欄位|container|appsettings|DAO|Facade|依賴注入|FUGO|用戶狀態|事件紀錄|測試框架|電話隱碼|資料表|Controller|Model"
+    },
+    "46521": {
+      "page": "非頁面／共用功能",
+      "url": "",
+      "reason": "標題",
+      "matched_rule": "API|JOB|排程|Webhook|webhook|Redis|資料庫|DB|SP|SQL|Sonarqube|SonarQube|架構|效能|快取|SSO|登入|login|登出|Session|Token|OTP|手機驗證|綁定|LIFF|LINE|Line SDK|AI助手|AI 摘要|聊天室|聊天|訊息|SignalR|Hub|Log|LOG|錯誤|異常|重構|版本|版號|環境|權限|元件|UI|前端|後端|資料遮蔽|個資|密碼|白名單|網址|LDAP|nginx|IP|int\\s*溢位|table|欄位|container|appsettings|DAO|Facade|依賴注入|FUGO|用戶狀態|事件紀錄|測試框架|電話隱碼|資料表|Controller|Model"
+    },
+    "46519": {
+      "page": "非頁面／共用功能",
+      "url": "",
+      "reason": "標題",
+      "matched_rule": "API|JOB|排程|Webhook|webhook|Redis|資料庫|DB|SP|SQL|Sonarqube|SonarQube|架構|效能|快取|SSO|登入|login|登出|Session|Token|OTP|手機驗證|綁定|LIFF|LINE|Line SDK|AI助手|AI 摘要|聊天室|聊天|訊息|SignalR|Hub|Log|LOG|錯誤|異常|重構|版本|版號|環境|權限|元件|UI|前端|後端|資料遮蔽|個資|密碼|白名單|網址|LDAP|nginx|IP|int\\s*溢位|table|欄位|container|appsettings|DAO|Facade|依賴注入|FUGO|用戶狀態|事件紀錄|測試框架|電話隱碼|資料表|Controller|Model"
+    },
+    "46384": {
+      "page": "非頁面／共用功能",
+      "url": "",
+      "reason": "標題",
+      "matched_rule": "API|JOB|排程|Webhook|webhook|Redis|資料庫|DB|SP|SQL|Sonarqube|SonarQube|架構|效能|快取|SSO|登入|login|登出|Session|Token|OTP|手機驗證|綁定|LIFF|LINE|Line SDK|AI助手|AI 摘要|聊天室|聊天|訊息|SignalR|Hub|Log|LOG|錯誤|異常|重構|版本|版號|環境|權限|元件|UI|前端|後端|資料遮蔽|個資|密碼|白名單|網址|LDAP|nginx|IP|int\\s*溢位|table|欄位|container|appsettings|DAO|Facade|依賴注入|FUGO|用戶狀態|事件紀錄|測試框架|電話隱碼|資料表|Controller|Model"
+    },
+    "46376": {
+      "page": "非頁面／共用功能",
+      "url": "",
+      "reason": "內容",
+      "matched_rule": "API|JOB|排程|Webhook|webhook|Redis|資料庫|DB|SP|SQL|Sonarqube|SonarQube|架構|效能|快取|SSO|登入|login|登出|Session|Token|OTP|手機驗證|綁定|LIFF|LINE|Line SDK|AI助手|AI 摘要|聊天室|聊天|訊息|SignalR|Hub|Log|LOG|錯誤|異常|重構|版本|版號|環境|權限|元件|UI|前端|後端|資料遮蔽|個資|密碼|白名單|網址|LDAP|nginx|IP|int\\s*溢位|table|欄位|container|appsettings|DAO|Facade|依賴注入|FUGO|用戶狀態|事件紀錄|測試框架|電話隱碼|資料表|Controller|Model"
+    },
+    "46357": {
+      "page": "非頁面／共用功能",
+      "url": "",
+      "reason": "標題",
+      "matched_rule": "API|JOB|排程|Webhook|webhook|Redis|資料庫|DB|SP|SQL|Sonarqube|SonarQube|架構|效能|快取|SSO|登入|login|登出|Session|Token|OTP|手機驗證|綁定|LIFF|LINE|Line SDK|AI助手|AI 摘要|聊天室|聊天|訊息|SignalR|Hub|Log|LOG|錯誤|異常|重構|版本|版號|環境|權限|元件|UI|前端|後端|資料遮蔽|個資|密碼|白名單|網址|LDAP|nginx|IP|int\\s*溢位|table|欄位|container|appsettings|DAO|Facade|依賴注入|FUGO|用戶狀態|事件紀錄|測試框架|電話隱碼|資料表|Controller|Model"
+    },
+    "46349": {
+      "page": "遊戲管理",
+      "url": "/GameManage",
+      "reason": "標題",
+      "matched_rule": "遊戲|抽獎|刮刮卡|搖搖樂|獎項|GameManage"
+    },
+    "46348": {
+      "page": "非頁面／共用功能",
+      "url": "",
+      "reason": "標題",
+      "matched_rule": "API|JOB|排程|Webhook|webhook|Redis|資料庫|DB|SP|SQL|Sonarqube|SonarQube|架構|效能|快取|SSO|登入|login|登出|Session|Token|OTP|手機驗證|綁定|LIFF|LINE|Line SDK|AI助手|AI 摘要|聊天室|聊天|訊息|SignalR|Hub|Log|LOG|錯誤|異常|重構|版本|版號|環境|權限|元件|UI|前端|後端|資料遮蔽|個資|密碼|白名單|網址|LDAP|nginx|IP|int\\s*溢位|table|欄位|container|appsettings|DAO|Facade|依賴注入|FUGO|用戶狀態|事件紀錄|測試框架|電話隱碼|資料表|Controller|Model"
+    },
+    "46343": {
+      "page": "非頁面／共用功能",
+      "url": "",
+      "reason": "標題",
+      "matched_rule": "API|JOB|排程|Webhook|webhook|Redis|資料庫|DB|SP|SQL|Sonarqube|SonarQube|架構|效能|快取|SSO|登入|login|登出|Session|Token|OTP|手機驗證|綁定|LIFF|LINE|Line SDK|AI助手|AI 摘要|聊天室|聊天|訊息|SignalR|Hub|Log|LOG|錯誤|異常|重構|版本|版號|環境|權限|元件|UI|前端|後端|資料遮蔽|個資|密碼|白名單|網址|LDAP|nginx|IP|int\\s*溢位|table|欄位|container|appsettings|DAO|Facade|依賴注入|FUGO|用戶狀態|事件紀錄|測試框架|電話隱碼|資料表|Controller|Model"
+    },
+    "46333": {
+      "page": "遊戲管理",
+      "url": "/GameManage",
+      "reason": "標題",
+      "matched_rule": "遊戲|抽獎|刮刮卡|搖搖樂|獎項|GameManage"
+    },
+    "46320": {
+      "page": "非頁面／共用功能",
+      "url": "",
+      "reason": "標題",
+      "matched_rule": "API|JOB|排程|Webhook|webhook|Redis|資料庫|DB|SP|SQL|Sonarqube|SonarQube|架構|效能|快取|SSO|登入|login|登出|Session|Token|OTP|手機驗證|綁定|LIFF|LINE|Line SDK|AI助手|AI 摘要|聊天室|聊天|訊息|SignalR|Hub|Log|LOG|錯誤|異常|重構|版本|版號|環境|權限|元件|UI|前端|後端|資料遮蔽|個資|密碼|白名單|網址|LDAP|nginx|IP|int\\s*溢位|table|欄位|container|appsettings|DAO|Facade|依賴注入|FUGO|用戶狀態|事件紀錄|測試框架|電話隱碼|資料表|Controller|Model"
+    },
+    "46262": {
+      "page": "非頁面／共用功能",
+      "url": "",
+      "reason": "內容",
+      "matched_rule": "API|JOB|排程|Webhook|webhook|Redis|資料庫|DB|SP|SQL|Sonarqube|SonarQube|架構|效能|快取|SSO|登入|login|登出|Session|Token|OTP|手機驗證|綁定|LIFF|LINE|Line SDK|AI助手|AI 摘要|聊天室|聊天|訊息|SignalR|Hub|Log|LOG|錯誤|異常|重構|版本|版號|環境|權限|元件|UI|前端|後端|資料遮蔽|個資|密碼|白名單|網址|LDAP|nginx|IP|int\\s*溢位|table|欄位|container|appsettings|DAO|Facade|依賴注入|FUGO|用戶狀態|事件紀錄|測試框架|電話隱碼|資料表|Controller|Model"
+    },
+    "46254": {
+      "page": "非頁面／共用功能",
+      "url": "",
+      "reason": "標題",
+      "matched_rule": "API|JOB|排程|Webhook|webhook|Redis|資料庫|DB|SP|SQL|Sonarqube|SonarQube|架構|效能|快取|SSO|登入|login|登出|Session|Token|OTP|手機驗證|綁定|LIFF|LINE|Line SDK|AI助手|AI 摘要|聊天室|聊天|訊息|SignalR|Hub|Log|LOG|錯誤|異常|重構|版本|版號|環境|權限|元件|UI|前端|後端|資料遮蔽|個資|密碼|白名單|網址|LDAP|nginx|IP|int\\s*溢位|table|欄位|container|appsettings|DAO|Facade|依賴注入|FUGO|用戶狀態|事件紀錄|測試框架|電話隱碼|資料表|Controller|Model"
+    },
+    "46209": {
+      "page": "非頁面／共用功能",
+      "url": "",
+      "reason": "標題",
+      "matched_rule": "API|JOB|排程|Webhook|webhook|Redis|資料庫|DB|SP|SQL|Sonarqube|SonarQube|架構|效能|快取|SSO|登入|login|登出|Session|Token|OTP|手機驗證|綁定|LIFF|LINE|Line SDK|AI助手|AI 摘要|聊天室|聊天|訊息|SignalR|Hub|Log|LOG|錯誤|異常|重構|版本|版號|環境|權限|元件|UI|前端|後端|資料遮蔽|個資|密碼|白名單|網址|LDAP|nginx|IP|int\\s*溢位|table|欄位|container|appsettings|DAO|Facade|依賴注入|FUGO|用戶狀態|事件紀錄|測試框架|電話隱碼|資料表|Controller|Model"
+    },
+    "46121": {
+      "page": "非頁面／共用功能",
+      "url": "",
+      "reason": "內容",
+      "matched_rule": "API|JOB|排程|Webhook|webhook|Redis|資料庫|DB|SP|SQL|Sonarqube|SonarQube|架構|效能|快取|SSO|登入|login|登出|Session|Token|OTP|手機驗證|綁定|LIFF|LINE|Line SDK|AI助手|AI 摘要|聊天室|聊天|訊息|SignalR|Hub|Log|LOG|錯誤|異常|重構|版本|版號|環境|權限|元件|UI|前端|後端|資料遮蔽|個資|密碼|白名單|網址|LDAP|nginx|IP|int\\s*溢位|table|欄位|container|appsettings|DAO|Facade|依賴注入|FUGO|用戶狀態|事件紀錄|測試框架|電話隱碼|資料表|Controller|Model"
+    },
+    "46116": {
+      "page": "非頁面／共用功能",
+      "url": "",
+      "reason": "標題",
+      "matched_rule": "API|JOB|排程|Webhook|webhook|Redis|資料庫|DB|SP|SQL|Sonarqube|SonarQube|架構|效能|快取|SSO|登入|login|登出|Session|Token|OTP|手機驗證|綁定|LIFF|LINE|Line SDK|AI助手|AI 摘要|聊天室|聊天|訊息|SignalR|Hub|Log|LOG|錯誤|異常|重構|版本|版號|環境|權限|元件|UI|前端|後端|資料遮蔽|個資|密碼|白名單|網址|LDAP|nginx|IP|int\\s*溢位|table|欄位|container|appsettings|DAO|Facade|依賴注入|FUGO|用戶狀態|事件紀錄|測試框架|電話隱碼|資料表|Controller|Model"
+    },
+    "46115": {
+      "page": "圖庫",
+      "url": "/Gallery",
+      "reason": "標題",
+      "matched_rule": "圖庫|圖片庫|圖庫管理|縮圖|FaceAI|Gallery"
+    },
+    "46114": {
+      "page": "圖庫",
+      "url": "/Gallery",
+      "reason": "標題",
+      "matched_rule": "圖庫|圖片庫|圖庫管理|縮圖|FaceAI|Gallery"
+    },
+    "46113": {
+      "page": "圖庫",
+      "url": "/Gallery",
+      "reason": "標題",
+      "matched_rule": "圖庫|圖片庫|圖庫管理|縮圖|FaceAI|Gallery"
+    },
+    "46103": {
+      "page": "遊戲管理",
+      "url": "/GameManage",
+      "reason": "標題",
+      "matched_rule": "遊戲|抽獎|刮刮卡|搖搖樂|獎項|GameManage"
+    },
+    "46102": {
+      "page": "遊戲管理",
+      "url": "/GameManage",
+      "reason": "標題",
+      "matched_rule": "遊戲|抽獎|刮刮卡|搖搖樂|獎項|GameManage"
+    },
+    "46098": {
+      "page": "圖庫頁籤管理",
+      "url": "/GalleryManage",
+      "reason": "標題",
+      "matched_rule": "圖庫頁籤|頁籤管理|GalleryManage"
+    },
+    "46090": {
+      "page": "遊戲管理",
+      "url": "/GameManage",
+      "reason": "標題",
+      "matched_rule": "遊戲|抽獎|刮刮卡|搖搖樂|獎項|GameManage"
+    },
+    "46089": {
+      "page": "圖庫",
+      "url": "/Gallery",
+      "reason": "標題",
+      "matched_rule": "圖庫|圖片庫|圖庫管理|縮圖|FaceAI|Gallery"
+    },
+    "46087": {
+      "page": "圖庫",
+      "url": "/Gallery",
+      "reason": "標題",
+      "matched_rule": "圖庫|圖片庫|圖庫管理|縮圖|FaceAI|Gallery"
+    },
+    "46086": {
+      "page": "圖庫",
+      "url": "/Gallery",
+      "reason": "標題",
+      "matched_rule": "圖庫|圖片庫|圖庫管理|縮圖|FaceAI|Gallery"
+    },
+    "46078": {
+      "page": "待人工確認頁面",
+      "url": "",
+      "reason": "未命中規則",
+      "matched_rule": ""
+    },
+    "46068": {
+      "page": "簽到活動管理",
+      "url": "/CheckIn",
+      "reason": "標題",
+      "matched_rule": "簽到|報到|印章|CheckIn"
+    },
+    "46057": {
+      "page": "圖庫頁籤管理",
+      "url": "/GalleryManage",
+      "reason": "標題",
+      "matched_rule": "圖庫頁籤|頁籤管理|GalleryManage"
+    },
+    "45907": {
+      "page": "非頁面／共用功能",
+      "url": "",
+      "reason": "標題",
+      "matched_rule": "API|JOB|排程|Webhook|webhook|Redis|資料庫|DB|SP|SQL|Sonarqube|SonarQube|架構|效能|快取|SSO|登入|login|登出|Session|Token|OTP|手機驗證|綁定|LIFF|LINE|Line SDK|AI助手|AI 摘要|聊天室|聊天|訊息|SignalR|Hub|Log|LOG|錯誤|異常|重構|版本|版號|環境|權限|元件|UI|前端|後端|資料遮蔽|個資|密碼|白名單|網址|LDAP|nginx|IP|int\\s*溢位|table|欄位|container|appsettings|DAO|Facade|依賴注入|FUGO|用戶狀態|事件紀錄|測試框架|電話隱碼|資料表|Controller|Model"
+    },
+    "45906": {
+      "page": "非頁面／共用功能",
+      "url": "",
+      "reason": "標題",
+      "matched_rule": "API|JOB|排程|Webhook|webhook|Redis|資料庫|DB|SP|SQL|Sonarqube|SonarQube|架構|效能|快取|SSO|登入|login|登出|Session|Token|OTP|手機驗證|綁定|LIFF|LINE|Line SDK|AI助手|AI 摘要|聊天室|聊天|訊息|SignalR|Hub|Log|LOG|錯誤|異常|重構|版本|版號|環境|權限|元件|UI|前端|後端|資料遮蔽|個資|密碼|白名單|網址|LDAP|nginx|IP|int\\s*溢位|table|欄位|container|appsettings|DAO|Facade|依賴注入|FUGO|用戶狀態|事件紀錄|測試框架|電話隱碼|資料表|Controller|Model"
+    },
+    "45884": {
+      "page": "非頁面／共用功能",
+      "url": "",
+      "reason": "標題",
+      "matched_rule": "API|JOB|排程|Webhook|webhook|Redis|資料庫|DB|SP|SQL|Sonarqube|SonarQube|架構|效能|快取|SSO|登入|login|登出|Session|Token|OTP|手機驗證|綁定|LIFF|LINE|Line SDK|AI助手|AI 摘要|聊天室|聊天|訊息|SignalR|Hub|Log|LOG|錯誤|異常|重構|版本|版號|環境|權限|元件|UI|前端|後端|資料遮蔽|個資|密碼|白名單|網址|LDAP|nginx|IP|int\\s*溢位|table|欄位|container|appsettings|DAO|Facade|依賴注入|FUGO|用戶狀態|事件紀錄|測試框架|電話隱碼|資料表|Controller|Model"
+    },
+    "45461": {
+      "page": "非頁面／共用功能",
+      "url": "",
+      "reason": "標題",
+      "matched_rule": "API|JOB|排程|Webhook|webhook|Redis|資料庫|DB|SP|SQL|Sonarqube|SonarQube|架構|效能|快取|SSO|登入|login|登出|Session|Token|OTP|手機驗證|綁定|LIFF|LINE|Line SDK|AI助手|AI 摘要|聊天室|聊天|訊息|SignalR|Hub|Log|LOG|錯誤|異常|重構|版本|版號|環境|權限|元件|UI|前端|後端|資料遮蔽|個資|密碼|白名單|網址|LDAP|nginx|IP|int\\s*溢位|table|欄位|container|appsettings|DAO|Facade|依賴注入|FUGO|用戶狀態|事件紀錄|測試框架|電話隱碼|資料表|Controller|Model"
+    },
+    "45460": {
+      "page": "非頁面／共用功能",
+      "url": "",
+      "reason": "標題",
+      "matched_rule": "API|JOB|排程|Webhook|webhook|Redis|資料庫|DB|SP|SQL|Sonarqube|SonarQube|架構|效能|快取|SSO|登入|login|登出|Session|Token|OTP|手機驗證|綁定|LIFF|LINE|Line SDK|AI助手|AI 摘要|聊天室|聊天|訊息|SignalR|Hub|Log|LOG|錯誤|異常|重構|版本|版號|環境|權限|元件|UI|前端|後端|資料遮蔽|個資|密碼|白名單|網址|LDAP|nginx|IP|int\\s*溢位|table|欄位|container|appsettings|DAO|Facade|依賴注入|FUGO|用戶狀態|事件紀錄|測試框架|電話隱碼|資料表|Controller|Model"
+    },
+    "45451": {
+      "page": "非頁面／共用功能",
+      "url": "",
+      "reason": "標題",
+      "matched_rule": "API|JOB|排程|Webhook|webhook|Redis|資料庫|DB|SP|SQL|Sonarqube|SonarQube|架構|效能|快取|SSO|登入|login|登出|Session|Token|OTP|手機驗證|綁定|LIFF|LINE|Line SDK|AI助手|AI 摘要|聊天室|聊天|訊息|SignalR|Hub|Log|LOG|錯誤|異常|重構|版本|版號|環境|權限|元件|UI|前端|後端|資料遮蔽|個資|密碼|白名單|網址|LDAP|nginx|IP|int\\s*溢位|table|欄位|container|appsettings|DAO|Facade|依賴注入|FUGO|用戶狀態|事件紀錄|測試框架|電話隱碼|資料表|Controller|Model"
+    },
+    "45447": {
+      "page": "非頁面／共用功能",
+      "url": "",
+      "reason": "標題",
+      "matched_rule": "API|JOB|排程|Webhook|webhook|Redis|資料庫|DB|SP|SQL|Sonarqube|SonarQube|架構|效能|快取|SSO|登入|login|登出|Session|Token|OTP|手機驗證|綁定|LIFF|LINE|Line SDK|AI助手|AI 摘要|聊天室|聊天|訊息|SignalR|Hub|Log|LOG|錯誤|異常|重構|版本|版號|環境|權限|元件|UI|前端|後端|資料遮蔽|個資|密碼|白名單|網址|LDAP|nginx|IP|int\\s*溢位|table|欄位|container|appsettings|DAO|Facade|依賴注入|FUGO|用戶狀態|事件紀錄|測試框架|電話隱碼|資料表|Controller|Model"
+    },
+    "45446": {
+      "page": "非頁面／共用功能",
+      "url": "",
+      "reason": "標題",
+      "matched_rule": "API|JOB|排程|Webhook|webhook|Redis|資料庫|DB|SP|SQL|Sonarqube|SonarQube|架構|效能|快取|SSO|登入|login|登出|Session|Token|OTP|手機驗證|綁定|LIFF|LINE|Line SDK|AI助手|AI 摘要|聊天室|聊天|訊息|SignalR|Hub|Log|LOG|錯誤|異常|重構|版本|版號|環境|權限|元件|UI|前端|後端|資料遮蔽|個資|密碼|白名單|網址|LDAP|nginx|IP|int\\s*溢位|table|欄位|container|appsettings|DAO|Facade|依賴注入|FUGO|用戶狀態|事件紀錄|測試框架|電話隱碼|資料表|Controller|Model"
+    },
+    "45399": {
+      "page": "待確認使用者",
+      "url": "/PendingUser",
+      "reason": "標題",
+      "matched_rule": "待確認使用者|待確認 User|PendingUser"
+    },
+    "45310": {
+      "page": "非頁面／共用功能",
+      "url": "",
+      "reason": "標題",
+      "matched_rule": "API|JOB|排程|Webhook|webhook|Redis|資料庫|DB|SP|SQL|Sonarqube|SonarQube|架構|效能|快取|SSO|登入|login|登出|Session|Token|OTP|手機驗證|綁定|LIFF|LINE|Line SDK|AI助手|AI 摘要|聊天室|聊天|訊息|SignalR|Hub|Log|LOG|錯誤|異常|重構|版本|版號|環境|權限|元件|UI|前端|後端|資料遮蔽|個資|密碼|白名單|網址|LDAP|nginx|IP|int\\s*溢位|table|欄位|container|appsettings|DAO|Facade|依賴注入|FUGO|用戶狀態|事件紀錄|測試框架|電話隱碼|資料表|Controller|Model"
+    },
+    "45218": {
+      "page": "非頁面／共用功能",
+      "url": "",
+      "reason": "標題",
+      "matched_rule": "API|JOB|排程|Webhook|webhook|Redis|資料庫|DB|SP|SQL|Sonarqube|SonarQube|架構|效能|快取|SSO|登入|login|登出|Session|Token|OTP|手機驗證|綁定|LIFF|LINE|Line SDK|AI助手|AI 摘要|聊天室|聊天|訊息|SignalR|Hub|Log|LOG|錯誤|異常|重構|版本|版號|環境|權限|元件|UI|前端|後端|資料遮蔽|個資|密碼|白名單|網址|LDAP|nginx|IP|int\\s*溢位|table|欄位|container|appsettings|DAO|Facade|依賴注入|FUGO|用戶狀態|事件紀錄|測試框架|電話隱碼|資料表|Controller|Model"
+    },
+    "45193": {
+      "page": "非頁面／共用功能",
+      "url": "",
+      "reason": "標題",
+      "matched_rule": "API|JOB|排程|Webhook|webhook|Redis|資料庫|DB|SP|SQL|Sonarqube|SonarQube|架構|效能|快取|SSO|登入|login|登出|Session|Token|OTP|手機驗證|綁定|LIFF|LINE|Line SDK|AI助手|AI 摘要|聊天室|聊天|訊息|SignalR|Hub|Log|LOG|錯誤|異常|重構|版本|版號|環境|權限|元件|UI|前端|後端|資料遮蔽|個資|密碼|白名單|網址|LDAP|nginx|IP|int\\s*溢位|table|欄位|container|appsettings|DAO|Facade|依賴注入|FUGO|用戶狀態|事件紀錄|測試框架|電話隱碼|資料表|Controller|Model"
+    },
+    "45192": {
+      "page": "待人工確認頁面",
+      "url": "",
+      "reason": "未命中規則",
+      "matched_rule": ""
+    },
+    "45190": {
+      "page": "指派",
+      "url": "/Assign",
+      "reason": "內容",
+      "matched_rule": "指派|派線|轉接|分配客戶|客服分流|Assign"
+    },
+    "45161": {
+      "page": "簽到活動管理",
+      "url": "/CheckIn",
+      "reason": "標題",
+      "matched_rule": "簽到|報到|印章|CheckIn"
+    },
+    "45160": {
+      "page": "簽到活動管理",
+      "url": "/CheckIn",
+      "reason": "標題",
+      "matched_rule": "簽到|報到|印章|CheckIn"
+    },
+    "45123": {
+      "page": "待人工確認頁面",
+      "url": "",
+      "reason": "未命中規則",
+      "matched_rule": ""
+    },
+    "45121": {
+      "page": "非頁面／共用功能",
+      "url": "",
+      "reason": "標題",
+      "matched_rule": "API|JOB|排程|Webhook|webhook|Redis|資料庫|DB|SP|SQL|Sonarqube|SonarQube|架構|效能|快取|SSO|登入|login|登出|Session|Token|OTP|手機驗證|綁定|LIFF|LINE|Line SDK|AI助手|AI 摘要|聊天室|聊天|訊息|SignalR|Hub|Log|LOG|錯誤|異常|重構|版本|版號|環境|權限|元件|UI|前端|後端|資料遮蔽|個資|密碼|白名單|網址|LDAP|nginx|IP|int\\s*溢位|table|欄位|container|appsettings|DAO|Facade|依賴注入|FUGO|用戶狀態|事件紀錄|測試框架|電話隱碼|資料表|Controller|Model"
+    },
+    "45120": {
+      "page": "非頁面／共用功能",
+      "url": "",
+      "reason": "標題",
+      "matched_rule": "API|JOB|排程|Webhook|webhook|Redis|資料庫|DB|SP|SQL|Sonarqube|SonarQube|架構|效能|快取|SSO|登入|login|登出|Session|Token|OTP|手機驗證|綁定|LIFF|LINE|Line SDK|AI助手|AI 摘要|聊天室|聊天|訊息|SignalR|Hub|Log|LOG|錯誤|異常|重構|版本|版號|環境|權限|元件|UI|前端|後端|資料遮蔽|個資|密碼|白名單|網址|LDAP|nginx|IP|int\\s*溢位|table|欄位|container|appsettings|DAO|Facade|依賴注入|FUGO|用戶狀態|事件紀錄|測試框架|電話隱碼|資料表|Controller|Model"
+    },
+    "45119": {
+      "page": "待人工確認頁面",
+      "url": "",
+      "reason": "未命中規則",
+      "matched_rule": ""
+    },
+    "45103": {
+      "page": "非頁面／共用功能",
+      "url": "",
+      "reason": "標題",
+      "matched_rule": "API|JOB|排程|Webhook|webhook|Redis|資料庫|DB|SP|SQL|Sonarqube|SonarQube|架構|效能|快取|SSO|登入|login|登出|Session|Token|OTP|手機驗證|綁定|LIFF|LINE|Line SDK|AI助手|AI 摘要|聊天室|聊天|訊息|SignalR|Hub|Log|LOG|錯誤|異常|重構|版本|版號|環境|權限|元件|UI|前端|後端|資料遮蔽|個資|密碼|白名單|網址|LDAP|nginx|IP|int\\s*溢位|table|欄位|container|appsettings|DAO|Facade|依賴注入|FUGO|用戶狀態|事件紀錄|測試框架|電話隱碼|資料表|Controller|Model"
+    },
+    "44851": {
+      "page": "客戶管理",
+      "url": "/Customer",
+      "reason": "標題",
+      "matched_rule": "客戶管理|修改客戶|客戶資料|客戶手機|會員資料|Customer"
+    },
+    "44751": {
+      "page": "非頁面／共用功能",
+      "url": "",
+      "reason": "標題",
+      "matched_rule": "API|JOB|排程|Webhook|webhook|Redis|資料庫|DB|SP|SQL|Sonarqube|SonarQube|架構|效能|快取|SSO|登入|login|登出|Session|Token|OTP|手機驗證|綁定|LIFF|LINE|Line SDK|AI助手|AI 摘要|聊天室|聊天|訊息|SignalR|Hub|Log|LOG|錯誤|異常|重構|版本|版號|環境|權限|元件|UI|前端|後端|資料遮蔽|個資|密碼|白名單|網址|LDAP|nginx|IP|int\\s*溢位|table|欄位|container|appsettings|DAO|Facade|依賴注入|FUGO|用戶狀態|事件紀錄|測試框架|電話隱碼|資料表|Controller|Model"
+    },
+    "44717": {
+      "page": "簽到活動管理",
+      "url": "/CheckIn",
+      "reason": "標題",
+      "matched_rule": "簽到|報到|印章|CheckIn"
+    },
+    "44715": {
+      "page": "直播設定",
+      "url": "/Stream",
+      "reason": "標題",
+      "matched_rule": "直播|見面會|直播設定|直播活動|LIFF活動頁|Stream"
+    },
+    "44685": {
+      "page": "簽到活動管理",
+      "url": "/CheckIn",
+      "reason": "標題",
+      "matched_rule": "簽到|報到|印章|CheckIn"
+    },
+    "44684": {
+      "page": "簽到活動管理",
+      "url": "/CheckIn",
+      "reason": "標題",
+      "matched_rule": "簽到|報到|印章|CheckIn"
+    },
+    "44682": {
+      "page": "簽到活動管理",
+      "url": "/CheckIn",
+      "reason": "標題",
+      "matched_rule": "簽到|報到|印章|CheckIn"
+    },
+    "44468": {
+      "page": "訊息統計資訊",
+      "url": "/MessagesMetrics",
+      "reason": "標題",
+      "matched_rule": "訊息統計|訊息資料統計|MessagesMetrics|好友統計|每日好友"
+    },
+    "44467": {
+      "page": "訊息統計資訊",
+      "url": "/MessagesMetrics",
+      "reason": "標題",
+      "matched_rule": "訊息統計|訊息資料統計|MessagesMetrics|好友統計|每日好友"
+    },
+    "44452": {
+      "page": "客戶管理",
+      "url": "/Customer",
+      "reason": "標題",
+      "matched_rule": "客戶管理|修改客戶|客戶資料|客戶手機|會員資料|Customer"
+    },
+    "44409": {
+      "page": "非頁面／共用功能",
+      "url": "",
+      "reason": "標題",
+      "matched_rule": "API|JOB|排程|Webhook|webhook|Redis|資料庫|DB|SP|SQL|Sonarqube|SonarQube|架構|效能|快取|SSO|登入|login|登出|Session|Token|OTP|手機驗證|綁定|LIFF|LINE|Line SDK|AI助手|AI 摘要|聊天室|聊天|訊息|SignalR|Hub|Log|LOG|錯誤|異常|重構|版本|版號|環境|權限|元件|UI|前端|後端|資料遮蔽|個資|密碼|白名單|網址|LDAP|nginx|IP|int\\s*溢位|table|欄位|container|appsettings|DAO|Facade|依賴注入|FUGO|用戶狀態|事件紀錄|測試框架|電話隱碼|資料表|Controller|Model"
+    },
+    "44372": {
+      "page": "非頁面／共用功能",
+      "url": "",
+      "reason": "標題",
+      "matched_rule": "API|JOB|排程|Webhook|webhook|Redis|資料庫|DB|SP|SQL|Sonarqube|SonarQube|架構|效能|快取|SSO|登入|login|登出|Session|Token|OTP|手機驗證|綁定|LIFF|LINE|Line SDK|AI助手|AI 摘要|聊天室|聊天|訊息|SignalR|Hub|Log|LOG|錯誤|異常|重構|版本|版號|環境|權限|元件|UI|前端|後端|資料遮蔽|個資|密碼|白名單|網址|LDAP|nginx|IP|int\\s*溢位|table|欄位|container|appsettings|DAO|Facade|依賴注入|FUGO|用戶狀態|事件紀錄|測試框架|電話隱碼|資料表|Controller|Model"
+    },
+    "44364": {
+      "page": "非頁面／共用功能",
+      "url": "",
+      "reason": "標題",
+      "matched_rule": "API|JOB|排程|Webhook|webhook|Redis|資料庫|DB|SP|SQL|Sonarqube|SonarQube|架構|效能|快取|SSO|登入|login|登出|Session|Token|OTP|手機驗證|綁定|LIFF|LINE|Line SDK|AI助手|AI 摘要|聊天室|聊天|訊息|SignalR|Hub|Log|LOG|錯誤|異常|重構|版本|版號|環境|權限|元件|UI|前端|後端|資料遮蔽|個資|密碼|白名單|網址|LDAP|nginx|IP|int\\s*溢位|table|欄位|container|appsettings|DAO|Facade|依賴注入|FUGO|用戶狀態|事件紀錄|測試框架|電話隱碼|資料表|Controller|Model"
+    },
+    "44344": {
+      "page": "客戶管理",
+      "url": "/Customer",
+      "reason": "標題",
+      "matched_rule": "客戶管理|修改客戶|客戶資料|客戶手機|會員資料|Customer"
+    },
+    "44323": {
+      "page": "對話查詢",
+      "url": "/Dialog",
+      "reason": "標題",
+      "matched_rule": "對話查詢|歷史紀錄查詢|聊天歷史紀錄查詢|ElasticSearchAPI|Dialog"
+    },
+    "44322": {
+      "page": "遊戲管理",
+      "url": "/GameManage",
+      "reason": "標題",
+      "matched_rule": "遊戲|抽獎|刮刮卡|搖搖樂|獎項|GameManage"
+    },
+    "44321": {
+      "page": "遊戲管理",
+      "url": "/GameManage",
+      "reason": "標題",
+      "matched_rule": "遊戲|抽獎|刮刮卡|搖搖樂|獎項|GameManage"
+    },
+    "44222": {
+      "page": "待人工確認頁面",
+      "url": "",
+      "reason": "未命中規則",
+      "matched_rule": ""
+    },
+    "44217": {
+      "page": "非頁面／共用功能",
+      "url": "",
+      "reason": "標題",
+      "matched_rule": "API|JOB|排程|Webhook|webhook|Redis|資料庫|DB|SP|SQL|Sonarqube|SonarQube|架構|效能|快取|SSO|登入|login|登出|Session|Token|OTP|手機驗證|綁定|LIFF|LINE|Line SDK|AI助手|AI 摘要|聊天室|聊天|訊息|SignalR|Hub|Log|LOG|錯誤|異常|重構|版本|版號|環境|權限|元件|UI|前端|後端|資料遮蔽|個資|密碼|白名單|網址|LDAP|nginx|IP|int\\s*溢位|table|欄位|container|appsettings|DAO|Facade|依賴注入|FUGO|用戶狀態|事件紀錄|測試框架|電話隱碼|資料表|Controller|Model"
+    },
+    "44060": {
+      "page": "指派",
+      "url": "/Assign",
+      "reason": "標題",
+      "matched_rule": "指派|派線|轉接|分配客戶|客服分流|Assign"
+    },
+    "44059": {
+      "page": "非頁面／共用功能",
+      "url": "",
+      "reason": "標題",
+      "matched_rule": "API|JOB|排程|Webhook|webhook|Redis|資料庫|DB|SP|SQL|Sonarqube|SonarQube|架構|效能|快取|SSO|登入|login|登出|Session|Token|OTP|手機驗證|綁定|LIFF|LINE|Line SDK|AI助手|AI 摘要|聊天室|聊天|訊息|SignalR|Hub|Log|LOG|錯誤|異常|重構|版本|版號|環境|權限|元件|UI|前端|後端|資料遮蔽|個資|密碼|白名單|網址|LDAP|nginx|IP|int\\s*溢位|table|欄位|container|appsettings|DAO|Facade|依賴注入|FUGO|用戶狀態|事件紀錄|測試框架|電話隱碼|資料表|Controller|Model"
+    },
+    "44058": {
+      "page": "非頁面／共用功能",
+      "url": "",
+      "reason": "標題",
+      "matched_rule": "API|JOB|排程|Webhook|webhook|Redis|資料庫|DB|SP|SQL|Sonarqube|SonarQube|架構|效能|快取|SSO|登入|login|登出|Session|Token|OTP|手機驗證|綁定|LIFF|LINE|Line SDK|AI助手|AI 摘要|聊天室|聊天|訊息|SignalR|Hub|Log|LOG|錯誤|異常|重構|版本|版號|環境|權限|元件|UI|前端|後端|資料遮蔽|個資|密碼|白名單|網址|LDAP|nginx|IP|int\\s*溢位|table|欄位|container|appsettings|DAO|Facade|依賴注入|FUGO|用戶狀態|事件紀錄|測試框架|電話隱碼|資料表|Controller|Model"
+    },
+    "44034": {
+      "page": "訊息統計資訊",
+      "url": "/MessagesMetrics",
+      "reason": "標題",
+      "matched_rule": "訊息統計|訊息資料統計|MessagesMetrics|好友統計|每日好友"
+    },
+    "44028": {
+      "page": "非頁面／共用功能",
+      "url": "",
+      "reason": "標題",
+      "matched_rule": "API|JOB|排程|Webhook|webhook|Redis|資料庫|DB|SP|SQL|Sonarqube|SonarQube|架構|效能|快取|SSO|登入|login|登出|Session|Token|OTP|手機驗證|綁定|LIFF|LINE|Line SDK|AI助手|AI 摘要|聊天室|聊天|訊息|SignalR|Hub|Log|LOG|錯誤|異常|重構|版本|版號|環境|權限|元件|UI|前端|後端|資料遮蔽|個資|密碼|白名單|網址|LDAP|nginx|IP|int\\s*溢位|table|欄位|container|appsettings|DAO|Facade|依賴注入|FUGO|用戶狀態|事件紀錄|測試框架|電話隱碼|資料表|Controller|Model"
+    },
+    "44027": {
+      "page": "客戶管理",
+      "url": "/Customer",
+      "reason": "標題",
+      "matched_rule": "客戶管理|修改客戶|客戶資料|客戶手機|會員資料|Customer"
+    },
+    "44013": {
+      "page": "客戶管理",
+      "url": "/Customer",
+      "reason": "標題",
+      "matched_rule": "客戶管理|修改客戶|客戶資料|客戶手機|會員資料|Customer"
+    },
+    "43986": {
+      "page": "非頁面／共用功能",
+      "url": "",
+      "reason": "內容",
+      "matched_rule": "API|JOB|排程|Webhook|webhook|Redis|資料庫|DB|SP|SQL|Sonarqube|SonarQube|架構|效能|快取|SSO|登入|login|登出|Session|Token|OTP|手機驗證|綁定|LIFF|LINE|Line SDK|AI助手|AI 摘要|聊天室|聊天|訊息|SignalR|Hub|Log|LOG|錯誤|異常|重構|版本|版號|環境|權限|元件|UI|前端|後端|資料遮蔽|個資|密碼|白名單|網址|LDAP|nginx|IP|int\\s*溢位|table|欄位|container|appsettings|DAO|Facade|依賴注入|FUGO|用戶狀態|事件紀錄|測試框架|電話隱碼|資料表|Controller|Model"
+    },
+    "43978": {
+      "page": "非頁面／共用功能",
+      "url": "",
+      "reason": "標題",
+      "matched_rule": "API|JOB|排程|Webhook|webhook|Redis|資料庫|DB|SP|SQL|Sonarqube|SonarQube|架構|效能|快取|SSO|登入|login|登出|Session|Token|OTP|手機驗證|綁定|LIFF|LINE|Line SDK|AI助手|AI 摘要|聊天室|聊天|訊息|SignalR|Hub|Log|LOG|錯誤|異常|重構|版本|版號|環境|權限|元件|UI|前端|後端|資料遮蔽|個資|密碼|白名單|網址|LDAP|nginx|IP|int\\s*溢位|table|欄位|container|appsettings|DAO|Facade|依賴注入|FUGO|用戶狀態|事件紀錄|測試框架|電話隱碼|資料表|Controller|Model"
+    },
+    "43963": {
+      "page": "待人工確認頁面",
+      "url": "",
+      "reason": "未命中規則",
+      "matched_rule": ""
+    },
+    "43931": {
+      "page": "待人工確認頁面",
+      "url": "",
+      "reason": "未命中規則",
+      "matched_rule": ""
+    },
+    "43916": {
+      "page": "指派",
+      "url": "/Assign",
+      "reason": "標題",
+      "matched_rule": "指派|派線|轉接|分配客戶|客服分流|Assign"
+    },
+    "43773": {
+      "page": "模板訊息",
+      "url": "/Combo",
+      "reason": "標題",
+      "matched_rule": "模板|模板訊息|模板設定|模板素材|Combo"
+    },
+    "43772": {
+      "page": "對話查詢",
+      "url": "/Dialog",
+      "reason": "標題",
+      "matched_rule": "對話查詢|歷史紀錄查詢|聊天歷史紀錄查詢|ElasticSearchAPI|Dialog"
+    },
+    "43771": {
+      "page": "模板訊息",
+      "url": "/Combo",
+      "reason": "標題",
+      "matched_rule": "模板|模板訊息|模板設定|模板素材|Combo"
+    },
+    "43770": {
+      "page": "離線訊息管理",
+      "url": "/LeaveMessages",
+      "reason": "標題",
+      "matched_rule": "離線訊息|離線留言|LeaveMessages"
+    },
+    "43597": {
+      "page": "客戶管理",
+      "url": "/Customer",
+      "reason": "標題",
+      "matched_rule": "客戶管理|修改客戶|客戶資料|客戶手機|會員資料|Customer"
+    },
+    "43587": {
+      "page": "照片合成功能",
+      "url": "/FrameMergeActivity",
+      "reason": "標題",
+      "matched_rule": "照片合成|合成圖片|同框照|新年圖片|FrameMerge"
+    },
+    "43584": {
+      "page": "客戶管理",
+      "url": "/Customer",
+      "reason": "標題",
+      "matched_rule": "客戶管理|修改客戶|客戶資料|客戶手機|會員資料|Customer"
+    },
+    "43568": {
+      "page": "客戶管理",
+      "url": "/Customer",
+      "reason": "標題",
+      "matched_rule": "客戶管理|修改客戶|客戶資料|客戶手機|會員資料|Customer"
+    },
+    "43567": {
+      "page": "客戶管理",
+      "url": "/Customer",
+      "reason": "標題",
+      "matched_rule": "客戶管理|修改客戶|客戶資料|客戶手機|會員資料|Customer"
+    },
+    "43521": {
+      "page": "待人工確認頁面",
+      "url": "",
+      "reason": "未命中規則",
+      "matched_rule": ""
+    },
+    "43348": {
+      "page": "待人工確認頁面",
+      "url": "",
+      "reason": "未命中規則",
+      "matched_rule": ""
+    },
+    "43325": {
+      "page": "模板訊息",
+      "url": "/Combo",
+      "reason": "標題",
+      "matched_rule": "模板|模板訊息|模板設定|模板素材|Combo"
+    },
+    "43287": {
+      "page": "模板訊息",
+      "url": "/Combo",
+      "reason": "標題",
+      "matched_rule": "模板|模板訊息|模板設定|模板素材|Combo"
+    },
+    "43282": {
+      "page": "模板訊息",
+      "url": "/Combo",
+      "reason": "標題",
+      "matched_rule": "模板|模板訊息|模板設定|模板素材|Combo"
+    },
+    "43217": {
+      "page": "受眾管理",
+      "url": "/Audience",
+      "reason": "標題",
+      "matched_rule": "受眾|分眾|Audience"
+    },
+    "43215": {
+      "page": "照片合成功能",
+      "url": "/FrameMergeActivity",
+      "reason": "標題",
+      "matched_rule": "照片合成|合成圖片|同框照|新年圖片|FrameMerge"
+    },
+    "43211": {
+      "page": "商品維護",
+      "url": "/Product",
+      "reason": "標題",
+      "matched_rule": "商品維護|商品檔案|商品管理|Product"
+    },
+    "43207": {
+      "page": "照片合成功能",
+      "url": "/FrameMergeActivity",
+      "reason": "標題",
+      "matched_rule": "照片合成|合成圖片|同框照|新年圖片|FrameMerge"
+    },
+    "43204": {
+      "page": "照片合成功能",
+      "url": "/FrameMergeActivity",
+      "reason": "標題",
+      "matched_rule": "照片合成|合成圖片|同框照|新年圖片|FrameMerge"
+    },
+    "43182": {
+      "page": "非頁面／共用功能",
+      "url": "",
+      "reason": "標題",
+      "matched_rule": "API|JOB|排程|Webhook|webhook|Redis|資料庫|DB|SP|SQL|Sonarqube|SonarQube|架構|效能|快取|SSO|登入|login|登出|Session|Token|OTP|手機驗證|綁定|LIFF|LINE|Line SDK|AI助手|AI 摘要|聊天室|聊天|訊息|SignalR|Hub|Log|LOG|錯誤|異常|重構|版本|版號|環境|權限|元件|UI|前端|後端|資料遮蔽|個資|密碼|白名單|網址|LDAP|nginx|IP|int\\s*溢位|table|欄位|container|appsettings|DAO|Facade|依賴注入|FUGO|用戶狀態|事件紀錄|測試框架|電話隱碼|資料表|Controller|Model"
+    },
+    "43137": {
+      "page": "遊戲管理",
+      "url": "/GameManage",
+      "reason": "標題",
+      "matched_rule": "遊戲|抽獎|刮刮卡|搖搖樂|獎項|GameManage"
+    },
+    "43136": {
+      "page": "簽到活動管理",
+      "url": "/CheckIn",
+      "reason": "標題",
+      "matched_rule": "簽到|報到|印章|CheckIn"
+    },
+    "43135": {
+      "page": "直播設定",
+      "url": "/Stream",
+      "reason": "標題",
+      "matched_rule": "直播|見面會|直播設定|直播活動|LIFF活動頁|Stream"
+    },
+    "43133": {
+      "page": "直播設定",
+      "url": "/Stream",
+      "reason": "標題",
+      "matched_rule": "直播|見面會|直播設定|直播活動|LIFF活動頁|Stream"
+    },
+    "43085": {
+      "page": "客戶管理",
+      "url": "/Customer",
+      "reason": "標題",
+      "matched_rule": "客戶管理|修改客戶|客戶資料|客戶手機|會員資料|Customer"
+    },
+    "43054": {
+      "page": "非頁面／共用功能",
+      "url": "",
+      "reason": "標題",
+      "matched_rule": "API|JOB|排程|Webhook|webhook|Redis|資料庫|DB|SP|SQL|Sonarqube|SonarQube|架構|效能|快取|SSO|登入|login|登出|Session|Token|OTP|手機驗證|綁定|LIFF|LINE|Line SDK|AI助手|AI 摘要|聊天室|聊天|訊息|SignalR|Hub|Log|LOG|錯誤|異常|重構|版本|版號|環境|權限|元件|UI|前端|後端|資料遮蔽|個資|密碼|白名單|網址|LDAP|nginx|IP|int\\s*溢位|table|欄位|container|appsettings|DAO|Facade|依賴注入|FUGO|用戶狀態|事件紀錄|測試框架|電話隱碼|資料表|Controller|Model"
+    },
+    "42998": {
+      "page": "非頁面／共用功能",
+      "url": "",
+      "reason": "標題",
+      "matched_rule": "API|JOB|排程|Webhook|webhook|Redis|資料庫|DB|SP|SQL|Sonarqube|SonarQube|架構|效能|快取|SSO|登入|login|登出|Session|Token|OTP|手機驗證|綁定|LIFF|LINE|Line SDK|AI助手|AI 摘要|聊天室|聊天|訊息|SignalR|Hub|Log|LOG|錯誤|異常|重構|版本|版號|環境|權限|元件|UI|前端|後端|資料遮蔽|個資|密碼|白名單|網址|LDAP|nginx|IP|int\\s*溢位|table|欄位|container|appsettings|DAO|Facade|依賴注入|FUGO|用戶狀態|事件紀錄|測試框架|電話隱碼|資料表|Controller|Model"
+    },
+    "42901": {
+      "page": "待人工確認頁面",
+      "url": "",
+      "reason": "未命中規則",
+      "matched_rule": ""
+    },
+    "42895": {
+      "page": "待人工確認頁面",
+      "url": "",
+      "reason": "未命中規則",
+      "matched_rule": ""
+    },
+    "42848": {
+      "page": "簽到活動管理",
+      "url": "/CheckIn",
+      "reason": "標題",
+      "matched_rule": "簽到|報到|印章|CheckIn"
+    },
+    "42847": {
+      "page": "客戶管理",
+      "url": "/Customer",
+      "reason": "內容",
+      "matched_rule": "客戶管理|修改客戶|客戶資料|客戶手機|會員資料|Customer"
+    },
+    "42845": {
+      "page": "非頁面／共用功能",
+      "url": "",
+      "reason": "標題",
+      "matched_rule": "API|JOB|排程|Webhook|webhook|Redis|資料庫|DB|SP|SQL|Sonarqube|SonarQube|架構|效能|快取|SSO|登入|login|登出|Session|Token|OTP|手機驗證|綁定|LIFF|LINE|Line SDK|AI助手|AI 摘要|聊天室|聊天|訊息|SignalR|Hub|Log|LOG|錯誤|異常|重構|版本|版號|環境|權限|元件|UI|前端|後端|資料遮蔽|個資|密碼|白名單|網址|LDAP|nginx|IP|int\\s*溢位|table|欄位|container|appsettings|DAO|Facade|依賴注入|FUGO|用戶狀態|事件紀錄|測試框架|電話隱碼|資料表|Controller|Model"
+    },
+    "42844": {
+      "page": "非頁面／共用功能",
+      "url": "",
+      "reason": "標題",
+      "matched_rule": "API|JOB|排程|Webhook|webhook|Redis|資料庫|DB|SP|SQL|Sonarqube|SonarQube|架構|效能|快取|SSO|登入|login|登出|Session|Token|OTP|手機驗證|綁定|LIFF|LINE|Line SDK|AI助手|AI 摘要|聊天室|聊天|訊息|SignalR|Hub|Log|LOG|錯誤|異常|重構|版本|版號|環境|權限|元件|UI|前端|後端|資料遮蔽|個資|密碼|白名單|網址|LDAP|nginx|IP|int\\s*溢位|table|欄位|container|appsettings|DAO|Facade|依賴注入|FUGO|用戶狀態|事件紀錄|測試框架|電話隱碼|資料表|Controller|Model"
+    },
+    "42819": {
+      "page": "簽到活動管理",
+      "url": "/CheckIn",
+      "reason": "標題",
+      "matched_rule": "簽到|報到|印章|CheckIn"
+    },
+    "42818": {
+      "page": "對話查詢",
+      "url": "/Dialog",
+      "reason": "標題",
+      "matched_rule": "對話查詢|歷史紀錄查詢|聊天歷史紀錄查詢|ElasticSearchAPI|Dialog"
+    },
+    "42815": {
+      "page": "對話查詢",
+      "url": "/Dialog",
+      "reason": "標題",
+      "matched_rule": "對話查詢|歷史紀錄查詢|聊天歷史紀錄查詢|ElasticSearchAPI|Dialog"
+    },
+    "42777": {
+      "page": "直播設定",
+      "url": "/Stream",
+      "reason": "標題",
+      "matched_rule": "直播|見面會|直播設定|直播活動|LIFF活動頁|Stream"
+    },
+    "42776": {
+      "page": "客戶名單檢查",
+      "url": "/CustomerCheck",
+      "reason": "標題",
+      "matched_rule": "客戶名單檢查|客戶檢查|CustomerCheck"
+    },
+    "42775": {
+      "page": "直播設定",
+      "url": "/Stream",
+      "reason": "標題",
+      "matched_rule": "直播|見面會|直播設定|直播活動|LIFF活動頁|Stream"
+    },
+    "42774": {
+      "page": "受眾管理",
+      "url": "/Audience",
+      "reason": "標題",
+      "matched_rule": "受眾|分眾|Audience"
+    },
+    "42773": {
+      "page": "遊戲管理",
+      "url": "/GameManage",
+      "reason": "標題",
+      "matched_rule": "遊戲|抽獎|刮刮卡|搖搖樂|獎項|GameManage"
+    },
+    "42738": {
+      "page": "簽到活動管理",
+      "url": "/CheckIn",
+      "reason": "標題",
+      "matched_rule": "簽到|報到|印章|CheckIn"
+    },
+    "42726": {
+      "page": "簽到活動管理",
+      "url": "/CheckIn",
+      "reason": "標題",
+      "matched_rule": "簽到|報到|印章|CheckIn"
+    },
+    "42712": {
+      "page": "圖文選單",
+      "url": "/Richmenu",
+      "reason": "內容",
+      "matched_rule": "圖文選單|Richmenu"
+    },
+    "42709": {
+      "page": "照片合成功能",
+      "url": "/FrameMergeActivity",
+      "reason": "標題",
+      "matched_rule": "照片合成|合成圖片|同框照|新年圖片|FrameMerge"
+    },
+    "42704": {
+      "page": "簽到活動管理",
+      "url": "/CheckIn",
+      "reason": "標題",
+      "matched_rule": "簽到|報到|印章|CheckIn"
+    },
+    "42695": {
+      "page": "簽到活動管理",
+      "url": "/CheckIn",
+      "reason": "標題",
+      "matched_rule": "簽到|報到|印章|CheckIn"
+    },
+    "42693": {
+      "page": "簽到活動管理",
+      "url": "/CheckIn",
+      "reason": "標題",
+      "matched_rule": "簽到|報到|印章|CheckIn"
+    },
+    "42686": {
+      "page": "簽到活動管理",
+      "url": "/CheckIn",
+      "reason": "標題",
+      "matched_rule": "簽到|報到|印章|CheckIn"
+    },
+    "42677": {
+      "page": "非頁面／共用功能",
+      "url": "",
+      "reason": "標題",
+      "matched_rule": "API|JOB|排程|Webhook|webhook|Redis|資料庫|DB|SP|SQL|Sonarqube|SonarQube|架構|效能|快取|SSO|登入|login|登出|Session|Token|OTP|手機驗證|綁定|LIFF|LINE|Line SDK|AI助手|AI 摘要|聊天室|聊天|訊息|SignalR|Hub|Log|LOG|錯誤|異常|重構|版本|版號|環境|權限|元件|UI|前端|後端|資料遮蔽|個資|密碼|白名單|網址|LDAP|nginx|IP|int\\s*溢位|table|欄位|container|appsettings|DAO|Facade|依賴注入|FUGO|用戶狀態|事件紀錄|測試框架|電話隱碼|資料表|Controller|Model"
+    },
+    "42670": {
+      "page": "非頁面／共用功能",
+      "url": "",
+      "reason": "內容",
+      "matched_rule": "API|JOB|排程|Webhook|webhook|Redis|資料庫|DB|SP|SQL|Sonarqube|SonarQube|架構|效能|快取|SSO|登入|login|登出|Session|Token|OTP|手機驗證|綁定|LIFF|LINE|Line SDK|AI助手|AI 摘要|聊天室|聊天|訊息|SignalR|Hub|Log|LOG|錯誤|異常|重構|版本|版號|環境|權限|元件|UI|前端|後端|資料遮蔽|個資|密碼|白名單|網址|LDAP|nginx|IP|int\\s*溢位|table|欄位|container|appsettings|DAO|Facade|依賴注入|FUGO|用戶狀態|事件紀錄|測試框架|電話隱碼|資料表|Controller|Model"
+    },
+    "42666": {
+      "page": "直播設定",
+      "url": "/Stream",
+      "reason": "標題",
+      "matched_rule": "直播|見面會|直播設定|直播活動|LIFF活動頁|Stream"
+    },
+    "42650": {
+      "page": "客戶名單檢查",
+      "url": "/CustomerCheck",
+      "reason": "標題",
+      "matched_rule": "客戶名單檢查|客戶檢查|CustomerCheck"
+    },
+    "42649": {
+      "page": "客戶名單檢查",
+      "url": "/CustomerCheck",
+      "reason": "標題",
+      "matched_rule": "客戶名單檢查|客戶檢查|CustomerCheck"
+    },
+    "42646": {
+      "page": "直播設定",
+      "url": "/Stream",
+      "reason": "標題",
+      "matched_rule": "直播|見面會|直播設定|直播活動|LIFF活動頁|Stream"
+    },
+    "42642": {
+      "page": "受眾管理",
+      "url": "/Audience",
+      "reason": "標題",
+      "matched_rule": "受眾|分眾|Audience"
+    },
+    "42639": {
+      "page": "非頁面／共用功能",
+      "url": "",
+      "reason": "標題",
+      "matched_rule": "API|JOB|排程|Webhook|webhook|Redis|資料庫|DB|SP|SQL|Sonarqube|SonarQube|架構|效能|快取|SSO|登入|login|登出|Session|Token|OTP|手機驗證|綁定|LIFF|LINE|Line SDK|AI助手|AI 摘要|聊天室|聊天|訊息|SignalR|Hub|Log|LOG|錯誤|異常|重構|版本|版號|環境|權限|元件|UI|前端|後端|資料遮蔽|個資|密碼|白名單|網址|LDAP|nginx|IP|int\\s*溢位|table|欄位|container|appsettings|DAO|Facade|依賴注入|FUGO|用戶狀態|事件紀錄|測試框架|電話隱碼|資料表|Controller|Model"
+    },
+    "42637": {
+      "page": "非頁面／共用功能",
+      "url": "",
+      "reason": "標題",
+      "matched_rule": "API|JOB|排程|Webhook|webhook|Redis|資料庫|DB|SP|SQL|Sonarqube|SonarQube|架構|效能|快取|SSO|登入|login|登出|Session|Token|OTP|手機驗證|綁定|LIFF|LINE|Line SDK|AI助手|AI 摘要|聊天室|聊天|訊息|SignalR|Hub|Log|LOG|錯誤|異常|重構|版本|版號|環境|權限|元件|UI|前端|後端|資料遮蔽|個資|密碼|白名單|網址|LDAP|nginx|IP|int\\s*溢位|table|欄位|container|appsettings|DAO|Facade|依賴注入|FUGO|用戶狀態|事件紀錄|測試框架|電話隱碼|資料表|Controller|Model"
+    },
+    "42609": {
+      "page": "受眾管理",
+      "url": "/Audience",
+      "reason": "標題",
+      "matched_rule": "受眾|分眾|Audience"
+    },
+    "42608": {
+      "page": "遊戲管理",
+      "url": "/GameManage",
+      "reason": "標題",
+      "matched_rule": "遊戲|抽獎|刮刮卡|搖搖樂|獎項|GameManage"
+    },
+    "42590": {
+      "page": "非頁面／共用功能",
+      "url": "",
+      "reason": "標題",
+      "matched_rule": "API|JOB|排程|Webhook|webhook|Redis|資料庫|DB|SP|SQL|Sonarqube|SonarQube|架構|效能|快取|SSO|登入|login|登出|Session|Token|OTP|手機驗證|綁定|LIFF|LINE|Line SDK|AI助手|AI 摘要|聊天室|聊天|訊息|SignalR|Hub|Log|LOG|錯誤|異常|重構|版本|版號|環境|權限|元件|UI|前端|後端|資料遮蔽|個資|密碼|白名單|網址|LDAP|nginx|IP|int\\s*溢位|table|欄位|container|appsettings|DAO|Facade|依賴注入|FUGO|用戶狀態|事件紀錄|測試框架|電話隱碼|資料表|Controller|Model"
+    },
+    "42585": {
+      "page": "非頁面／共用功能",
+      "url": "",
+      "reason": "標題",
+      "matched_rule": "API|JOB|排程|Webhook|webhook|Redis|資料庫|DB|SP|SQL|Sonarqube|SonarQube|架構|效能|快取|SSO|登入|login|登出|Session|Token|OTP|手機驗證|綁定|LIFF|LINE|Line SDK|AI助手|AI 摘要|聊天室|聊天|訊息|SignalR|Hub|Log|LOG|錯誤|異常|重構|版本|版號|環境|權限|元件|UI|前端|後端|資料遮蔽|個資|密碼|白名單|網址|LDAP|nginx|IP|int\\s*溢位|table|欄位|container|appsettings|DAO|Facade|依賴注入|FUGO|用戶狀態|事件紀錄|測試框架|電話隱碼|資料表|Controller|Model"
+    },
+    "42529": {
+      "page": "模板訊息",
+      "url": "/Combo",
+      "reason": "標題",
+      "matched_rule": "模板|模板訊息|模板設定|模板素材|Combo"
+    },
+    "42507": {
+      "page": "遊戲管理",
+      "url": "/GameManage",
+      "reason": "標題",
+      "matched_rule": "遊戲|抽獎|刮刮卡|搖搖樂|獎項|GameManage"
+    },
+    "42486": {
+      "page": "簽到活動管理",
+      "url": "/CheckIn",
+      "reason": "標題",
+      "matched_rule": "簽到|報到|印章|CheckIn"
+    },
+    "42485": {
+      "page": "簽到活動管理",
+      "url": "/CheckIn",
+      "reason": "標題",
+      "matched_rule": "簽到|報到|印章|CheckIn"
+    },
+    "42433": {
+      "page": "非頁面／共用功能",
+      "url": "",
+      "reason": "標題",
+      "matched_rule": "API|JOB|排程|Webhook|webhook|Redis|資料庫|DB|SP|SQL|Sonarqube|SonarQube|架構|效能|快取|SSO|登入|login|登出|Session|Token|OTP|手機驗證|綁定|LIFF|LINE|Line SDK|AI助手|AI 摘要|聊天室|聊天|訊息|SignalR|Hub|Log|LOG|錯誤|異常|重構|版本|版號|環境|權限|元件|UI|前端|後端|資料遮蔽|個資|密碼|白名單|網址|LDAP|nginx|IP|int\\s*溢位|table|欄位|container|appsettings|DAO|Facade|依賴注入|FUGO|用戶狀態|事件紀錄|測試框架|電話隱碼|資料表|Controller|Model"
+    },
+    "42416": {
+      "page": "簽到活動管理",
+      "url": "/CheckIn",
+      "reason": "標題",
+      "matched_rule": "簽到|報到|印章|CheckIn"
+    },
+    "42407": {
+      "page": "客戶管理",
+      "url": "/Customer",
+      "reason": "內容",
+      "matched_rule": "客戶管理|修改客戶|客戶資料|客戶手機|會員資料|Customer"
+    },
+    "42395": {
+      "page": "模板訊息",
+      "url": "/Combo",
+      "reason": "標題",
+      "matched_rule": "模板|模板訊息|模板設定|模板素材|Combo"
+    },
+    "42390": {
+      "page": "遊戲管理",
+      "url": "/GameManage",
+      "reason": "標題",
+      "matched_rule": "遊戲|抽獎|刮刮卡|搖搖樂|獎項|GameManage"
+    },
+    "42367": {
+      "page": "遊戲管理",
+      "url": "/GameManage",
+      "reason": "標題",
+      "matched_rule": "遊戲|抽獎|刮刮卡|搖搖樂|獎項|GameManage"
+    },
+    "42366": {
+      "page": "遊戲管理",
+      "url": "/GameManage",
+      "reason": "標題",
+      "matched_rule": "遊戲|抽獎|刮刮卡|搖搖樂|獎項|GameManage"
+    },
+    "42365": {
+      "page": "照片合成功能",
+      "url": "/FrameMergeActivity",
+      "reason": "標題",
+      "matched_rule": "照片合成|合成圖片|同框照|新年圖片|FrameMerge"
+    },
+    "42364": {
+      "page": "模板訊息",
+      "url": "/Combo",
+      "reason": "標題",
+      "matched_rule": "模板|模板訊息|模板設定|模板素材|Combo"
+    },
+    "42354": {
+      "page": "直播設定",
+      "url": "/Stream",
+      "reason": "標題",
+      "matched_rule": "直播|見面會|直播設定|直播活動|LIFF活動頁|Stream"
+    },
+    "42339": {
+      "page": "非頁面／共用功能",
+      "url": "",
+      "reason": "標題",
+      "matched_rule": "API|JOB|排程|Webhook|webhook|Redis|資料庫|DB|SP|SQL|Sonarqube|SonarQube|架構|效能|快取|SSO|登入|login|登出|Session|Token|OTP|手機驗證|綁定|LIFF|LINE|Line SDK|AI助手|AI 摘要|聊天室|聊天|訊息|SignalR|Hub|Log|LOG|錯誤|異常|重構|版本|版號|環境|權限|元件|UI|前端|後端|資料遮蔽|個資|密碼|白名單|網址|LDAP|nginx|IP|int\\s*溢位|table|欄位|container|appsettings|DAO|Facade|依賴注入|FUGO|用戶狀態|事件紀錄|測試框架|電話隱碼|資料表|Controller|Model"
+    },
+    "42302": {
+      "page": "圖庫",
+      "url": "/Gallery",
+      "reason": "標題",
+      "matched_rule": "圖庫|圖片庫|圖庫管理|縮圖|FaceAI|Gallery"
+    },
+    "42282": {
+      "page": "非頁面／共用功能",
+      "url": "",
+      "reason": "標題",
+      "matched_rule": "API|JOB|排程|Webhook|webhook|Redis|資料庫|DB|SP|SQL|Sonarqube|SonarQube|架構|效能|快取|SSO|登入|login|登出|Session|Token|OTP|手機驗證|綁定|LIFF|LINE|Line SDK|AI助手|AI 摘要|聊天室|聊天|訊息|SignalR|Hub|Log|LOG|錯誤|異常|重構|版本|版號|環境|權限|元件|UI|前端|後端|資料遮蔽|個資|密碼|白名單|網址|LDAP|nginx|IP|int\\s*溢位|table|欄位|container|appsettings|DAO|Facade|依賴注入|FUGO|用戶狀態|事件紀錄|測試框架|電話隱碼|資料表|Controller|Model"
+    },
+    "42251": {
+      "page": "模板訊息",
+      "url": "/Combo",
+      "reason": "標題",
+      "matched_rule": "模板|模板訊息|模板設定|模板素材|Combo"
+    },
+    "42214": {
+      "page": "非頁面／共用功能",
+      "url": "",
+      "reason": "內容",
+      "matched_rule": "API|JOB|排程|Webhook|webhook|Redis|資料庫|DB|SP|SQL|Sonarqube|SonarQube|架構|效能|快取|SSO|登入|login|登出|Session|Token|OTP|手機驗證|綁定|LIFF|LINE|Line SDK|AI助手|AI 摘要|聊天室|聊天|訊息|SignalR|Hub|Log|LOG|錯誤|異常|重構|版本|版號|環境|權限|元件|UI|前端|後端|資料遮蔽|個資|密碼|白名單|網址|LDAP|nginx|IP|int\\s*溢位|table|欄位|container|appsettings|DAO|Facade|依賴注入|FUGO|用戶狀態|事件紀錄|測試框架|電話隱碼|資料表|Controller|Model"
+    },
+    "42196": {
+      "page": "模板訊息",
+      "url": "/Combo",
+      "reason": "標題",
+      "matched_rule": "模板|模板訊息|模板設定|模板素材|Combo"
+    },
+    "42194": {
+      "page": "直播設定",
+      "url": "/Stream",
+      "reason": "標題",
+      "matched_rule": "直播|見面會|直播設定|直播活動|LIFF活動頁|Stream"
+    },
+    "42177": {
+      "page": "非頁面／共用功能",
+      "url": "",
+      "reason": "內容",
+      "matched_rule": "API|JOB|排程|Webhook|webhook|Redis|資料庫|DB|SP|SQL|Sonarqube|SonarQube|架構|效能|快取|SSO|登入|login|登出|Session|Token|OTP|手機驗證|綁定|LIFF|LINE|Line SDK|AI助手|AI 摘要|聊天室|聊天|訊息|SignalR|Hub|Log|LOG|錯誤|異常|重構|版本|版號|環境|權限|元件|UI|前端|後端|資料遮蔽|個資|密碼|白名單|網址|LDAP|nginx|IP|int\\s*溢位|table|欄位|container|appsettings|DAO|Facade|依賴注入|FUGO|用戶狀態|事件紀錄|測試框架|電話隱碼|資料表|Controller|Model"
+    },
+    "42175": {
+      "page": "非頁面／共用功能",
+      "url": "",
+      "reason": "標題",
+      "matched_rule": "API|JOB|排程|Webhook|webhook|Redis|資料庫|DB|SP|SQL|Sonarqube|SonarQube|架構|效能|快取|SSO|登入|login|登出|Session|Token|OTP|手機驗證|綁定|LIFF|LINE|Line SDK|AI助手|AI 摘要|聊天室|聊天|訊息|SignalR|Hub|Log|LOG|錯誤|異常|重構|版本|版號|環境|權限|元件|UI|前端|後端|資料遮蔽|個資|密碼|白名單|網址|LDAP|nginx|IP|int\\s*溢位|table|欄位|container|appsettings|DAO|Facade|依賴注入|FUGO|用戶狀態|事件紀錄|測試框架|電話隱碼|資料表|Controller|Model"
+    },
+    "42173": {
+      "page": "非頁面／共用功能",
+      "url": "",
+      "reason": "標題",
+      "matched_rule": "API|JOB|排程|Webhook|webhook|Redis|資料庫|DB|SP|SQL|Sonarqube|SonarQube|架構|效能|快取|SSO|登入|login|登出|Session|Token|OTP|手機驗證|綁定|LIFF|LINE|Line SDK|AI助手|AI 摘要|聊天室|聊天|訊息|SignalR|Hub|Log|LOG|錯誤|異常|重構|版本|版號|環境|權限|元件|UI|前端|後端|資料遮蔽|個資|密碼|白名單|網址|LDAP|nginx|IP|int\\s*溢位|table|欄位|container|appsettings|DAO|Facade|依賴注入|FUGO|用戶狀態|事件紀錄|測試框架|電話隱碼|資料表|Controller|Model"
+    },
+    "42172": {
+      "page": "直播設定",
+      "url": "/Stream",
+      "reason": "標題",
+      "matched_rule": "直播|見面會|直播設定|直播活動|LIFF活動頁|Stream"
+    },
+    "42170": {
+      "page": "直播設定",
+      "url": "/Stream",
+      "reason": "標題",
+      "matched_rule": "直播|見面會|直播設定|直播活動|LIFF活動頁|Stream"
+    },
+    "42164": {
+      "page": "照片合成功能",
+      "url": "/FrameMergeActivity",
+      "reason": "標題",
+      "matched_rule": "照片合成|合成圖片|同框照|新年圖片|FrameMerge"
+    },
+    "42161": {
+      "page": "直播設定",
+      "url": "/Stream",
+      "reason": "標題",
+      "matched_rule": "直播|見面會|直播設定|直播活動|LIFF活動頁|Stream"
+    },
+    "42160": {
+      "page": "直播設定",
+      "url": "/Stream",
+      "reason": "標題",
+      "matched_rule": "直播|見面會|直播設定|直播活動|LIFF活動頁|Stream"
+    },
+    "42159": {
+      "page": "直播設定",
+      "url": "/Stream",
+      "reason": "標題",
+      "matched_rule": "直播|見面會|直播設定|直播活動|LIFF活動頁|Stream"
+    },
+    "42158": {
+      "page": "直播設定",
+      "url": "/Stream",
+      "reason": "標題",
+      "matched_rule": "直播|見面會|直播設定|直播活動|LIFF活動頁|Stream"
+    },
+    "42128": {
+      "page": "受眾管理",
+      "url": "/Audience",
+      "reason": "標題",
+      "matched_rule": "受眾|分眾|Audience"
+    },
+    "42126": {
+      "page": "受眾管理",
+      "url": "/Audience",
+      "reason": "標題",
+      "matched_rule": "受眾|分眾|Audience"
+    },
+    "42119": {
+      "page": "受眾管理",
+      "url": "/Audience",
+      "reason": "標題",
+      "matched_rule": "受眾|分眾|Audience"
+    },
+    "42104": {
+      "page": "受眾管理",
+      "url": "/Audience",
+      "reason": "標題",
+      "matched_rule": "受眾|分眾|Audience"
+    },
+    "42103": {
+      "page": "非頁面／共用功能",
+      "url": "",
+      "reason": "標題",
+      "matched_rule": "API|JOB|排程|Webhook|webhook|Redis|資料庫|DB|SP|SQL|Sonarqube|SonarQube|架構|效能|快取|SSO|登入|login|登出|Session|Token|OTP|手機驗證|綁定|LIFF|LINE|Line SDK|AI助手|AI 摘要|聊天室|聊天|訊息|SignalR|Hub|Log|LOG|錯誤|異常|重構|版本|版號|環境|權限|元件|UI|前端|後端|資料遮蔽|個資|密碼|白名單|網址|LDAP|nginx|IP|int\\s*溢位|table|欄位|container|appsettings|DAO|Facade|依賴注入|FUGO|用戶狀態|事件紀錄|測試框架|電話隱碼|資料表|Controller|Model"
+    },
+    "42102": {
+      "page": "非頁面／共用功能",
+      "url": "",
+      "reason": "標題",
+      "matched_rule": "API|JOB|排程|Webhook|webhook|Redis|資料庫|DB|SP|SQL|Sonarqube|SonarQube|架構|效能|快取|SSO|登入|login|登出|Session|Token|OTP|手機驗證|綁定|LIFF|LINE|Line SDK|AI助手|AI 摘要|聊天室|聊天|訊息|SignalR|Hub|Log|LOG|錯誤|異常|重構|版本|版號|環境|權限|元件|UI|前端|後端|資料遮蔽|個資|密碼|白名單|網址|LDAP|nginx|IP|int\\s*溢位|table|欄位|container|appsettings|DAO|Facade|依賴注入|FUGO|用戶狀態|事件紀錄|測試框架|電話隱碼|資料表|Controller|Model"
+    },
+    "42099": {
+      "page": "非頁面／共用功能",
+      "url": "",
+      "reason": "標題",
+      "matched_rule": "API|JOB|排程|Webhook|webhook|Redis|資料庫|DB|SP|SQL|Sonarqube|SonarQube|架構|效能|快取|SSO|登入|login|登出|Session|Token|OTP|手機驗證|綁定|LIFF|LINE|Line SDK|AI助手|AI 摘要|聊天室|聊天|訊息|SignalR|Hub|Log|LOG|錯誤|異常|重構|版本|版號|環境|權限|元件|UI|前端|後端|資料遮蔽|個資|密碼|白名單|網址|LDAP|nginx|IP|int\\s*溢位|table|欄位|container|appsettings|DAO|Facade|依賴注入|FUGO|用戶狀態|事件紀錄|測試框架|電話隱碼|資料表|Controller|Model"
+    },
+    "42062": {
+      "page": "待人工確認頁面",
+      "url": "",
+      "reason": "未命中規則",
+      "matched_rule": ""
+    },
+    "42029": {
+      "page": "遊戲管理",
+      "url": "/GameManage",
+      "reason": "標題",
+      "matched_rule": "遊戲|抽獎|刮刮卡|搖搖樂|獎項|GameManage"
+    },
+    "42009": {
+      "page": "非頁面／共用功能",
+      "url": "",
+      "reason": "標題",
+      "matched_rule": "API|JOB|排程|Webhook|webhook|Redis|資料庫|DB|SP|SQL|Sonarqube|SonarQube|架構|效能|快取|SSO|登入|login|登出|Session|Token|OTP|手機驗證|綁定|LIFF|LINE|Line SDK|AI助手|AI 摘要|聊天室|聊天|訊息|SignalR|Hub|Log|LOG|錯誤|異常|重構|版本|版號|環境|權限|元件|UI|前端|後端|資料遮蔽|個資|密碼|白名單|網址|LDAP|nginx|IP|int\\s*溢位|table|欄位|container|appsettings|DAO|Facade|依賴注入|FUGO|用戶狀態|事件紀錄|測試框架|電話隱碼|資料表|Controller|Model"
+    },
+    "41978": {
+      "page": "非頁面／共用功能",
+      "url": "",
+      "reason": "標題",
+      "matched_rule": "API|JOB|排程|Webhook|webhook|Redis|資料庫|DB|SP|SQL|Sonarqube|SonarQube|架構|效能|快取|SSO|登入|login|登出|Session|Token|OTP|手機驗證|綁定|LIFF|LINE|Line SDK|AI助手|AI 摘要|聊天室|聊天|訊息|SignalR|Hub|Log|LOG|錯誤|異常|重構|版本|版號|環境|權限|元件|UI|前端|後端|資料遮蔽|個資|密碼|白名單|網址|LDAP|nginx|IP|int\\s*溢位|table|欄位|container|appsettings|DAO|Facade|依賴注入|FUGO|用戶狀態|事件紀錄|測試框架|電話隱碼|資料表|Controller|Model"
+    },
+    "41966": {
+      "page": "非頁面／共用功能",
+      "url": "",
+      "reason": "標題",
+      "matched_rule": "API|JOB|排程|Webhook|webhook|Redis|資料庫|DB|SP|SQL|Sonarqube|SonarQube|架構|效能|快取|SSO|登入|login|登出|Session|Token|OTP|手機驗證|綁定|LIFF|LINE|Line SDK|AI助手|AI 摘要|聊天室|聊天|訊息|SignalR|Hub|Log|LOG|錯誤|異常|重構|版本|版號|環境|權限|元件|UI|前端|後端|資料遮蔽|個資|密碼|白名單|網址|LDAP|nginx|IP|int\\s*溢位|table|欄位|container|appsettings|DAO|Facade|依賴注入|FUGO|用戶狀態|事件紀錄|測試框架|電話隱碼|資料表|Controller|Model"
+    },
+    "41965": {
+      "page": "非頁面／共用功能",
+      "url": "",
+      "reason": "標題",
+      "matched_rule": "API|JOB|排程|Webhook|webhook|Redis|資料庫|DB|SP|SQL|Sonarqube|SonarQube|架構|效能|快取|SSO|登入|login|登出|Session|Token|OTP|手機驗證|綁定|LIFF|LINE|Line SDK|AI助手|AI 摘要|聊天室|聊天|訊息|SignalR|Hub|Log|LOG|錯誤|異常|重構|版本|版號|環境|權限|元件|UI|前端|後端|資料遮蔽|個資|密碼|白名單|網址|LDAP|nginx|IP|int\\s*溢位|table|欄位|container|appsettings|DAO|Facade|依賴注入|FUGO|用戶狀態|事件紀錄|測試框架|電話隱碼|資料表|Controller|Model"
+    },
+    "41964": {
+      "page": "非頁面／共用功能",
+      "url": "",
+      "reason": "標題",
+      "matched_rule": "API|JOB|排程|Webhook|webhook|Redis|資料庫|DB|SP|SQL|Sonarqube|SonarQube|架構|效能|快取|SSO|登入|login|登出|Session|Token|OTP|手機驗證|綁定|LIFF|LINE|Line SDK|AI助手|AI 摘要|聊天室|聊天|訊息|SignalR|Hub|Log|LOG|錯誤|異常|重構|版本|版號|環境|權限|元件|UI|前端|後端|資料遮蔽|個資|密碼|白名單|網址|LDAP|nginx|IP|int\\s*溢位|table|欄位|container|appsettings|DAO|Facade|依賴注入|FUGO|用戶狀態|事件紀錄|測試框架|電話隱碼|資料表|Controller|Model"
+    },
+    "41949": {
+      "page": "遊戲管理",
+      "url": "/GameManage",
+      "reason": "標題",
+      "matched_rule": "遊戲|抽獎|刮刮卡|搖搖樂|獎項|GameManage"
+    },
+    "41920": {
+      "page": "非頁面／共用功能",
+      "url": "",
+      "reason": "標題",
+      "matched_rule": "API|JOB|排程|Webhook|webhook|Redis|資料庫|DB|SP|SQL|Sonarqube|SonarQube|架構|效能|快取|SSO|登入|login|登出|Session|Token|OTP|手機驗證|綁定|LIFF|LINE|Line SDK|AI助手|AI 摘要|聊天室|聊天|訊息|SignalR|Hub|Log|LOG|錯誤|異常|重構|版本|版號|環境|權限|元件|UI|前端|後端|資料遮蔽|個資|密碼|白名單|網址|LDAP|nginx|IP|int\\s*溢位|table|欄位|container|appsettings|DAO|Facade|依賴注入|FUGO|用戶狀態|事件紀錄|測試框架|電話隱碼|資料表|Controller|Model"
+    },
+    "41913": {
+      "page": "指派",
+      "url": "/Assign",
+      "reason": "標題",
+      "matched_rule": "指派|派線|轉接|分配客戶|客服分流|Assign"
+    },
+    "41911": {
+      "page": "非頁面／共用功能",
+      "url": "",
+      "reason": "標題",
+      "matched_rule": "API|JOB|排程|Webhook|webhook|Redis|資料庫|DB|SP|SQL|Sonarqube|SonarQube|架構|效能|快取|SSO|登入|login|登出|Session|Token|OTP|手機驗證|綁定|LIFF|LINE|Line SDK|AI助手|AI 摘要|聊天室|聊天|訊息|SignalR|Hub|Log|LOG|錯誤|異常|重構|版本|版號|環境|權限|元件|UI|前端|後端|資料遮蔽|個資|密碼|白名單|網址|LDAP|nginx|IP|int\\s*溢位|table|欄位|container|appsettings|DAO|Facade|依賴注入|FUGO|用戶狀態|事件紀錄|測試框架|電話隱碼|資料表|Controller|Model"
+    },
+    "41910": {
+      "page": "指派",
+      "url": "/Assign",
+      "reason": "標題",
+      "matched_rule": "指派|派線|轉接|分配客戶|客服分流|Assign"
+    },
+    "41882": {
+      "page": "直播設定",
+      "url": "/Stream",
+      "reason": "標題",
+      "matched_rule": "直播|見面會|直播設定|直播活動|LIFF活動頁|Stream"
+    },
+    "41881": {
+      "page": "直播設定",
+      "url": "/Stream",
+      "reason": "標題",
+      "matched_rule": "直播|見面會|直播設定|直播活動|LIFF活動頁|Stream"
+    },
+    "41880": {
+      "page": "直播設定",
+      "url": "/Stream",
+      "reason": "標題",
+      "matched_rule": "直播|見面會|直播設定|直播活動|LIFF活動頁|Stream"
+    },
+    "41877": {
+      "page": "受眾管理",
+      "url": "/Audience",
+      "reason": "標題",
+      "matched_rule": "受眾|分眾|Audience"
+    },
+    "41875": {
+      "page": "受眾管理",
+      "url": "/Audience",
+      "reason": "標題",
+      "matched_rule": "受眾|分眾|Audience"
+    },
+    "41874": {
+      "page": "受眾管理",
+      "url": "/Audience",
+      "reason": "標題",
+      "matched_rule": "受眾|分眾|Audience"
+    },
+    "41873": {
+      "page": "受眾管理",
+      "url": "/Audience",
+      "reason": "標題",
+      "matched_rule": "受眾|分眾|Audience"
+    },
+    "41872": {
+      "page": "直播設定",
+      "url": "/Stream",
+      "reason": "標題",
+      "matched_rule": "直播|見面會|直播設定|直播活動|LIFF活動頁|Stream"
+    },
+    "41841": {
+      "page": "模板訊息",
+      "url": "/Combo",
+      "reason": "標題",
+      "matched_rule": "模板|模板訊息|模板設定|模板素材|Combo"
+    },
+    "41814": {
+      "page": "客戶管理",
+      "url": "/Customer",
+      "reason": "標題",
+      "matched_rule": "客戶管理|修改客戶|客戶資料|客戶手機|會員資料|Customer"
+    },
+    "41800": {
+      "page": "客戶管理",
+      "url": "/Customer",
+      "reason": "標題",
+      "matched_rule": "客戶管理|修改客戶|客戶資料|客戶手機|會員資料|Customer"
+    },
+    "41787": {
+      "page": "非頁面／共用功能",
+      "url": "",
+      "reason": "標題",
+      "matched_rule": "API|JOB|排程|Webhook|webhook|Redis|資料庫|DB|SP|SQL|Sonarqube|SonarQube|架構|效能|快取|SSO|登入|login|登出|Session|Token|OTP|手機驗證|綁定|LIFF|LINE|Line SDK|AI助手|AI 摘要|聊天室|聊天|訊息|SignalR|Hub|Log|LOG|錯誤|異常|重構|版本|版號|環境|權限|元件|UI|前端|後端|資料遮蔽|個資|密碼|白名單|網址|LDAP|nginx|IP|int\\s*溢位|table|欄位|container|appsettings|DAO|Facade|依賴注入|FUGO|用戶狀態|事件紀錄|測試框架|電話隱碼|資料表|Controller|Model"
+    },
+    "41781": {
+      "page": "客戶管理",
+      "url": "/Customer",
+      "reason": "標題",
+      "matched_rule": "客戶管理|修改客戶|客戶資料|客戶手機|會員資料|Customer"
+    },
+    "41754": {
+      "page": "非頁面／共用功能",
+      "url": "",
+      "reason": "標題",
+      "matched_rule": "API|JOB|排程|Webhook|webhook|Redis|資料庫|DB|SP|SQL|Sonarqube|SonarQube|架構|效能|快取|SSO|登入|login|登出|Session|Token|OTP|手機驗證|綁定|LIFF|LINE|Line SDK|AI助手|AI 摘要|聊天室|聊天|訊息|SignalR|Hub|Log|LOG|錯誤|異常|重構|版本|版號|環境|權限|元件|UI|前端|後端|資料遮蔽|個資|密碼|白名單|網址|LDAP|nginx|IP|int\\s*溢位|table|欄位|container|appsettings|DAO|Facade|依賴注入|FUGO|用戶狀態|事件紀錄|測試框架|電話隱碼|資料表|Controller|Model"
+    },
+    "41752": {
+      "page": "直播設定",
+      "url": "/Stream",
+      "reason": "標題",
+      "matched_rule": "直播|見面會|直播設定|直播活動|LIFF活動頁|Stream"
+    },
+    "41751": {
+      "page": "直播設定",
+      "url": "/Stream",
+      "reason": "標題",
+      "matched_rule": "直播|見面會|直播設定|直播活動|LIFF活動頁|Stream"
+    },
+    "41750": {
+      "page": "直播設定",
+      "url": "/Stream",
+      "reason": "標題",
+      "matched_rule": "直播|見面會|直播設定|直播活動|LIFF活動頁|Stream"
+    },
+    "41749": {
+      "page": "直播設定",
+      "url": "/Stream",
+      "reason": "標題",
+      "matched_rule": "直播|見面會|直播設定|直播活動|LIFF活動頁|Stream"
+    },
+    "41738": {
+      "page": "直播設定",
+      "url": "/Stream",
+      "reason": "標題",
+      "matched_rule": "直播|見面會|直播設定|直播活動|LIFF活動頁|Stream"
+    },
+    "41737": {
+      "page": "直播設定",
+      "url": "/Stream",
+      "reason": "標題",
+      "matched_rule": "直播|見面會|直播設定|直播活動|LIFF活動頁|Stream"
+    },
+    "41734": {
+      "page": "模板訊息",
+      "url": "/Combo",
+      "reason": "標題",
+      "matched_rule": "模板|模板訊息|模板設定|模板素材|Combo"
+    },
+    "41702": {
+      "page": "非頁面／共用功能",
+      "url": "",
+      "reason": "標題",
+      "matched_rule": "API|JOB|排程|Webhook|webhook|Redis|資料庫|DB|SP|SQL|Sonarqube|SonarQube|架構|效能|快取|SSO|登入|login|登出|Session|Token|OTP|手機驗證|綁定|LIFF|LINE|Line SDK|AI助手|AI 摘要|聊天室|聊天|訊息|SignalR|Hub|Log|LOG|錯誤|異常|重構|版本|版號|環境|權限|元件|UI|前端|後端|資料遮蔽|個資|密碼|白名單|網址|LDAP|nginx|IP|int\\s*溢位|table|欄位|container|appsettings|DAO|Facade|依賴注入|FUGO|用戶狀態|事件紀錄|測試框架|電話隱碼|資料表|Controller|Model"
+    },
+    "41655": {
+      "page": "照片合成功能",
+      "url": "/FrameMergeActivity",
+      "reason": "標題",
+      "matched_rule": "照片合成|合成圖片|同框照|新年圖片|FrameMerge"
+    },
+    "41560": {
+      "page": "非頁面／共用功能",
+      "url": "",
+      "reason": "標題",
+      "matched_rule": "API|JOB|排程|Webhook|webhook|Redis|資料庫|DB|SP|SQL|Sonarqube|SonarQube|架構|效能|快取|SSO|登入|login|登出|Session|Token|OTP|手機驗證|綁定|LIFF|LINE|Line SDK|AI助手|AI 摘要|聊天室|聊天|訊息|SignalR|Hub|Log|LOG|錯誤|異常|重構|版本|版號|環境|權限|元件|UI|前端|後端|資料遮蔽|個資|密碼|白名單|網址|LDAP|nginx|IP|int\\s*溢位|table|欄位|container|appsettings|DAO|Facade|依賴注入|FUGO|用戶狀態|事件紀錄|測試框架|電話隱碼|資料表|Controller|Model"
+    },
+    "41508": {
+      "page": "非頁面／共用功能",
+      "url": "",
+      "reason": "標題",
+      "matched_rule": "API|JOB|排程|Webhook|webhook|Redis|資料庫|DB|SP|SQL|Sonarqube|SonarQube|架構|效能|快取|SSO|登入|login|登出|Session|Token|OTP|手機驗證|綁定|LIFF|LINE|Line SDK|AI助手|AI 摘要|聊天室|聊天|訊息|SignalR|Hub|Log|LOG|錯誤|異常|重構|版本|版號|環境|權限|元件|UI|前端|後端|資料遮蔽|個資|密碼|白名單|網址|LDAP|nginx|IP|int\\s*溢位|table|欄位|container|appsettings|DAO|Facade|依賴注入|FUGO|用戶狀態|事件紀錄|測試框架|電話隱碼|資料表|Controller|Model"
+    },
+    "41474": {
+      "page": "非頁面／共用功能",
+      "url": "",
+      "reason": "標題",
+      "matched_rule": "API|JOB|排程|Webhook|webhook|Redis|資料庫|DB|SP|SQL|Sonarqube|SonarQube|架構|效能|快取|SSO|登入|login|登出|Session|Token|OTP|手機驗證|綁定|LIFF|LINE|Line SDK|AI助手|AI 摘要|聊天室|聊天|訊息|SignalR|Hub|Log|LOG|錯誤|異常|重構|版本|版號|環境|權限|元件|UI|前端|後端|資料遮蔽|個資|密碼|白名單|網址|LDAP|nginx|IP|int\\s*溢位|table|欄位|container|appsettings|DAO|Facade|依賴注入|FUGO|用戶狀態|事件紀錄|測試框架|電話隱碼|資料表|Controller|Model"
+    },
+    "41473": {
+      "page": "照片合成功能",
+      "url": "/FrameMergeActivity",
+      "reason": "標題",
+      "matched_rule": "照片合成|合成圖片|同框照|新年圖片|FrameMerge"
+    },
+    "41472": {
+      "page": "照片合成功能",
+      "url": "/FrameMergeActivity",
+      "reason": "標題",
+      "matched_rule": "照片合成|合成圖片|同框照|新年圖片|FrameMerge"
+    },
+    "41451": {
+      "page": "遊戲管理",
+      "url": "/GameManage",
+      "reason": "標題",
+      "matched_rule": "遊戲|抽獎|刮刮卡|搖搖樂|獎項|GameManage"
+    },
+    "41426": {
+      "page": "離線訊息管理",
+      "url": "/LeaveMessages",
+      "reason": "標題",
+      "matched_rule": "離線訊息|離線留言|LeaveMessages"
+    },
+    "41381": {
+      "page": "非頁面／共用功能",
+      "url": "",
+      "reason": "標題",
+      "matched_rule": "API|JOB|排程|Webhook|webhook|Redis|資料庫|DB|SP|SQL|Sonarqube|SonarQube|架構|效能|快取|SSO|登入|login|登出|Session|Token|OTP|手機驗證|綁定|LIFF|LINE|Line SDK|AI助手|AI 摘要|聊天室|聊天|訊息|SignalR|Hub|Log|LOG|錯誤|異常|重構|版本|版號|環境|權限|元件|UI|前端|後端|資料遮蔽|個資|密碼|白名單|網址|LDAP|nginx|IP|int\\s*溢位|table|欄位|container|appsettings|DAO|Facade|依賴注入|FUGO|用戶狀態|事件紀錄|測試框架|電話隱碼|資料表|Controller|Model"
+    },
+    "41380": {
+      "page": "直播設定",
+      "url": "/Stream",
+      "reason": "標題",
+      "matched_rule": "直播|見面會|直播設定|直播活動|LIFF活動頁|Stream"
+    },
+    "41375": {
+      "page": "對話查詢",
+      "url": "/Dialog",
+      "reason": "標題",
+      "matched_rule": "對話查詢|歷史紀錄查詢|聊天歷史紀錄查詢|ElasticSearchAPI|Dialog"
+    },
+    "41360": {
+      "page": "直播設定",
+      "url": "/Stream",
+      "reason": "標題",
+      "matched_rule": "直播|見面會|直播設定|直播活動|LIFF活動頁|Stream"
+    },
+    "41359": {
+      "page": "直播設定",
+      "url": "/Stream",
+      "reason": "標題",
+      "matched_rule": "直播|見面會|直播設定|直播活動|LIFF活動頁|Stream"
+    },
+    "41351": {
+      "page": "非頁面／共用功能",
+      "url": "",
+      "reason": "內容",
+      "matched_rule": "API|JOB|排程|Webhook|webhook|Redis|資料庫|DB|SP|SQL|Sonarqube|SonarQube|架構|效能|快取|SSO|登入|login|登出|Session|Token|OTP|手機驗證|綁定|LIFF|LINE|Line SDK|AI助手|AI 摘要|聊天室|聊天|訊息|SignalR|Hub|Log|LOG|錯誤|異常|重構|版本|版號|環境|權限|元件|UI|前端|後端|資料遮蔽|個資|密碼|白名單|網址|LDAP|nginx|IP|int\\s*溢位|table|欄位|container|appsettings|DAO|Facade|依賴注入|FUGO|用戶狀態|事件紀錄|測試框架|電話隱碼|資料表|Controller|Model"
+    },
+    "41341": {
+      "page": "非頁面／共用功能",
+      "url": "",
+      "reason": "標題",
+      "matched_rule": "API|JOB|排程|Webhook|webhook|Redis|資料庫|DB|SP|SQL|Sonarqube|SonarQube|架構|效能|快取|SSO|登入|login|登出|Session|Token|OTP|手機驗證|綁定|LIFF|LINE|Line SDK|AI助手|AI 摘要|聊天室|聊天|訊息|SignalR|Hub|Log|LOG|錯誤|異常|重構|版本|版號|環境|權限|元件|UI|前端|後端|資料遮蔽|個資|密碼|白名單|網址|LDAP|nginx|IP|int\\s*溢位|table|欄位|container|appsettings|DAO|Facade|依賴注入|FUGO|用戶狀態|事件紀錄|測試框架|電話隱碼|資料表|Controller|Model"
+    },
+    "41327": {
+      "page": "直播設定",
+      "url": "/Stream",
+      "reason": "標題",
+      "matched_rule": "直播|見面會|直播設定|直播活動|LIFF活動頁|Stream"
+    },
+    "41322": {
+      "page": "直播設定",
+      "url": "/Stream",
+      "reason": "標題",
+      "matched_rule": "直播|見面會|直播設定|直播活動|LIFF活動頁|Stream"
+    },
+    "41320": {
+      "page": "直播設定",
+      "url": "/Stream",
+      "reason": "標題",
+      "matched_rule": "直播|見面會|直播設定|直播活動|LIFF活動頁|Stream"
+    },
+    "41297": {
+      "page": "直播設定",
+      "url": "/Stream",
+      "reason": "標題",
+      "matched_rule": "直播|見面會|直播設定|直播活動|LIFF活動頁|Stream"
+    },
+    "41294": {
+      "page": "直播設定",
+      "url": "/Stream",
+      "reason": "標題",
+      "matched_rule": "直播|見面會|直播設定|直播活動|LIFF活動頁|Stream"
+    },
+    "41291": {
+      "page": "直播設定",
+      "url": "/Stream",
+      "reason": "標題",
+      "matched_rule": "直播|見面會|直播設定|直播活動|LIFF活動頁|Stream"
+    },
+    "41290": {
+      "page": "直播設定",
+      "url": "/Stream",
+      "reason": "標題",
+      "matched_rule": "直播|見面會|直播設定|直播活動|LIFF活動頁|Stream"
+    },
+    "41286": {
+      "page": "非頁面／共用功能",
+      "url": "",
+      "reason": "標題",
+      "matched_rule": "API|JOB|排程|Webhook|webhook|Redis|資料庫|DB|SP|SQL|Sonarqube|SonarQube|架構|效能|快取|SSO|登入|login|登出|Session|Token|OTP|手機驗證|綁定|LIFF|LINE|Line SDK|AI助手|AI 摘要|聊天室|聊天|訊息|SignalR|Hub|Log|LOG|錯誤|異常|重構|版本|版號|環境|權限|元件|UI|前端|後端|資料遮蔽|個資|密碼|白名單|網址|LDAP|nginx|IP|int\\s*溢位|table|欄位|container|appsettings|DAO|Facade|依賴注入|FUGO|用戶狀態|事件紀錄|測試框架|電話隱碼|資料表|Controller|Model"
+    },
+    "41281": {
+      "page": "非頁面／共用功能",
+      "url": "",
+      "reason": "標題",
+      "matched_rule": "API|JOB|排程|Webhook|webhook|Redis|資料庫|DB|SP|SQL|Sonarqube|SonarQube|架構|效能|快取|SSO|登入|login|登出|Session|Token|OTP|手機驗證|綁定|LIFF|LINE|Line SDK|AI助手|AI 摘要|聊天室|聊天|訊息|SignalR|Hub|Log|LOG|錯誤|異常|重構|版本|版號|環境|權限|元件|UI|前端|後端|資料遮蔽|個資|密碼|白名單|網址|LDAP|nginx|IP|int\\s*溢位|table|欄位|container|appsettings|DAO|Facade|依賴注入|FUGO|用戶狀態|事件紀錄|測試框架|電話隱碼|資料表|Controller|Model"
+    },
+    "41273": {
+      "page": "非頁面／共用功能",
+      "url": "",
+      "reason": "標題",
+      "matched_rule": "API|JOB|排程|Webhook|webhook|Redis|資料庫|DB|SP|SQL|Sonarqube|SonarQube|架構|效能|快取|SSO|登入|login|登出|Session|Token|OTP|手機驗證|綁定|LIFF|LINE|Line SDK|AI助手|AI 摘要|聊天室|聊天|訊息|SignalR|Hub|Log|LOG|錯誤|異常|重構|版本|版號|環境|權限|元件|UI|前端|後端|資料遮蔽|個資|密碼|白名單|網址|LDAP|nginx|IP|int\\s*溢位|table|欄位|container|appsettings|DAO|Facade|依賴注入|FUGO|用戶狀態|事件紀錄|測試框架|電話隱碼|資料表|Controller|Model"
+    },
+    "41271": {
+      "page": "非頁面／共用功能",
+      "url": "",
+      "reason": "標題",
+      "matched_rule": "API|JOB|排程|Webhook|webhook|Redis|資料庫|DB|SP|SQL|Sonarqube|SonarQube|架構|效能|快取|SSO|登入|login|登出|Session|Token|OTP|手機驗證|綁定|LIFF|LINE|Line SDK|AI助手|AI 摘要|聊天室|聊天|訊息|SignalR|Hub|Log|LOG|錯誤|異常|重構|版本|版號|環境|權限|元件|UI|前端|後端|資料遮蔽|個資|密碼|白名單|網址|LDAP|nginx|IP|int\\s*溢位|table|欄位|container|appsettings|DAO|Facade|依賴注入|FUGO|用戶狀態|事件紀錄|測試框架|電話隱碼|資料表|Controller|Model"
+    },
+    "41254": {
+      "page": "商品維護",
+      "url": "/Product",
+      "reason": "標題",
+      "matched_rule": "商品維護|商品檔案|商品管理|Product"
+    },
+    "41245": {
+      "page": "直播設定",
+      "url": "/Stream",
+      "reason": "標題",
+      "matched_rule": "直播|見面會|直播設定|直播活動|LIFF活動頁|Stream"
+    },
+    "41244": {
+      "page": "非頁面／共用功能",
+      "url": "",
+      "reason": "內容",
+      "matched_rule": "API|JOB|排程|Webhook|webhook|Redis|資料庫|DB|SP|SQL|Sonarqube|SonarQube|架構|效能|快取|SSO|登入|login|登出|Session|Token|OTP|手機驗證|綁定|LIFF|LINE|Line SDK|AI助手|AI 摘要|聊天室|聊天|訊息|SignalR|Hub|Log|LOG|錯誤|異常|重構|版本|版號|環境|權限|元件|UI|前端|後端|資料遮蔽|個資|密碼|白名單|網址|LDAP|nginx|IP|int\\s*溢位|table|欄位|container|appsettings|DAO|Facade|依賴注入|FUGO|用戶狀態|事件紀錄|測試框架|電話隱碼|資料表|Controller|Model"
+    },
+    "41204": {
+      "page": "非頁面／共用功能",
+      "url": "",
+      "reason": "標題",
+      "matched_rule": "API|JOB|排程|Webhook|webhook|Redis|資料庫|DB|SP|SQL|Sonarqube|SonarQube|架構|效能|快取|SSO|登入|login|登出|Session|Token|OTP|手機驗證|綁定|LIFF|LINE|Line SDK|AI助手|AI 摘要|聊天室|聊天|訊息|SignalR|Hub|Log|LOG|錯誤|異常|重構|版本|版號|環境|權限|元件|UI|前端|後端|資料遮蔽|個資|密碼|白名單|網址|LDAP|nginx|IP|int\\s*溢位|table|欄位|container|appsettings|DAO|Facade|依賴注入|FUGO|用戶狀態|事件紀錄|測試框架|電話隱碼|資料表|Controller|Model"
+    },
+    "41193": {
+      "page": "客戶名單檢查",
+      "url": "/CustomerCheck",
+      "reason": "標題",
+      "matched_rule": "客戶名單檢查|客戶檢查|CustomerCheck"
+    },
+    "41192": {
+      "page": "統計資訊",
+      "url": "/Metrics",
+      "reason": "標題",
+      "matched_rule": "統計資訊|成效報表|會員統計|統計資料|下載報表|Metrics"
+    },
+    "41191": {
+      "page": "對話查詢",
+      "url": "/Dialog",
+      "reason": "標題",
+      "matched_rule": "對話查詢|歷史紀錄查詢|聊天歷史紀錄查詢|ElasticSearchAPI|Dialog"
+    },
+    "41185": {
+      "page": "待人工確認頁面",
+      "url": "",
+      "reason": "未命中規則",
+      "matched_rule": ""
+    },
+    "41184": {
+      "page": "待人工確認頁面",
+      "url": "",
+      "reason": "未命中規則",
+      "matched_rule": ""
+    },
+    "41183": {
+      "page": "客戶名單檢查",
+      "url": "/CustomerCheck",
+      "reason": "標題",
+      "matched_rule": "客戶名單檢查|客戶檢查|CustomerCheck"
+    },
+    "41135": {
+      "page": "遊戲管理",
+      "url": "/GameManage",
+      "reason": "標題",
+      "matched_rule": "遊戲|抽獎|刮刮卡|搖搖樂|獎項|GameManage"
+    },
+    "41134": {
+      "page": "遊戲管理",
+      "url": "/GameManage",
+      "reason": "標題",
+      "matched_rule": "遊戲|抽獎|刮刮卡|搖搖樂|獎項|GameManage"
+    },
+    "41131": {
+      "page": "直播設定",
+      "url": "/Stream",
+      "reason": "標題",
+      "matched_rule": "直播|見面會|直播設定|直播活動|LIFF活動頁|Stream"
+    },
+    "41130": {
+      "page": "直播設定",
+      "url": "/Stream",
+      "reason": "標題",
+      "matched_rule": "直播|見面會|直播設定|直播活動|LIFF活動頁|Stream"
+    },
+    "41127": {
+      "page": "直播設定",
+      "url": "/Stream",
+      "reason": "標題",
+      "matched_rule": "直播|見面會|直播設定|直播活動|LIFF活動頁|Stream"
+    },
+    "41126": {
+      "page": "遊戲管理",
+      "url": "/GameManage",
+      "reason": "標題",
+      "matched_rule": "遊戲|抽獎|刮刮卡|搖搖樂|獎項|GameManage"
+    },
+    "41125": {
+      "page": "遊戲管理",
+      "url": "/GameManage",
+      "reason": "標題",
+      "matched_rule": "遊戲|抽獎|刮刮卡|搖搖樂|獎項|GameManage"
+    },
+    "41120": {
+      "page": "直播設定",
+      "url": "/Stream",
+      "reason": "標題",
+      "matched_rule": "直播|見面會|直播設定|直播活動|LIFF活動頁|Stream"
+    },
+    "41112": {
+      "page": "遊戲管理",
+      "url": "/GameManage",
+      "reason": "標題",
+      "matched_rule": "遊戲|抽獎|刮刮卡|搖搖樂|獎項|GameManage"
+    },
+    "41080": {
+      "page": "非頁面／共用功能",
+      "url": "",
+      "reason": "標題",
+      "matched_rule": "API|JOB|排程|Webhook|webhook|Redis|資料庫|DB|SP|SQL|Sonarqube|SonarQube|架構|效能|快取|SSO|登入|login|登出|Session|Token|OTP|手機驗證|綁定|LIFF|LINE|Line SDK|AI助手|AI 摘要|聊天室|聊天|訊息|SignalR|Hub|Log|LOG|錯誤|異常|重構|版本|版號|環境|權限|元件|UI|前端|後端|資料遮蔽|個資|密碼|白名單|網址|LDAP|nginx|IP|int\\s*溢位|table|欄位|container|appsettings|DAO|Facade|依賴注入|FUGO|用戶狀態|事件紀錄|測試框架|電話隱碼|資料表|Controller|Model"
+    },
+    "41079": {
+      "page": "非頁面／共用功能",
+      "url": "",
+      "reason": "標題",
+      "matched_rule": "API|JOB|排程|Webhook|webhook|Redis|資料庫|DB|SP|SQL|Sonarqube|SonarQube|架構|效能|快取|SSO|登入|login|登出|Session|Token|OTP|手機驗證|綁定|LIFF|LINE|Line SDK|AI助手|AI 摘要|聊天室|聊天|訊息|SignalR|Hub|Log|LOG|錯誤|異常|重構|版本|版號|環境|權限|元件|UI|前端|後端|資料遮蔽|個資|密碼|白名單|網址|LDAP|nginx|IP|int\\s*溢位|table|欄位|container|appsettings|DAO|Facade|依賴注入|FUGO|用戶狀態|事件紀錄|測試框架|電話隱碼|資料表|Controller|Model"
+    },
+    "41028": {
+      "page": "客戶管理",
+      "url": "/Customer",
+      "reason": "標題",
+      "matched_rule": "客戶管理|修改客戶|客戶資料|客戶手機|會員資料|Customer"
+    },
+    "40947": {
+      "page": "直播設定",
+      "url": "/Stream",
+      "reason": "標題",
+      "matched_rule": "直播|見面會|直播設定|直播活動|LIFF活動頁|Stream"
+    },
+    "40903": {
+      "page": "客戶管理",
+      "url": "/Customer",
+      "reason": "標題",
+      "matched_rule": "客戶管理|修改客戶|客戶資料|客戶手機|會員資料|Customer"
+    },
+    "40900": {
+      "page": "非頁面／共用功能",
+      "url": "",
+      "reason": "標題",
+      "matched_rule": "API|JOB|排程|Webhook|webhook|Redis|資料庫|DB|SP|SQL|Sonarqube|SonarQube|架構|效能|快取|SSO|登入|login|登出|Session|Token|OTP|手機驗證|綁定|LIFF|LINE|Line SDK|AI助手|AI 摘要|聊天室|聊天|訊息|SignalR|Hub|Log|LOG|錯誤|異常|重構|版本|版號|環境|權限|元件|UI|前端|後端|資料遮蔽|個資|密碼|白名單|網址|LDAP|nginx|IP|int\\s*溢位|table|欄位|container|appsettings|DAO|Facade|依賴注入|FUGO|用戶狀態|事件紀錄|測試框架|電話隱碼|資料表|Controller|Model"
+    },
+    "40892": {
+      "page": "指派",
+      "url": "/Assign",
+      "reason": "標題",
+      "matched_rule": "指派|派線|轉接|分配客戶|客服分流|Assign"
+    },
+    "40890": {
+      "page": "直播設定",
+      "url": "/Stream",
+      "reason": "標題",
+      "matched_rule": "直播|見面會|直播設定|直播活動|LIFF活動頁|Stream"
+    },
+    "40889": {
+      "page": "客戶管理",
+      "url": "/Customer",
+      "reason": "標題",
+      "matched_rule": "客戶管理|修改客戶|客戶資料|客戶手機|會員資料|Customer"
+    },
+    "40880": {
+      "page": "非頁面／共用功能",
+      "url": "",
+      "reason": "標題",
+      "matched_rule": "API|JOB|排程|Webhook|webhook|Redis|資料庫|DB|SP|SQL|Sonarqube|SonarQube|架構|效能|快取|SSO|登入|login|登出|Session|Token|OTP|手機驗證|綁定|LIFF|LINE|Line SDK|AI助手|AI 摘要|聊天室|聊天|訊息|SignalR|Hub|Log|LOG|錯誤|異常|重構|版本|版號|環境|權限|元件|UI|前端|後端|資料遮蔽|個資|密碼|白名單|網址|LDAP|nginx|IP|int\\s*溢位|table|欄位|container|appsettings|DAO|Facade|依賴注入|FUGO|用戶狀態|事件紀錄|測試框架|電話隱碼|資料表|Controller|Model"
+    },
+    "40878": {
+      "page": "直播設定",
+      "url": "/Stream",
+      "reason": "標題",
+      "matched_rule": "直播|見面會|直播設定|直播活動|LIFF活動頁|Stream"
+    },
+    "40874": {
+      "page": "非頁面／共用功能",
+      "url": "",
+      "reason": "標題",
+      "matched_rule": "API|JOB|排程|Webhook|webhook|Redis|資料庫|DB|SP|SQL|Sonarqube|SonarQube|架構|效能|快取|SSO|登入|login|登出|Session|Token|OTP|手機驗證|綁定|LIFF|LINE|Line SDK|AI助手|AI 摘要|聊天室|聊天|訊息|SignalR|Hub|Log|LOG|錯誤|異常|重構|版本|版號|環境|權限|元件|UI|前端|後端|資料遮蔽|個資|密碼|白名單|網址|LDAP|nginx|IP|int\\s*溢位|table|欄位|container|appsettings|DAO|Facade|依賴注入|FUGO|用戶狀態|事件紀錄|測試框架|電話隱碼|資料表|Controller|Model"
+    },
+    "40841": {
+      "page": "非頁面／共用功能",
+      "url": "",
+      "reason": "標題",
+      "matched_rule": "API|JOB|排程|Webhook|webhook|Redis|資料庫|DB|SP|SQL|Sonarqube|SonarQube|架構|效能|快取|SSO|登入|login|登出|Session|Token|OTP|手機驗證|綁定|LIFF|LINE|Line SDK|AI助手|AI 摘要|聊天室|聊天|訊息|SignalR|Hub|Log|LOG|錯誤|異常|重構|版本|版號|環境|權限|元件|UI|前端|後端|資料遮蔽|個資|密碼|白名單|網址|LDAP|nginx|IP|int\\s*溢位|table|欄位|container|appsettings|DAO|Facade|依賴注入|FUGO|用戶狀態|事件紀錄|測試框架|電話隱碼|資料表|Controller|Model"
+    },
+    "40840": {
+      "page": "非頁面／共用功能",
+      "url": "",
+      "reason": "標題",
+      "matched_rule": "API|JOB|排程|Webhook|webhook|Redis|資料庫|DB|SP|SQL|Sonarqube|SonarQube|架構|效能|快取|SSO|登入|login|登出|Session|Token|OTP|手機驗證|綁定|LIFF|LINE|Line SDK|AI助手|AI 摘要|聊天室|聊天|訊息|SignalR|Hub|Log|LOG|錯誤|異常|重構|版本|版號|環境|權限|元件|UI|前端|後端|資料遮蔽|個資|密碼|白名單|網址|LDAP|nginx|IP|int\\s*溢位|table|欄位|container|appsettings|DAO|Facade|依賴注入|FUGO|用戶狀態|事件紀錄|測試框架|電話隱碼|資料表|Controller|Model"
+    },
+    "40827": {
+      "page": "使用者管理",
+      "url": "/User",
+      "reason": "標題",
+      "matched_rule": "使用者管理|新增使用者|新增帳號|系統使用者|AD帳號|使用者帳號|使用者狀態|User"
+    },
+    "40806": {
+      "page": "非頁面／共用功能",
+      "url": "",
+      "reason": "標題",
+      "matched_rule": "API|JOB|排程|Webhook|webhook|Redis|資料庫|DB|SP|SQL|Sonarqube|SonarQube|架構|效能|快取|SSO|登入|login|登出|Session|Token|OTP|手機驗證|綁定|LIFF|LINE|Line SDK|AI助手|AI 摘要|聊天室|聊天|訊息|SignalR|Hub|Log|LOG|錯誤|異常|重構|版本|版號|環境|權限|元件|UI|前端|後端|資料遮蔽|個資|密碼|白名單|網址|LDAP|nginx|IP|int\\s*溢位|table|欄位|container|appsettings|DAO|Facade|依賴注入|FUGO|用戶狀態|事件紀錄|測試框架|電話隱碼|資料表|Controller|Model"
+    },
+    "40803": {
+      "page": "直播設定",
+      "url": "/Stream",
+      "reason": "標題",
+      "matched_rule": "直播|見面會|直播設定|直播活動|LIFF活動頁|Stream"
+    },
+    "40802": {
+      "page": "直播設定",
+      "url": "/Stream",
+      "reason": "標題",
+      "matched_rule": "直播|見面會|直播設定|直播活動|LIFF活動頁|Stream"
+    },
+    "40801": {
+      "page": "統計資訊",
+      "url": "/Metrics",
+      "reason": "標題",
+      "matched_rule": "統計資訊|成效報表|會員統計|統計資料|下載報表|Metrics"
+    },
+    "40764": {
+      "page": "客戶管理",
+      "url": "/Customer",
+      "reason": "標題",
+      "matched_rule": "客戶管理|修改客戶|客戶資料|客戶手機|會員資料|Customer"
+    },
+    "40744": {
+      "page": "統計資訊",
+      "url": "/Metrics",
+      "reason": "標題",
+      "matched_rule": "統計資訊|成效報表|會員統計|統計資料|下載報表|Metrics"
+    },
+    "40743": {
+      "page": "統計資訊",
+      "url": "/Metrics",
+      "reason": "標題",
+      "matched_rule": "統計資訊|成效報表|會員統計|統計資料|下載報表|Metrics"
+    },
+    "40727": {
+      "page": "非頁面／共用功能",
+      "url": "",
+      "reason": "標題",
+      "matched_rule": "API|JOB|排程|Webhook|webhook|Redis|資料庫|DB|SP|SQL|Sonarqube|SonarQube|架構|效能|快取|SSO|登入|login|登出|Session|Token|OTP|手機驗證|綁定|LIFF|LINE|Line SDK|AI助手|AI 摘要|聊天室|聊天|訊息|SignalR|Hub|Log|LOG|錯誤|異常|重構|版本|版號|環境|權限|元件|UI|前端|後端|資料遮蔽|個資|密碼|白名單|網址|LDAP|nginx|IP|int\\s*溢位|table|欄位|container|appsettings|DAO|Facade|依賴注入|FUGO|用戶狀態|事件紀錄|測試框架|電話隱碼|資料表|Controller|Model"
+    },
+    "40679": {
+      "page": "非頁面／共用功能",
+      "url": "",
+      "reason": "標題",
+      "matched_rule": "API|JOB|排程|Webhook|webhook|Redis|資料庫|DB|SP|SQL|Sonarqube|SonarQube|架構|效能|快取|SSO|登入|login|登出|Session|Token|OTP|手機驗證|綁定|LIFF|LINE|Line SDK|AI助手|AI 摘要|聊天室|聊天|訊息|SignalR|Hub|Log|LOG|錯誤|異常|重構|版本|版號|環境|權限|元件|UI|前端|後端|資料遮蔽|個資|密碼|白名單|網址|LDAP|nginx|IP|int\\s*溢位|table|欄位|container|appsettings|DAO|Facade|依賴注入|FUGO|用戶狀態|事件紀錄|測試框架|電話隱碼|資料表|Controller|Model"
+    },
+    "40658": {
+      "page": "直播設定",
+      "url": "/Stream",
+      "reason": "標題",
+      "matched_rule": "直播|見面會|直播設定|直播活動|LIFF活動頁|Stream"
+    },
+    "40636": {
+      "page": "非頁面／共用功能",
+      "url": "",
+      "reason": "標題",
+      "matched_rule": "API|JOB|排程|Webhook|webhook|Redis|資料庫|DB|SP|SQL|Sonarqube|SonarQube|架構|效能|快取|SSO|登入|login|登出|Session|Token|OTP|手機驗證|綁定|LIFF|LINE|Line SDK|AI助手|AI 摘要|聊天室|聊天|訊息|SignalR|Hub|Log|LOG|錯誤|異常|重構|版本|版號|環境|權限|元件|UI|前端|後端|資料遮蔽|個資|密碼|白名單|網址|LDAP|nginx|IP|int\\s*溢位|table|欄位|container|appsettings|DAO|Facade|依賴注入|FUGO|用戶狀態|事件紀錄|測試框架|電話隱碼|資料表|Controller|Model"
+    },
+    "40592": {
+      "page": "非頁面／共用功能",
+      "url": "",
+      "reason": "內容",
+      "matched_rule": "API|JOB|排程|Webhook|webhook|Redis|資料庫|DB|SP|SQL|Sonarqube|SonarQube|架構|效能|快取|SSO|登入|login|登出|Session|Token|OTP|手機驗證|綁定|LIFF|LINE|Line SDK|AI助手|AI 摘要|聊天室|聊天|訊息|SignalR|Hub|Log|LOG|錯誤|異常|重構|版本|版號|環境|權限|元件|UI|前端|後端|資料遮蔽|個資|密碼|白名單|網址|LDAP|nginx|IP|int\\s*溢位|table|欄位|container|appsettings|DAO|Facade|依賴注入|FUGO|用戶狀態|事件紀錄|測試框架|電話隱碼|資料表|Controller|Model"
+    },
+    "40563": {
+      "page": "直播設定",
+      "url": "/Stream",
+      "reason": "標題",
+      "matched_rule": "直播|見面會|直播設定|直播活動|LIFF活動頁|Stream"
+    },
+    "40550": {
+      "page": "非頁面／共用功能",
+      "url": "",
+      "reason": "標題",
+      "matched_rule": "API|JOB|排程|Webhook|webhook|Redis|資料庫|DB|SP|SQL|Sonarqube|SonarQube|架構|效能|快取|SSO|登入|login|登出|Session|Token|OTP|手機驗證|綁定|LIFF|LINE|Line SDK|AI助手|AI 摘要|聊天室|聊天|訊息|SignalR|Hub|Log|LOG|錯誤|異常|重構|版本|版號|環境|權限|元件|UI|前端|後端|資料遮蔽|個資|密碼|白名單|網址|LDAP|nginx|IP|int\\s*溢位|table|欄位|container|appsettings|DAO|Facade|依賴注入|FUGO|用戶狀態|事件紀錄|測試框架|電話隱碼|資料表|Controller|Model"
+    },
+    "40545": {
+      "page": "對話查詢",
+      "url": "/Dialog",
+      "reason": "標題",
+      "matched_rule": "對話查詢|歷史紀錄查詢|聊天歷史紀錄查詢|ElasticSearchAPI|Dialog"
+    },
+    "40543": {
+      "page": "非頁面／共用功能",
+      "url": "",
+      "reason": "標題",
+      "matched_rule": "API|JOB|排程|Webhook|webhook|Redis|資料庫|DB|SP|SQL|Sonarqube|SonarQube|架構|效能|快取|SSO|登入|login|登出|Session|Token|OTP|手機驗證|綁定|LIFF|LINE|Line SDK|AI助手|AI 摘要|聊天室|聊天|訊息|SignalR|Hub|Log|LOG|錯誤|異常|重構|版本|版號|環境|權限|元件|UI|前端|後端|資料遮蔽|個資|密碼|白名單|網址|LDAP|nginx|IP|int\\s*溢位|table|欄位|container|appsettings|DAO|Facade|依賴注入|FUGO|用戶狀態|事件紀錄|測試框架|電話隱碼|資料表|Controller|Model"
+    },
+    "40542": {
+      "page": "非頁面／共用功能",
+      "url": "",
+      "reason": "標題",
+      "matched_rule": "API|JOB|排程|Webhook|webhook|Redis|資料庫|DB|SP|SQL|Sonarqube|SonarQube|架構|效能|快取|SSO|登入|login|登出|Session|Token|OTP|手機驗證|綁定|LIFF|LINE|Line SDK|AI助手|AI 摘要|聊天室|聊天|訊息|SignalR|Hub|Log|LOG|錯誤|異常|重構|版本|版號|環境|權限|元件|UI|前端|後端|資料遮蔽|個資|密碼|白名單|網址|LDAP|nginx|IP|int\\s*溢位|table|欄位|container|appsettings|DAO|Facade|依賴注入|FUGO|用戶狀態|事件紀錄|測試框架|電話隱碼|資料表|Controller|Model"
+    },
+    "40540": {
+      "page": "客戶管理",
+      "url": "/Customer",
+      "reason": "標題",
+      "matched_rule": "客戶管理|修改客戶|客戶資料|客戶手機|會員資料|Customer"
+    },
+    "40525": {
+      "page": "非頁面／共用功能",
+      "url": "",
+      "reason": "標題",
+      "matched_rule": "API|JOB|排程|Webhook|webhook|Redis|資料庫|DB|SP|SQL|Sonarqube|SonarQube|架構|效能|快取|SSO|登入|login|登出|Session|Token|OTP|手機驗證|綁定|LIFF|LINE|Line SDK|AI助手|AI 摘要|聊天室|聊天|訊息|SignalR|Hub|Log|LOG|錯誤|異常|重構|版本|版號|環境|權限|元件|UI|前端|後端|資料遮蔽|個資|密碼|白名單|網址|LDAP|nginx|IP|int\\s*溢位|table|欄位|container|appsettings|DAO|Facade|依賴注入|FUGO|用戶狀態|事件紀錄|測試框架|電話隱碼|資料表|Controller|Model"
+    },
+    "40524": {
+      "page": "非頁面／共用功能",
+      "url": "",
+      "reason": "標題",
+      "matched_rule": "API|JOB|排程|Webhook|webhook|Redis|資料庫|DB|SP|SQL|Sonarqube|SonarQube|架構|效能|快取|SSO|登入|login|登出|Session|Token|OTP|手機驗證|綁定|LIFF|LINE|Line SDK|AI助手|AI 摘要|聊天室|聊天|訊息|SignalR|Hub|Log|LOG|錯誤|異常|重構|版本|版號|環境|權限|元件|UI|前端|後端|資料遮蔽|個資|密碼|白名單|網址|LDAP|nginx|IP|int\\s*溢位|table|欄位|container|appsettings|DAO|Facade|依賴注入|FUGO|用戶狀態|事件紀錄|測試框架|電話隱碼|資料表|Controller|Model"
+    },
+    "40508": {
+      "page": "非頁面／共用功能",
+      "url": "",
+      "reason": "標題",
+      "matched_rule": "API|JOB|排程|Webhook|webhook|Redis|資料庫|DB|SP|SQL|Sonarqube|SonarQube|架構|效能|快取|SSO|登入|login|登出|Session|Token|OTP|手機驗證|綁定|LIFF|LINE|Line SDK|AI助手|AI 摘要|聊天室|聊天|訊息|SignalR|Hub|Log|LOG|錯誤|異常|重構|版本|版號|環境|權限|元件|UI|前端|後端|資料遮蔽|個資|密碼|白名單|網址|LDAP|nginx|IP|int\\s*溢位|table|欄位|container|appsettings|DAO|Facade|依賴注入|FUGO|用戶狀態|事件紀錄|測試框架|電話隱碼|資料表|Controller|Model"
+    },
+    "40494": {
+      "page": "客戶管理",
+      "url": "/Customer",
+      "reason": "標題",
+      "matched_rule": "客戶管理|修改客戶|客戶資料|客戶手機|會員資料|Customer"
+    },
+    "40492": {
+      "page": "圖庫",
+      "url": "/Gallery",
+      "reason": "標題",
+      "matched_rule": "圖庫|圖片庫|圖庫管理|縮圖|FaceAI|Gallery"
+    },
+    "40491": {
+      "page": "統計資訊",
+      "url": "/Metrics",
+      "reason": "標題",
+      "matched_rule": "統計資訊|成效報表|會員統計|統計資料|下載報表|Metrics"
+    },
+    "40489": {
+      "page": "統計資訊",
+      "url": "/Metrics",
+      "reason": "標題",
+      "matched_rule": "統計資訊|成效報表|會員統計|統計資料|下載報表|Metrics"
+    },
+    "40447": {
+      "page": "非頁面／共用功能",
+      "url": "",
+      "reason": "標題",
+      "matched_rule": "API|JOB|排程|Webhook|webhook|Redis|資料庫|DB|SP|SQL|Sonarqube|SonarQube|架構|效能|快取|SSO|登入|login|登出|Session|Token|OTP|手機驗證|綁定|LIFF|LINE|Line SDK|AI助手|AI 摘要|聊天室|聊天|訊息|SignalR|Hub|Log|LOG|錯誤|異常|重構|版本|版號|環境|權限|元件|UI|前端|後端|資料遮蔽|個資|密碼|白名單|網址|LDAP|nginx|IP|int\\s*溢位|table|欄位|container|appsettings|DAO|Facade|依賴注入|FUGO|用戶狀態|事件紀錄|測試框架|電話隱碼|資料表|Controller|Model"
+    },
+    "40421": {
+      "page": "使用者管理",
+      "url": "/User",
+      "reason": "標題",
+      "matched_rule": "使用者管理|新增使用者|新增帳號|系統使用者|AD帳號|使用者帳號|使用者狀態|User"
+    },
+    "40406": {
+      "page": "直播設定",
+      "url": "/Stream",
+      "reason": "內容",
+      "matched_rule": "直播|見面會|直播設定|直播活動|LIFF活動頁|Stream"
+    },
+    "40398": {
+      "page": "非頁面／共用功能",
+      "url": "",
+      "reason": "標題",
+      "matched_rule": "API|JOB|排程|Webhook|webhook|Redis|資料庫|DB|SP|SQL|Sonarqube|SonarQube|架構|效能|快取|SSO|登入|login|登出|Session|Token|OTP|手機驗證|綁定|LIFF|LINE|Line SDK|AI助手|AI 摘要|聊天室|聊天|訊息|SignalR|Hub|Log|LOG|錯誤|異常|重構|版本|版號|環境|權限|元件|UI|前端|後端|資料遮蔽|個資|密碼|白名單|網址|LDAP|nginx|IP|int\\s*溢位|table|欄位|container|appsettings|DAO|Facade|依賴注入|FUGO|用戶狀態|事件紀錄|測試框架|電話隱碼|資料表|Controller|Model"
+    },
+    "40393": {
+      "page": "角色管理",
+      "url": "/Role",
+      "reason": "標題",
+      "matched_rule": "角色管理|角色設定|角色功能|角色權限|RBAC|Role"
+    },
+    "40392": {
+      "page": "角色管理",
+      "url": "/Role",
+      "reason": "標題",
+      "matched_rule": "角色管理|角色設定|角色功能|角色權限|RBAC|Role"
+    },
+    "40387": {
+      "page": "使用者管理",
+      "url": "/User",
+      "reason": "標題",
+      "matched_rule": "使用者管理|新增使用者|新增帳號|系統使用者|AD帳號|使用者帳號|使用者狀態|User"
+    },
+    "40379": {
+      "page": "非頁面／共用功能",
+      "url": "",
+      "reason": "標題",
+      "matched_rule": "API|JOB|排程|Webhook|webhook|Redis|資料庫|DB|SP|SQL|Sonarqube|SonarQube|架構|效能|快取|SSO|登入|login|登出|Session|Token|OTP|手機驗證|綁定|LIFF|LINE|Line SDK|AI助手|AI 摘要|聊天室|聊天|訊息|SignalR|Hub|Log|LOG|錯誤|異常|重構|版本|版號|環境|權限|元件|UI|前端|後端|資料遮蔽|個資|密碼|白名單|網址|LDAP|nginx|IP|int\\s*溢位|table|欄位|container|appsettings|DAO|Facade|依賴注入|FUGO|用戶狀態|事件紀錄|測試框架|電話隱碼|資料表|Controller|Model"
+    },
+    "40377": {
+      "page": "直播設定",
+      "url": "/Stream",
+      "reason": "標題",
+      "matched_rule": "直播|見面會|直播設定|直播活動|LIFF活動頁|Stream"
+    },
+    "40362": {
+      "page": "待人工確認頁面",
+      "url": "",
+      "reason": "未命中規則",
+      "matched_rule": ""
+    },
+    "40342": {
+      "page": "直播設定",
+      "url": "/Stream",
+      "reason": "標題",
+      "matched_rule": "直播|見面會|直播設定|直播活動|LIFF活動頁|Stream"
+    },
+    "40340": {
+      "page": "非頁面／共用功能",
+      "url": "",
+      "reason": "標題",
+      "matched_rule": "API|JOB|排程|Webhook|webhook|Redis|資料庫|DB|SP|SQL|Sonarqube|SonarQube|架構|效能|快取|SSO|登入|login|登出|Session|Token|OTP|手機驗證|綁定|LIFF|LINE|Line SDK|AI助手|AI 摘要|聊天室|聊天|訊息|SignalR|Hub|Log|LOG|錯誤|異常|重構|版本|版號|環境|權限|元件|UI|前端|後端|資料遮蔽|個資|密碼|白名單|網址|LDAP|nginx|IP|int\\s*溢位|table|欄位|container|appsettings|DAO|Facade|依賴注入|FUGO|用戶狀態|事件紀錄|測試框架|電話隱碼|資料表|Controller|Model"
+    },
+    "40298": {
+      "page": "非頁面／共用功能",
+      "url": "",
+      "reason": "內容",
+      "matched_rule": "API|JOB|排程|Webhook|webhook|Redis|資料庫|DB|SP|SQL|Sonarqube|SonarQube|架構|效能|快取|SSO|登入|login|登出|Session|Token|OTP|手機驗證|綁定|LIFF|LINE|Line SDK|AI助手|AI 摘要|聊天室|聊天|訊息|SignalR|Hub|Log|LOG|錯誤|異常|重構|版本|版號|環境|權限|元件|UI|前端|後端|資料遮蔽|個資|密碼|白名單|網址|LDAP|nginx|IP|int\\s*溢位|table|欄位|container|appsettings|DAO|Facade|依賴注入|FUGO|用戶狀態|事件紀錄|測試框架|電話隱碼|資料表|Controller|Model"
+    },
+    "40287": {
+      "page": "遊戲管理",
+      "url": "/GameManage",
+      "reason": "標題",
+      "matched_rule": "遊戲|抽獎|刮刮卡|搖搖樂|獎項|GameManage"
+    },
+    "40284": {
+      "page": "直播設定",
+      "url": "/Stream",
+      "reason": "標題",
+      "matched_rule": "直播|見面會|直播設定|直播活動|LIFF活動頁|Stream"
+    },
+    "40260": {
+      "page": "受眾管理",
+      "url": "/Audience",
+      "reason": "標題",
+      "matched_rule": "受眾|分眾|Audience"
+    },
+    "40229": {
+      "page": "直播設定",
+      "url": "/Stream",
+      "reason": "標題",
+      "matched_rule": "直播|見面會|直播設定|直播活動|LIFF活動頁|Stream"
+    },
+    "40226": {
+      "page": "非頁面／共用功能",
+      "url": "",
+      "reason": "標題",
+      "matched_rule": "API|JOB|排程|Webhook|webhook|Redis|資料庫|DB|SP|SQL|Sonarqube|SonarQube|架構|效能|快取|SSO|登入|login|登出|Session|Token|OTP|手機驗證|綁定|LIFF|LINE|Line SDK|AI助手|AI 摘要|聊天室|聊天|訊息|SignalR|Hub|Log|LOG|錯誤|異常|重構|版本|版號|環境|權限|元件|UI|前端|後端|資料遮蔽|個資|密碼|白名單|網址|LDAP|nginx|IP|int\\s*溢位|table|欄位|container|appsettings|DAO|Facade|依賴注入|FUGO|用戶狀態|事件紀錄|測試框架|電話隱碼|資料表|Controller|Model"
+    },
+    "40225": {
+      "page": "非頁面／共用功能",
+      "url": "",
+      "reason": "標題",
+      "matched_rule": "API|JOB|排程|Webhook|webhook|Redis|資料庫|DB|SP|SQL|Sonarqube|SonarQube|架構|效能|快取|SSO|登入|login|登出|Session|Token|OTP|手機驗證|綁定|LIFF|LINE|Line SDK|AI助手|AI 摘要|聊天室|聊天|訊息|SignalR|Hub|Log|LOG|錯誤|異常|重構|版本|版號|環境|權限|元件|UI|前端|後端|資料遮蔽|個資|密碼|白名單|網址|LDAP|nginx|IP|int\\s*溢位|table|欄位|container|appsettings|DAO|Facade|依賴注入|FUGO|用戶狀態|事件紀錄|測試框架|電話隱碼|資料表|Controller|Model"
+    },
+    "40202": {
+      "page": "直播設定",
+      "url": "/Stream",
+      "reason": "標題",
+      "matched_rule": "直播|見面會|直播設定|直播活動|LIFF活動頁|Stream"
+    },
+    "40201": {
+      "page": "直播設定",
+      "url": "/Stream",
+      "reason": "標題",
+      "matched_rule": "直播|見面會|直播設定|直播活動|LIFF活動頁|Stream"
+    },
+    "40196": {
+      "page": "直播設定",
+      "url": "/Stream",
+      "reason": "標題",
+      "matched_rule": "直播|見面會|直播設定|直播活動|LIFF活動頁|Stream"
+    },
+    "40195": {
+      "page": "直播設定",
+      "url": "/Stream",
+      "reason": "標題",
+      "matched_rule": "直播|見面會|直播設定|直播活動|LIFF活動頁|Stream"
+    },
+    "40187": {
+      "page": "直播設定",
+      "url": "/Stream",
+      "reason": "標題",
+      "matched_rule": "直播|見面會|直播設定|直播活動|LIFF活動頁|Stream"
+    },
+    "40183": {
+      "page": "直播設定",
+      "url": "/Stream",
+      "reason": "標題",
+      "matched_rule": "直播|見面會|直播設定|直播活動|LIFF活動頁|Stream"
+    },
+    "40180": {
+      "page": "直播設定",
+      "url": "/Stream",
+      "reason": "標題",
+      "matched_rule": "直播|見面會|直播設定|直播活動|LIFF活動頁|Stream"
+    },
+    "40179": {
+      "page": "直播設定",
+      "url": "/Stream",
+      "reason": "標題",
+      "matched_rule": "直播|見面會|直播設定|直播活動|LIFF活動頁|Stream"
+    },
+    "40178": {
+      "page": "直播設定",
+      "url": "/Stream",
+      "reason": "標題",
+      "matched_rule": "直播|見面會|直播設定|直播活動|LIFF活動頁|Stream"
+    },
+    "40166": {
+      "page": "離線訊息管理",
+      "url": "/LeaveMessages",
+      "reason": "標題",
+      "matched_rule": "離線訊息|離線留言|LeaveMessages"
+    },
+    "40160": {
+      "page": "統計資訊",
+      "url": "/Metrics",
+      "reason": "標題",
+      "matched_rule": "統計資訊|成效報表|會員統計|統計資料|下載報表|Metrics"
+    },
+    "40158": {
+      "page": "統計資訊",
+      "url": "/Metrics",
+      "reason": "標題",
+      "matched_rule": "統計資訊|成效報表|會員統計|統計資料|下載報表|Metrics"
+    },
+    "40154": {
+      "page": "客戶管理",
+      "url": "/Customer",
+      "reason": "標題",
+      "matched_rule": "客戶管理|修改客戶|客戶資料|客戶手機|會員資料|Customer"
+    },
+    "40153": {
+      "page": "非頁面／共用功能",
+      "url": "",
+      "reason": "標題",
+      "matched_rule": "API|JOB|排程|Webhook|webhook|Redis|資料庫|DB|SP|SQL|Sonarqube|SonarQube|架構|效能|快取|SSO|登入|login|登出|Session|Token|OTP|手機驗證|綁定|LIFF|LINE|Line SDK|AI助手|AI 摘要|聊天室|聊天|訊息|SignalR|Hub|Log|LOG|錯誤|異常|重構|版本|版號|環境|權限|元件|UI|前端|後端|資料遮蔽|個資|密碼|白名單|網址|LDAP|nginx|IP|int\\s*溢位|table|欄位|container|appsettings|DAO|Facade|依賴注入|FUGO|用戶狀態|事件紀錄|測試框架|電話隱碼|資料表|Controller|Model"
+    },
+    "40152": {
+      "page": "直播設定",
+      "url": "/Stream",
+      "reason": "標題",
+      "matched_rule": "直播|見面會|直播設定|直播活動|LIFF活動頁|Stream"
+    },
+    "40151": {
+      "page": "直播設定",
+      "url": "/Stream",
+      "reason": "標題",
+      "matched_rule": "直播|見面會|直播設定|直播活動|LIFF活動頁|Stream"
+    },
+    "40147": {
+      "page": "受眾管理",
+      "url": "/Audience",
+      "reason": "標題",
+      "matched_rule": "受眾|分眾|Audience"
+    },
+    "40146": {
+      "page": "非頁面／共用功能",
+      "url": "",
+      "reason": "標題",
+      "matched_rule": "API|JOB|排程|Webhook|webhook|Redis|資料庫|DB|SP|SQL|Sonarqube|SonarQube|架構|效能|快取|SSO|登入|login|登出|Session|Token|OTP|手機驗證|綁定|LIFF|LINE|Line SDK|AI助手|AI 摘要|聊天室|聊天|訊息|SignalR|Hub|Log|LOG|錯誤|異常|重構|版本|版號|環境|權限|元件|UI|前端|後端|資料遮蔽|個資|密碼|白名單|網址|LDAP|nginx|IP|int\\s*溢位|table|欄位|container|appsettings|DAO|Facade|依賴注入|FUGO|用戶狀態|事件紀錄|測試框架|電話隱碼|資料表|Controller|Model"
+    },
+    "40145": {
+      "page": "使用者管理",
+      "url": "/User",
+      "reason": "標題",
+      "matched_rule": "使用者管理|新增使用者|新增帳號|系統使用者|AD帳號|使用者帳號|使用者狀態|User"
+    },
+    "40139": {
+      "page": "非頁面／共用功能",
+      "url": "",
+      "reason": "內容",
+      "matched_rule": "API|JOB|排程|Webhook|webhook|Redis|資料庫|DB|SP|SQL|Sonarqube|SonarQube|架構|效能|快取|SSO|登入|login|登出|Session|Token|OTP|手機驗證|綁定|LIFF|LINE|Line SDK|AI助手|AI 摘要|聊天室|聊天|訊息|SignalR|Hub|Log|LOG|錯誤|異常|重構|版本|版號|環境|權限|元件|UI|前端|後端|資料遮蔽|個資|密碼|白名單|網址|LDAP|nginx|IP|int\\s*溢位|table|欄位|container|appsettings|DAO|Facade|依賴注入|FUGO|用戶狀態|事件紀錄|測試框架|電話隱碼|資料表|Controller|Model"
+    },
+    "40134": {
+      "page": "非頁面／共用功能",
+      "url": "",
+      "reason": "標題",
+      "matched_rule": "API|JOB|排程|Webhook|webhook|Redis|資料庫|DB|SP|SQL|Sonarqube|SonarQube|架構|效能|快取|SSO|登入|login|登出|Session|Token|OTP|手機驗證|綁定|LIFF|LINE|Line SDK|AI助手|AI 摘要|聊天室|聊天|訊息|SignalR|Hub|Log|LOG|錯誤|異常|重構|版本|版號|環境|權限|元件|UI|前端|後端|資料遮蔽|個資|密碼|白名單|網址|LDAP|nginx|IP|int\\s*溢位|table|欄位|container|appsettings|DAO|Facade|依賴注入|FUGO|用戶狀態|事件紀錄|測試框架|電話隱碼|資料表|Controller|Model"
+    },
+    "40133": {
+      "page": "直播設定",
+      "url": "/Stream",
+      "reason": "標題",
+      "matched_rule": "直播|見面會|直播設定|直播活動|LIFF活動頁|Stream"
+    },
+    "40130": {
+      "page": "非頁面／共用功能",
+      "url": "",
+      "reason": "標題",
+      "matched_rule": "API|JOB|排程|Webhook|webhook|Redis|資料庫|DB|SP|SQL|Sonarqube|SonarQube|架構|效能|快取|SSO|登入|login|登出|Session|Token|OTP|手機驗證|綁定|LIFF|LINE|Line SDK|AI助手|AI 摘要|聊天室|聊天|訊息|SignalR|Hub|Log|LOG|錯誤|異常|重構|版本|版號|環境|權限|元件|UI|前端|後端|資料遮蔽|個資|密碼|白名單|網址|LDAP|nginx|IP|int\\s*溢位|table|欄位|container|appsettings|DAO|Facade|依賴注入|FUGO|用戶狀態|事件紀錄|測試框架|電話隱碼|資料表|Controller|Model"
+    },
+    "40129": {
+      "page": "直播設定",
+      "url": "/Stream",
+      "reason": "標題",
+      "matched_rule": "直播|見面會|直播設定|直播活動|LIFF活動頁|Stream"
+    },
+    "40128": {
+      "page": "直播設定",
+      "url": "/Stream",
+      "reason": "標題",
+      "matched_rule": "直播|見面會|直播設定|直播活動|LIFF活動頁|Stream"
+    },
+    "40127": {
+      "page": "直播設定",
+      "url": "/Stream",
+      "reason": "標題",
+      "matched_rule": "直播|見面會|直播設定|直播活動|LIFF活動頁|Stream"
+    },
+    "40124": {
+      "page": "直播設定",
+      "url": "/Stream",
+      "reason": "標題",
+      "matched_rule": "直播|見面會|直播設定|直播活動|LIFF活動頁|Stream"
+    },
+    "40120": {
+      "page": "受眾管理",
+      "url": "/Audience",
+      "reason": "標題",
+      "matched_rule": "受眾|分眾|Audience"
+    },
+    "40119": {
+      "page": "受眾管理",
+      "url": "/Audience",
+      "reason": "標題",
+      "matched_rule": "受眾|分眾|Audience"
+    },
+    "40118": {
+      "page": "直播設定",
+      "url": "/Stream",
+      "reason": "標題",
+      "matched_rule": "直播|見面會|直播設定|直播活動|LIFF活動頁|Stream"
+    },
+    "40117": {
+      "page": "直播設定",
+      "url": "/Stream",
+      "reason": "標題",
+      "matched_rule": "直播|見面會|直播設定|直播活動|LIFF活動頁|Stream"
+    },
+    "40113": {
+      "page": "受眾管理",
+      "url": "/Audience",
+      "reason": "標題",
+      "matched_rule": "受眾|分眾|Audience"
+    },
+    "40110": {
+      "page": "圖庫",
+      "url": "/Gallery",
+      "reason": "標題",
+      "matched_rule": "圖庫|圖片庫|圖庫管理|縮圖|FaceAI|Gallery"
+    },
+    "40104": {
+      "page": "直播設定",
+      "url": "/Stream",
+      "reason": "標題",
+      "matched_rule": "直播|見面會|直播設定|直播活動|LIFF活動頁|Stream"
+    },
+    "40102": {
+      "page": "非頁面／共用功能",
+      "url": "",
+      "reason": "標題",
+      "matched_rule": "API|JOB|排程|Webhook|webhook|Redis|資料庫|DB|SP|SQL|Sonarqube|SonarQube|架構|效能|快取|SSO|登入|login|登出|Session|Token|OTP|手機驗證|綁定|LIFF|LINE|Line SDK|AI助手|AI 摘要|聊天室|聊天|訊息|SignalR|Hub|Log|LOG|錯誤|異常|重構|版本|版號|環境|權限|元件|UI|前端|後端|資料遮蔽|個資|密碼|白名單|網址|LDAP|nginx|IP|int\\s*溢位|table|欄位|container|appsettings|DAO|Facade|依賴注入|FUGO|用戶狀態|事件紀錄|測試框架|電話隱碼|資料表|Controller|Model"
+    },
+    "40101": {
+      "page": "直播設定",
+      "url": "/Stream",
+      "reason": "標題",
+      "matched_rule": "直播|見面會|直播設定|直播活動|LIFF活動頁|Stream"
+    },
+    "40100": {
+      "page": "直播設定",
+      "url": "/Stream",
+      "reason": "標題",
+      "matched_rule": "直播|見面會|直播設定|直播活動|LIFF活動頁|Stream"
+    },
+    "40085": {
+      "page": "訊息統計資訊",
+      "url": "/MessagesMetrics",
+      "reason": "標題",
+      "matched_rule": "訊息統計|訊息資料統計|MessagesMetrics|好友統計|每日好友"
+    },
+    "40083": {
+      "page": "非頁面／共用功能",
+      "url": "",
+      "reason": "標題",
+      "matched_rule": "API|JOB|排程|Webhook|webhook|Redis|資料庫|DB|SP|SQL|Sonarqube|SonarQube|架構|效能|快取|SSO|登入|login|登出|Session|Token|OTP|手機驗證|綁定|LIFF|LINE|Line SDK|AI助手|AI 摘要|聊天室|聊天|訊息|SignalR|Hub|Log|LOG|錯誤|異常|重構|版本|版號|環境|權限|元件|UI|前端|後端|資料遮蔽|個資|密碼|白名單|網址|LDAP|nginx|IP|int\\s*溢位|table|欄位|container|appsettings|DAO|Facade|依賴注入|FUGO|用戶狀態|事件紀錄|測試框架|電話隱碼|資料表|Controller|Model"
+    },
+    "40068": {
+      "page": "統計資訊",
+      "url": "/Metrics",
+      "reason": "標題",
+      "matched_rule": "統計資訊|成效報表|會員統計|統計資料|下載報表|Metrics"
+    },
+    "40066": {
+      "page": "圖庫",
+      "url": "/Gallery",
+      "reason": "標題",
+      "matched_rule": "圖庫|圖片庫|圖庫管理|縮圖|FaceAI|Gallery"
+    },
+    "40063": {
+      "page": "非頁面／共用功能",
+      "url": "",
+      "reason": "標題",
+      "matched_rule": "API|JOB|排程|Webhook|webhook|Redis|資料庫|DB|SP|SQL|Sonarqube|SonarQube|架構|效能|快取|SSO|登入|login|登出|Session|Token|OTP|手機驗證|綁定|LIFF|LINE|Line SDK|AI助手|AI 摘要|聊天室|聊天|訊息|SignalR|Hub|Log|LOG|錯誤|異常|重構|版本|版號|環境|權限|元件|UI|前端|後端|資料遮蔽|個資|密碼|白名單|網址|LDAP|nginx|IP|int\\s*溢位|table|欄位|container|appsettings|DAO|Facade|依賴注入|FUGO|用戶狀態|事件紀錄|測試框架|電話隱碼|資料表|Controller|Model"
+    },
+    "40053": {
+      "page": "非頁面／共用功能",
+      "url": "",
+      "reason": "標題",
+      "matched_rule": "API|JOB|排程|Webhook|webhook|Redis|資料庫|DB|SP|SQL|Sonarqube|SonarQube|架構|效能|快取|SSO|登入|login|登出|Session|Token|OTP|手機驗證|綁定|LIFF|LINE|Line SDK|AI助手|AI 摘要|聊天室|聊天|訊息|SignalR|Hub|Log|LOG|錯誤|異常|重構|版本|版號|環境|權限|元件|UI|前端|後端|資料遮蔽|個資|密碼|白名單|網址|LDAP|nginx|IP|int\\s*溢位|table|欄位|container|appsettings|DAO|Facade|依賴注入|FUGO|用戶狀態|事件紀錄|測試框架|電話隱碼|資料表|Controller|Model"
+    },
+    "40029": {
+      "page": "訊息統計資訊",
+      "url": "/MessagesMetrics",
+      "reason": "標題",
+      "matched_rule": "訊息統計|訊息資料統計|MessagesMetrics|好友統計|每日好友"
+    },
+    "40001": {
+      "page": "客戶管理",
+      "url": "/Customer",
+      "reason": "標題",
+      "matched_rule": "客戶管理|修改客戶|客戶資料|客戶手機|會員資料|Customer"
+    },
+    "40000": {
+      "page": "非頁面／共用功能",
+      "url": "",
+      "reason": "標題",
+      "matched_rule": "API|JOB|排程|Webhook|webhook|Redis|資料庫|DB|SP|SQL|Sonarqube|SonarQube|架構|效能|快取|SSO|登入|login|登出|Session|Token|OTP|手機驗證|綁定|LIFF|LINE|Line SDK|AI助手|AI 摘要|聊天室|聊天|訊息|SignalR|Hub|Log|LOG|錯誤|異常|重構|版本|版號|環境|權限|元件|UI|前端|後端|資料遮蔽|個資|密碼|白名單|網址|LDAP|nginx|IP|int\\s*溢位|table|欄位|container|appsettings|DAO|Facade|依賴注入|FUGO|用戶狀態|事件紀錄|測試框架|電話隱碼|資料表|Controller|Model"
+    },
+    "39988": {
+      "page": "指派",
+      "url": "/Assign",
+      "reason": "標題",
+      "matched_rule": "指派|派線|轉接|分配客戶|客服分流|Assign"
+    },
+    "39980": {
+      "page": "客戶管理",
+      "url": "/Customer",
+      "reason": "標題",
+      "matched_rule": "客戶管理|修改客戶|客戶資料|客戶手機|會員資料|Customer"
+    },
+    "39977": {
+      "page": "指派",
+      "url": "/Assign",
+      "reason": "標題",
+      "matched_rule": "指派|派線|轉接|分配客戶|客服分流|Assign"
+    },
+    "39967": {
+      "page": "非頁面／共用功能",
+      "url": "",
+      "reason": "標題",
+      "matched_rule": "API|JOB|排程|Webhook|webhook|Redis|資料庫|DB|SP|SQL|Sonarqube|SonarQube|架構|效能|快取|SSO|登入|login|登出|Session|Token|OTP|手機驗證|綁定|LIFF|LINE|Line SDK|AI助手|AI 摘要|聊天室|聊天|訊息|SignalR|Hub|Log|LOG|錯誤|異常|重構|版本|版號|環境|權限|元件|UI|前端|後端|資料遮蔽|個資|密碼|白名單|網址|LDAP|nginx|IP|int\\s*溢位|table|欄位|container|appsettings|DAO|Facade|依賴注入|FUGO|用戶狀態|事件紀錄|測試框架|電話隱碼|資料表|Controller|Model"
+    },
+    "39966": {
+      "page": "受眾管理",
+      "url": "/Audience",
+      "reason": "標題",
+      "matched_rule": "受眾|分眾|Audience"
+    },
+    "39965": {
+      "page": "非頁面／共用功能",
+      "url": "",
+      "reason": "標題",
+      "matched_rule": "API|JOB|排程|Webhook|webhook|Redis|資料庫|DB|SP|SQL|Sonarqube|SonarQube|架構|效能|快取|SSO|登入|login|登出|Session|Token|OTP|手機驗證|綁定|LIFF|LINE|Line SDK|AI助手|AI 摘要|聊天室|聊天|訊息|SignalR|Hub|Log|LOG|錯誤|異常|重構|版本|版號|環境|權限|元件|UI|前端|後端|資料遮蔽|個資|密碼|白名單|網址|LDAP|nginx|IP|int\\s*溢位|table|欄位|container|appsettings|DAO|Facade|依賴注入|FUGO|用戶狀態|事件紀錄|測試框架|電話隱碼|資料表|Controller|Model"
+    },
+    "39957": {
+      "page": "直播設定",
+      "url": "/Stream",
+      "reason": "標題",
+      "matched_rule": "直播|見面會|直播設定|直播活動|LIFF活動頁|Stream"
+    },
+    "39955": {
+      "page": "訊息統計資訊",
+      "url": "/MessagesMetrics",
+      "reason": "標題",
+      "matched_rule": "訊息統計|訊息資料統計|MessagesMetrics|好友統計|每日好友"
+    },
+    "39951": {
+      "page": "非頁面／共用功能",
+      "url": "",
+      "reason": "標題",
+      "matched_rule": "API|JOB|排程|Webhook|webhook|Redis|資料庫|DB|SP|SQL|Sonarqube|SonarQube|架構|效能|快取|SSO|登入|login|登出|Session|Token|OTP|手機驗證|綁定|LIFF|LINE|Line SDK|AI助手|AI 摘要|聊天室|聊天|訊息|SignalR|Hub|Log|LOG|錯誤|異常|重構|版本|版號|環境|權限|元件|UI|前端|後端|資料遮蔽|個資|密碼|白名單|網址|LDAP|nginx|IP|int\\s*溢位|table|欄位|container|appsettings|DAO|Facade|依賴注入|FUGO|用戶狀態|事件紀錄|測試框架|電話隱碼|資料表|Controller|Model"
+    },
+    "39949": {
+      "page": "統計資訊",
+      "url": "/Metrics",
+      "reason": "標題",
+      "matched_rule": "統計資訊|成效報表|會員統計|統計資料|下載報表|Metrics"
+    },
+    "39948": {
+      "page": "統計資訊",
+      "url": "/Metrics",
+      "reason": "標題",
+      "matched_rule": "統計資訊|成效報表|會員統計|統計資料|下載報表|Metrics"
+    },
+    "39932": {
+      "page": "非頁面／共用功能",
+      "url": "",
+      "reason": "標題",
+      "matched_rule": "API|JOB|排程|Webhook|webhook|Redis|資料庫|DB|SP|SQL|Sonarqube|SonarQube|架構|效能|快取|SSO|登入|login|登出|Session|Token|OTP|手機驗證|綁定|LIFF|LINE|Line SDK|AI助手|AI 摘要|聊天室|聊天|訊息|SignalR|Hub|Log|LOG|錯誤|異常|重構|版本|版號|環境|權限|元件|UI|前端|後端|資料遮蔽|個資|密碼|白名單|網址|LDAP|nginx|IP|int\\s*溢位|table|欄位|container|appsettings|DAO|Facade|依賴注入|FUGO|用戶狀態|事件紀錄|測試框架|電話隱碼|資料表|Controller|Model"
+    },
+    "39929": {
+      "page": "非頁面／共用功能",
+      "url": "",
+      "reason": "標題",
+      "matched_rule": "API|JOB|排程|Webhook|webhook|Redis|資料庫|DB|SP|SQL|Sonarqube|SonarQube|架構|效能|快取|SSO|登入|login|登出|Session|Token|OTP|手機驗證|綁定|LIFF|LINE|Line SDK|AI助手|AI 摘要|聊天室|聊天|訊息|SignalR|Hub|Log|LOG|錯誤|異常|重構|版本|版號|環境|權限|元件|UI|前端|後端|資料遮蔽|個資|密碼|白名單|網址|LDAP|nginx|IP|int\\s*溢位|table|欄位|container|appsettings|DAO|Facade|依賴注入|FUGO|用戶狀態|事件紀錄|測試框架|電話隱碼|資料表|Controller|Model"
+    },
+    "39928": {
+      "page": "非頁面／共用功能",
+      "url": "",
+      "reason": "標題",
+      "matched_rule": "API|JOB|排程|Webhook|webhook|Redis|資料庫|DB|SP|SQL|Sonarqube|SonarQube|架構|效能|快取|SSO|登入|login|登出|Session|Token|OTP|手機驗證|綁定|LIFF|LINE|Line SDK|AI助手|AI 摘要|聊天室|聊天|訊息|SignalR|Hub|Log|LOG|錯誤|異常|重構|版本|版號|環境|權限|元件|UI|前端|後端|資料遮蔽|個資|密碼|白名單|網址|LDAP|nginx|IP|int\\s*溢位|table|欄位|container|appsettings|DAO|Facade|依賴注入|FUGO|用戶狀態|事件紀錄|測試框架|電話隱碼|資料表|Controller|Model"
+    },
+    "39927": {
+      "page": "待確認使用者",
+      "url": "/PendingUser",
+      "reason": "標題",
+      "matched_rule": "待確認使用者|待確認 User|PendingUser"
+    },
+    "39897": {
+      "page": "非頁面／共用功能",
+      "url": "",
+      "reason": "標題",
+      "matched_rule": "API|JOB|排程|Webhook|webhook|Redis|資料庫|DB|SP|SQL|Sonarqube|SonarQube|架構|效能|快取|SSO|登入|login|登出|Session|Token|OTP|手機驗證|綁定|LIFF|LINE|Line SDK|AI助手|AI 摘要|聊天室|聊天|訊息|SignalR|Hub|Log|LOG|錯誤|異常|重構|版本|版號|環境|權限|元件|UI|前端|後端|資料遮蔽|個資|密碼|白名單|網址|LDAP|nginx|IP|int\\s*溢位|table|欄位|container|appsettings|DAO|Facade|依賴注入|FUGO|用戶狀態|事件紀錄|測試框架|電話隱碼|資料表|Controller|Model"
+    },
+    "39896": {
+      "page": "非頁面／共用功能",
+      "url": "",
+      "reason": "標題",
+      "matched_rule": "API|JOB|排程|Webhook|webhook|Redis|資料庫|DB|SP|SQL|Sonarqube|SonarQube|架構|效能|快取|SSO|登入|login|登出|Session|Token|OTP|手機驗證|綁定|LIFF|LINE|Line SDK|AI助手|AI 摘要|聊天室|聊天|訊息|SignalR|Hub|Log|LOG|錯誤|異常|重構|版本|版號|環境|權限|元件|UI|前端|後端|資料遮蔽|個資|密碼|白名單|網址|LDAP|nginx|IP|int\\s*溢位|table|欄位|container|appsettings|DAO|Facade|依賴注入|FUGO|用戶狀態|事件紀錄|測試框架|電話隱碼|資料表|Controller|Model"
+    },
+    "39883": {
+      "page": "受眾管理",
+      "url": "/Audience",
+      "reason": "標題",
+      "matched_rule": "受眾|分眾|Audience"
+    },
+    "39872": {
+      "page": "非頁面／共用功能",
+      "url": "",
+      "reason": "標題",
+      "matched_rule": "API|JOB|排程|Webhook|webhook|Redis|資料庫|DB|SP|SQL|Sonarqube|SonarQube|架構|效能|快取|SSO|登入|login|登出|Session|Token|OTP|手機驗證|綁定|LIFF|LINE|Line SDK|AI助手|AI 摘要|聊天室|聊天|訊息|SignalR|Hub|Log|LOG|錯誤|異常|重構|版本|版號|環境|權限|元件|UI|前端|後端|資料遮蔽|個資|密碼|白名單|網址|LDAP|nginx|IP|int\\s*溢位|table|欄位|container|appsettings|DAO|Facade|依賴注入|FUGO|用戶狀態|事件紀錄|測試框架|電話隱碼|資料表|Controller|Model"
+    },
+    "39868": {
+      "page": "非頁面／共用功能",
+      "url": "",
+      "reason": "標題",
+      "matched_rule": "API|JOB|排程|Webhook|webhook|Redis|資料庫|DB|SP|SQL|Sonarqube|SonarQube|架構|效能|快取|SSO|登入|login|登出|Session|Token|OTP|手機驗證|綁定|LIFF|LINE|Line SDK|AI助手|AI 摘要|聊天室|聊天|訊息|SignalR|Hub|Log|LOG|錯誤|異常|重構|版本|版號|環境|權限|元件|UI|前端|後端|資料遮蔽|個資|密碼|白名單|網址|LDAP|nginx|IP|int\\s*溢位|table|欄位|container|appsettings|DAO|Facade|依賴注入|FUGO|用戶狀態|事件紀錄|測試框架|電話隱碼|資料表|Controller|Model"
+    },
+    "39866": {
+      "page": "非頁面／共用功能",
+      "url": "",
+      "reason": "標題",
+      "matched_rule": "API|JOB|排程|Webhook|webhook|Redis|資料庫|DB|SP|SQL|Sonarqube|SonarQube|架構|效能|快取|SSO|登入|login|登出|Session|Token|OTP|手機驗證|綁定|LIFF|LINE|Line SDK|AI助手|AI 摘要|聊天室|聊天|訊息|SignalR|Hub|Log|LOG|錯誤|異常|重構|版本|版號|環境|權限|元件|UI|前端|後端|資料遮蔽|個資|密碼|白名單|網址|LDAP|nginx|IP|int\\s*溢位|table|欄位|container|appsettings|DAO|Facade|依賴注入|FUGO|用戶狀態|事件紀錄|測試框架|電話隱碼|資料表|Controller|Model"
+    },
+    "39861": {
+      "page": "非頁面／共用功能",
+      "url": "",
+      "reason": "標題",
+      "matched_rule": "API|JOB|排程|Webhook|webhook|Redis|資料庫|DB|SP|SQL|Sonarqube|SonarQube|架構|效能|快取|SSO|登入|login|登出|Session|Token|OTP|手機驗證|綁定|LIFF|LINE|Line SDK|AI助手|AI 摘要|聊天室|聊天|訊息|SignalR|Hub|Log|LOG|錯誤|異常|重構|版本|版號|環境|權限|元件|UI|前端|後端|資料遮蔽|個資|密碼|白名單|網址|LDAP|nginx|IP|int\\s*溢位|table|欄位|container|appsettings|DAO|Facade|依賴注入|FUGO|用戶狀態|事件紀錄|測試框架|電話隱碼|資料表|Controller|Model"
+    },
+    "39860": {
+      "page": "直播設定",
+      "url": "/Stream",
+      "reason": "標題",
+      "matched_rule": "直播|見面會|直播設定|直播活動|LIFF活動頁|Stream"
+    },
+    "39857": {
+      "page": "模板訊息",
+      "url": "/Combo",
+      "reason": "標題",
+      "matched_rule": "模板|模板訊息|模板設定|模板素材|Combo"
+    },
+    "39840": {
+      "page": "非頁面／共用功能",
+      "url": "",
+      "reason": "標題",
+      "matched_rule": "API|JOB|排程|Webhook|webhook|Redis|資料庫|DB|SP|SQL|Sonarqube|SonarQube|架構|效能|快取|SSO|登入|login|登出|Session|Token|OTP|手機驗證|綁定|LIFF|LINE|Line SDK|AI助手|AI 摘要|聊天室|聊天|訊息|SignalR|Hub|Log|LOG|錯誤|異常|重構|版本|版號|環境|權限|元件|UI|前端|後端|資料遮蔽|個資|密碼|白名單|網址|LDAP|nginx|IP|int\\s*溢位|table|欄位|container|appsettings|DAO|Facade|依賴注入|FUGO|用戶狀態|事件紀錄|測試框架|電話隱碼|資料表|Controller|Model"
+    },
+    "39839": {
+      "page": "非頁面／共用功能",
+      "url": "",
+      "reason": "標題",
+      "matched_rule": "API|JOB|排程|Webhook|webhook|Redis|資料庫|DB|SP|SQL|Sonarqube|SonarQube|架構|效能|快取|SSO|登入|login|登出|Session|Token|OTP|手機驗證|綁定|LIFF|LINE|Line SDK|AI助手|AI 摘要|聊天室|聊天|訊息|SignalR|Hub|Log|LOG|錯誤|異常|重構|版本|版號|環境|權限|元件|UI|前端|後端|資料遮蔽|個資|密碼|白名單|網址|LDAP|nginx|IP|int\\s*溢位|table|欄位|container|appsettings|DAO|Facade|依賴注入|FUGO|用戶狀態|事件紀錄|測試框架|電話隱碼|資料表|Controller|Model"
+    },
+    "39836": {
+      "page": "模板訊息",
+      "url": "/Combo",
+      "reason": "標題",
+      "matched_rule": "模板|模板訊息|模板設定|模板素材|Combo"
+    },
+    "39817": {
+      "page": "使用者管理",
+      "url": "/User",
+      "reason": "標題",
+      "matched_rule": "使用者管理|新增使用者|新增帳號|系統使用者|AD帳號|使用者帳號|使用者狀態|User"
+    },
+    "39813": {
+      "page": "圖庫",
+      "url": "/Gallery",
+      "reason": "標題",
+      "matched_rule": "圖庫|圖片庫|圖庫管理|縮圖|FaceAI|Gallery"
+    },
+    "39806": {
+      "page": "非頁面／共用功能",
+      "url": "",
+      "reason": "標題",
+      "matched_rule": "API|JOB|排程|Webhook|webhook|Redis|資料庫|DB|SP|SQL|Sonarqube|SonarQube|架構|效能|快取|SSO|登入|login|登出|Session|Token|OTP|手機驗證|綁定|LIFF|LINE|Line SDK|AI助手|AI 摘要|聊天室|聊天|訊息|SignalR|Hub|Log|LOG|錯誤|異常|重構|版本|版號|環境|權限|元件|UI|前端|後端|資料遮蔽|個資|密碼|白名單|網址|LDAP|nginx|IP|int\\s*溢位|table|欄位|container|appsettings|DAO|Facade|依賴注入|FUGO|用戶狀態|事件紀錄|測試框架|電話隱碼|資料表|Controller|Model"
+    },
+    "39789": {
+      "page": "統計資訊",
+      "url": "/Metrics",
+      "reason": "標題",
+      "matched_rule": "統計資訊|成效報表|會員統計|統計資料|下載報表|Metrics"
+    },
+    "39786": {
+      "page": "統計資訊",
+      "url": "/Metrics",
+      "reason": "標題",
+      "matched_rule": "統計資訊|成效報表|會員統計|統計資料|下載報表|Metrics"
+    },
+    "39776": {
+      "page": "直播設定",
+      "url": "/Stream",
+      "reason": "標題",
+      "matched_rule": "直播|見面會|直播設定|直播活動|LIFF活動頁|Stream"
+    },
+    "39754": {
+      "page": "非頁面／共用功能",
+      "url": "",
+      "reason": "標題",
+      "matched_rule": "API|JOB|排程|Webhook|webhook|Redis|資料庫|DB|SP|SQL|Sonarqube|SonarQube|架構|效能|快取|SSO|登入|login|登出|Session|Token|OTP|手機驗證|綁定|LIFF|LINE|Line SDK|AI助手|AI 摘要|聊天室|聊天|訊息|SignalR|Hub|Log|LOG|錯誤|異常|重構|版本|版號|環境|權限|元件|UI|前端|後端|資料遮蔽|個資|密碼|白名單|網址|LDAP|nginx|IP|int\\s*溢位|table|欄位|container|appsettings|DAO|Facade|依賴注入|FUGO|用戶狀態|事件紀錄|測試框架|電話隱碼|資料表|Controller|Model"
+    },
+    "39732": {
+      "page": "非頁面／共用功能",
+      "url": "",
+      "reason": "標題",
+      "matched_rule": "API|JOB|排程|Webhook|webhook|Redis|資料庫|DB|SP|SQL|Sonarqube|SonarQube|架構|效能|快取|SSO|登入|login|登出|Session|Token|OTP|手機驗證|綁定|LIFF|LINE|Line SDK|AI助手|AI 摘要|聊天室|聊天|訊息|SignalR|Hub|Log|LOG|錯誤|異常|重構|版本|版號|環境|權限|元件|UI|前端|後端|資料遮蔽|個資|密碼|白名單|網址|LDAP|nginx|IP|int\\s*溢位|table|欄位|container|appsettings|DAO|Facade|依賴注入|FUGO|用戶狀態|事件紀錄|測試框架|電話隱碼|資料表|Controller|Model"
+    },
+    "39717": {
+      "page": "使用者管理",
+      "url": "/User",
+      "reason": "標題",
+      "matched_rule": "使用者管理|新增使用者|新增帳號|系統使用者|AD帳號|使用者帳號|使用者狀態|User"
+    },
+    "39635": {
+      "page": "離線訊息管理",
+      "url": "/LeaveMessages",
+      "reason": "標題",
+      "matched_rule": "離線訊息|離線留言|LeaveMessages"
+    },
+    "39594": {
+      "page": "非頁面／共用功能",
+      "url": "",
+      "reason": "標題",
+      "matched_rule": "API|JOB|排程|Webhook|webhook|Redis|資料庫|DB|SP|SQL|Sonarqube|SonarQube|架構|效能|快取|SSO|登入|login|登出|Session|Token|OTP|手機驗證|綁定|LIFF|LINE|Line SDK|AI助手|AI 摘要|聊天室|聊天|訊息|SignalR|Hub|Log|LOG|錯誤|異常|重構|版本|版號|環境|權限|元件|UI|前端|後端|資料遮蔽|個資|密碼|白名單|網址|LDAP|nginx|IP|int\\s*溢位|table|欄位|container|appsettings|DAO|Facade|依賴注入|FUGO|用戶狀態|事件紀錄|測試框架|電話隱碼|資料表|Controller|Model"
+    },
+    "39576": {
+      "page": "圖庫",
+      "url": "/Gallery",
+      "reason": "標題",
+      "matched_rule": "圖庫|圖片庫|圖庫管理|縮圖|FaceAI|Gallery"
+    },
+    "39557": {
+      "page": "使用者管理",
+      "url": "/User",
+      "reason": "標題",
+      "matched_rule": "使用者管理|新增使用者|新增帳號|系統使用者|AD帳號|使用者帳號|使用者狀態|User"
+    },
+    "39547": {
+      "page": "直播設定",
+      "url": "/Stream",
+      "reason": "標題",
+      "matched_rule": "直播|見面會|直播設定|直播活動|LIFF活動頁|Stream"
+    },
+    "39519": {
+      "page": "非頁面／共用功能",
+      "url": "",
+      "reason": "標題",
+      "matched_rule": "API|JOB|排程|Webhook|webhook|Redis|資料庫|DB|SP|SQL|Sonarqube|SonarQube|架構|效能|快取|SSO|登入|login|登出|Session|Token|OTP|手機驗證|綁定|LIFF|LINE|Line SDK|AI助手|AI 摘要|聊天室|聊天|訊息|SignalR|Hub|Log|LOG|錯誤|異常|重構|版本|版號|環境|權限|元件|UI|前端|後端|資料遮蔽|個資|密碼|白名單|網址|LDAP|nginx|IP|int\\s*溢位|table|欄位|container|appsettings|DAO|Facade|依賴注入|FUGO|用戶狀態|事件紀錄|測試框架|電話隱碼|資料表|Controller|Model"
+    },
+    "39491": {
+      "page": "非頁面／共用功能",
+      "url": "",
+      "reason": "標題",
+      "matched_rule": "API|JOB|排程|Webhook|webhook|Redis|資料庫|DB|SP|SQL|Sonarqube|SonarQube|架構|效能|快取|SSO|登入|login|登出|Session|Token|OTP|手機驗證|綁定|LIFF|LINE|Line SDK|AI助手|AI 摘要|聊天室|聊天|訊息|SignalR|Hub|Log|LOG|錯誤|異常|重構|版本|版號|環境|權限|元件|UI|前端|後端|資料遮蔽|個資|密碼|白名單|網址|LDAP|nginx|IP|int\\s*溢位|table|欄位|container|appsettings|DAO|Facade|依賴注入|FUGO|用戶狀態|事件紀錄|測試框架|電話隱碼|資料表|Controller|Model"
+    },
+    "39486": {
+      "page": "非頁面／共用功能",
+      "url": "",
+      "reason": "標題",
+      "matched_rule": "API|JOB|排程|Webhook|webhook|Redis|資料庫|DB|SP|SQL|Sonarqube|SonarQube|架構|效能|快取|SSO|登入|login|登出|Session|Token|OTP|手機驗證|綁定|LIFF|LINE|Line SDK|AI助手|AI 摘要|聊天室|聊天|訊息|SignalR|Hub|Log|LOG|錯誤|異常|重構|版本|版號|環境|權限|元件|UI|前端|後端|資料遮蔽|個資|密碼|白名單|網址|LDAP|nginx|IP|int\\s*溢位|table|欄位|container|appsettings|DAO|Facade|依賴注入|FUGO|用戶狀態|事件紀錄|測試框架|電話隱碼|資料表|Controller|Model"
+    },
+    "39456": {
+      "page": "非頁面／共用功能",
+      "url": "",
+      "reason": "標題",
+      "matched_rule": "API|JOB|排程|Webhook|webhook|Redis|資料庫|DB|SP|SQL|Sonarqube|SonarQube|架構|效能|快取|SSO|登入|login|登出|Session|Token|OTP|手機驗證|綁定|LIFF|LINE|Line SDK|AI助手|AI 摘要|聊天室|聊天|訊息|SignalR|Hub|Log|LOG|錯誤|異常|重構|版本|版號|環境|權限|元件|UI|前端|後端|資料遮蔽|個資|密碼|白名單|網址|LDAP|nginx|IP|int\\s*溢位|table|欄位|container|appsettings|DAO|Facade|依賴注入|FUGO|用戶狀態|事件紀錄|測試框架|電話隱碼|資料表|Controller|Model"
+    },
+    "39441": {
+      "page": "非頁面／共用功能",
+      "url": "",
+      "reason": "標題",
+      "matched_rule": "API|JOB|排程|Webhook|webhook|Redis|資料庫|DB|SP|SQL|Sonarqube|SonarQube|架構|效能|快取|SSO|登入|login|登出|Session|Token|OTP|手機驗證|綁定|LIFF|LINE|Line SDK|AI助手|AI 摘要|聊天室|聊天|訊息|SignalR|Hub|Log|LOG|錯誤|異常|重構|版本|版號|環境|權限|元件|UI|前端|後端|資料遮蔽|個資|密碼|白名單|網址|LDAP|nginx|IP|int\\s*溢位|table|欄位|container|appsettings|DAO|Facade|依賴注入|FUGO|用戶狀態|事件紀錄|測試框架|電話隱碼|資料表|Controller|Model"
+    },
+    "39408": {
+      "page": "對話查詢",
+      "url": "/Dialog",
+      "reason": "標題",
+      "matched_rule": "對話查詢|歷史紀錄查詢|聊天歷史紀錄查詢|ElasticSearchAPI|Dialog"
+    },
+    "39407": {
+      "page": "對話查詢",
+      "url": "/Dialog",
+      "reason": "標題",
+      "matched_rule": "對話查詢|歷史紀錄查詢|聊天歷史紀錄查詢|ElasticSearchAPI|Dialog"
+    },
+    "39353": {
+      "page": "待確認使用者",
+      "url": "/PendingUser",
+      "reason": "標題",
+      "matched_rule": "待確認使用者|待確認 User|PendingUser"
+    },
+    "39352": {
+      "page": "非頁面／共用功能",
+      "url": "",
+      "reason": "標題",
+      "matched_rule": "API|JOB|排程|Webhook|webhook|Redis|資料庫|DB|SP|SQL|Sonarqube|SonarQube|架構|效能|快取|SSO|登入|login|登出|Session|Token|OTP|手機驗證|綁定|LIFF|LINE|Line SDK|AI助手|AI 摘要|聊天室|聊天|訊息|SignalR|Hub|Log|LOG|錯誤|異常|重構|版本|版號|環境|權限|元件|UI|前端|後端|資料遮蔽|個資|密碼|白名單|網址|LDAP|nginx|IP|int\\s*溢位|table|欄位|container|appsettings|DAO|Facade|依賴注入|FUGO|用戶狀態|事件紀錄|測試框架|電話隱碼|資料表|Controller|Model"
+    },
+    "39334": {
+      "page": "直播設定",
+      "url": "/Stream",
+      "reason": "標題",
+      "matched_rule": "直播|見面會|直播設定|直播活動|LIFF活動頁|Stream"
+    },
+    "39333": {
+      "page": "待人工確認頁面",
+      "url": "",
+      "reason": "未命中規則",
+      "matched_rule": ""
+    },
+    "39322": {
+      "page": "非頁面／共用功能",
+      "url": "",
+      "reason": "標題",
+      "matched_rule": "API|JOB|排程|Webhook|webhook|Redis|資料庫|DB|SP|SQL|Sonarqube|SonarQube|架構|效能|快取|SSO|登入|login|登出|Session|Token|OTP|手機驗證|綁定|LIFF|LINE|Line SDK|AI助手|AI 摘要|聊天室|聊天|訊息|SignalR|Hub|Log|LOG|錯誤|異常|重構|版本|版號|環境|權限|元件|UI|前端|後端|資料遮蔽|個資|密碼|白名單|網址|LDAP|nginx|IP|int\\s*溢位|table|欄位|container|appsettings|DAO|Facade|依賴注入|FUGO|用戶狀態|事件紀錄|測試框架|電話隱碼|資料表|Controller|Model"
+    },
+    "39319": {
+      "page": "圖庫",
+      "url": "/Gallery",
+      "reason": "標題",
+      "matched_rule": "圖庫|圖片庫|圖庫管理|縮圖|FaceAI|Gallery"
+    },
+    "39293": {
+      "page": "非頁面／共用功能",
+      "url": "",
+      "reason": "標題",
+      "matched_rule": "API|JOB|排程|Webhook|webhook|Redis|資料庫|DB|SP|SQL|Sonarqube|SonarQube|架構|效能|快取|SSO|登入|login|登出|Session|Token|OTP|手機驗證|綁定|LIFF|LINE|Line SDK|AI助手|AI 摘要|聊天室|聊天|訊息|SignalR|Hub|Log|LOG|錯誤|異常|重構|版本|版號|環境|權限|元件|UI|前端|後端|資料遮蔽|個資|密碼|白名單|網址|LDAP|nginx|IP|int\\s*溢位|table|欄位|container|appsettings|DAO|Facade|依賴注入|FUGO|用戶狀態|事件紀錄|測試框架|電話隱碼|資料表|Controller|Model"
+    },
+    "39253": {
+      "page": "直播設定",
+      "url": "/Stream",
+      "reason": "標題",
+      "matched_rule": "直播|見面會|直播設定|直播活動|LIFF活動頁|Stream"
+    },
+    "39252": {
+      "page": "非頁面／共用功能",
+      "url": "",
+      "reason": "標題",
+      "matched_rule": "API|JOB|排程|Webhook|webhook|Redis|資料庫|DB|SP|SQL|Sonarqube|SonarQube|架構|效能|快取|SSO|登入|login|登出|Session|Token|OTP|手機驗證|綁定|LIFF|LINE|Line SDK|AI助手|AI 摘要|聊天室|聊天|訊息|SignalR|Hub|Log|LOG|錯誤|異常|重構|版本|版號|環境|權限|元件|UI|前端|後端|資料遮蔽|個資|密碼|白名單|網址|LDAP|nginx|IP|int\\s*溢位|table|欄位|container|appsettings|DAO|Facade|依賴注入|FUGO|用戶狀態|事件紀錄|測試框架|電話隱碼|資料表|Controller|Model"
+    },
+    "39250": {
+      "page": "離線訊息管理",
+      "url": "/LeaveMessages",
+      "reason": "標題",
+      "matched_rule": "離線訊息|離線留言|LeaveMessages"
+    },
+    "39244": {
+      "page": "非頁面／共用功能",
+      "url": "",
+      "reason": "標題",
+      "matched_rule": "API|JOB|排程|Webhook|webhook|Redis|資料庫|DB|SP|SQL|Sonarqube|SonarQube|架構|效能|快取|SSO|登入|login|登出|Session|Token|OTP|手機驗證|綁定|LIFF|LINE|Line SDK|AI助手|AI 摘要|聊天室|聊天|訊息|SignalR|Hub|Log|LOG|錯誤|異常|重構|版本|版號|環境|權限|元件|UI|前端|後端|資料遮蔽|個資|密碼|白名單|網址|LDAP|nginx|IP|int\\s*溢位|table|欄位|container|appsettings|DAO|Facade|依賴注入|FUGO|用戶狀態|事件紀錄|測試框架|電話隱碼|資料表|Controller|Model"
+    },
+    "39217": {
+      "page": "非頁面／共用功能",
+      "url": "",
+      "reason": "標題",
+      "matched_rule": "API|JOB|排程|Webhook|webhook|Redis|資料庫|DB|SP|SQL|Sonarqube|SonarQube|架構|效能|快取|SSO|登入|login|登出|Session|Token|OTP|手機驗證|綁定|LIFF|LINE|Line SDK|AI助手|AI 摘要|聊天室|聊天|訊息|SignalR|Hub|Log|LOG|錯誤|異常|重構|版本|版號|環境|權限|元件|UI|前端|後端|資料遮蔽|個資|密碼|白名單|網址|LDAP|nginx|IP|int\\s*溢位|table|欄位|container|appsettings|DAO|Facade|依賴注入|FUGO|用戶狀態|事件紀錄|測試框架|電話隱碼|資料表|Controller|Model"
+    },
+    "39114": {
+      "page": "對話查詢",
+      "url": "/Dialog",
+      "reason": "標題",
+      "matched_rule": "對話查詢|歷史紀錄查詢|聊天歷史紀錄查詢|ElasticSearchAPI|Dialog"
+    },
+    "39067": {
+      "page": "非頁面／共用功能",
+      "url": "",
+      "reason": "標題",
+      "matched_rule": "API|JOB|排程|Webhook|webhook|Redis|資料庫|DB|SP|SQL|Sonarqube|SonarQube|架構|效能|快取|SSO|登入|login|登出|Session|Token|OTP|手機驗證|綁定|LIFF|LINE|Line SDK|AI助手|AI 摘要|聊天室|聊天|訊息|SignalR|Hub|Log|LOG|錯誤|異常|重構|版本|版號|環境|權限|元件|UI|前端|後端|資料遮蔽|個資|密碼|白名單|網址|LDAP|nginx|IP|int\\s*溢位|table|欄位|container|appsettings|DAO|Facade|依賴注入|FUGO|用戶狀態|事件紀錄|測試框架|電話隱碼|資料表|Controller|Model"
+    },
+    "39060": {
+      "page": "非頁面／共用功能",
+      "url": "",
+      "reason": "內容",
+      "matched_rule": "API|JOB|排程|Webhook|webhook|Redis|資料庫|DB|SP|SQL|Sonarqube|SonarQube|架構|效能|快取|SSO|登入|login|登出|Session|Token|OTP|手機驗證|綁定|LIFF|LINE|Line SDK|AI助手|AI 摘要|聊天室|聊天|訊息|SignalR|Hub|Log|LOG|錯誤|異常|重構|版本|版號|環境|權限|元件|UI|前端|後端|資料遮蔽|個資|密碼|白名單|網址|LDAP|nginx|IP|int\\s*溢位|table|欄位|container|appsettings|DAO|Facade|依賴注入|FUGO|用戶狀態|事件紀錄|測試框架|電話隱碼|資料表|Controller|Model"
+    },
+    "39055": {
+      "page": "離線訊息管理",
+      "url": "/LeaveMessages",
+      "reason": "標題",
+      "matched_rule": "離線訊息|離線留言|LeaveMessages"
+    },
+    "38995": {
+      "page": "圖文選單",
+      "url": "/Richmenu",
+      "reason": "標題",
+      "matched_rule": "圖文選單|Richmenu"
+    },
+    "38991": {
+      "page": "非頁面／共用功能",
+      "url": "",
+      "reason": "標題",
+      "matched_rule": "API|JOB|排程|Webhook|webhook|Redis|資料庫|DB|SP|SQL|Sonarqube|SonarQube|架構|效能|快取|SSO|登入|login|登出|Session|Token|OTP|手機驗證|綁定|LIFF|LINE|Line SDK|AI助手|AI 摘要|聊天室|聊天|訊息|SignalR|Hub|Log|LOG|錯誤|異常|重構|版本|版號|環境|權限|元件|UI|前端|後端|資料遮蔽|個資|密碼|白名單|網址|LDAP|nginx|IP|int\\s*溢位|table|欄位|container|appsettings|DAO|Facade|依賴注入|FUGO|用戶狀態|事件紀錄|測試框架|電話隱碼|資料表|Controller|Model"
+    },
+    "38970": {
+      "page": "對話查詢",
+      "url": "/Dialog",
+      "reason": "標題",
+      "matched_rule": "對話查詢|歷史紀錄查詢|聊天歷史紀錄查詢|ElasticSearchAPI|Dialog"
+    },
+    "38949": {
+      "page": "圖文選單",
+      "url": "/Richmenu",
+      "reason": "標題",
+      "matched_rule": "圖文選單|Richmenu"
+    },
+    "38948": {
+      "page": "圖文選單",
+      "url": "/Richmenu",
+      "reason": "標題",
+      "matched_rule": "圖文選單|Richmenu"
+    },
+    "38936": {
+      "page": "非頁面／共用功能",
+      "url": "",
+      "reason": "標題",
+      "matched_rule": "API|JOB|排程|Webhook|webhook|Redis|資料庫|DB|SP|SQL|Sonarqube|SonarQube|架構|效能|快取|SSO|登入|login|登出|Session|Token|OTP|手機驗證|綁定|LIFF|LINE|Line SDK|AI助手|AI 摘要|聊天室|聊天|訊息|SignalR|Hub|Log|LOG|錯誤|異常|重構|版本|版號|環境|權限|元件|UI|前端|後端|資料遮蔽|個資|密碼|白名單|網址|LDAP|nginx|IP|int\\s*溢位|table|欄位|container|appsettings|DAO|Facade|依賴注入|FUGO|用戶狀態|事件紀錄|測試框架|電話隱碼|資料表|Controller|Model"
+    },
+    "38926": {
+      "page": "非頁面／共用功能",
+      "url": "",
+      "reason": "標題",
+      "matched_rule": "API|JOB|排程|Webhook|webhook|Redis|資料庫|DB|SP|SQL|Sonarqube|SonarQube|架構|效能|快取|SSO|登入|login|登出|Session|Token|OTP|手機驗證|綁定|LIFF|LINE|Line SDK|AI助手|AI 摘要|聊天室|聊天|訊息|SignalR|Hub|Log|LOG|錯誤|異常|重構|版本|版號|環境|權限|元件|UI|前端|後端|資料遮蔽|個資|密碼|白名單|網址|LDAP|nginx|IP|int\\s*溢位|table|欄位|container|appsettings|DAO|Facade|依賴注入|FUGO|用戶狀態|事件紀錄|測試框架|電話隱碼|資料表|Controller|Model"
+    },
+    "38921": {
+      "page": "非頁面／共用功能",
+      "url": "",
+      "reason": "標題",
+      "matched_rule": "API|JOB|排程|Webhook|webhook|Redis|資料庫|DB|SP|SQL|Sonarqube|SonarQube|架構|效能|快取|SSO|登入|login|登出|Session|Token|OTP|手機驗證|綁定|LIFF|LINE|Line SDK|AI助手|AI 摘要|聊天室|聊天|訊息|SignalR|Hub|Log|LOG|錯誤|異常|重構|版本|版號|環境|權限|元件|UI|前端|後端|資料遮蔽|個資|密碼|白名單|網址|LDAP|nginx|IP|int\\s*溢位|table|欄位|container|appsettings|DAO|Facade|依賴注入|FUGO|用戶狀態|事件紀錄|測試框架|電話隱碼|資料表|Controller|Model"
+    },
+    "38883": {
+      "page": "待人工確認頁面",
+      "url": "",
+      "reason": "未命中規則",
+      "matched_rule": ""
+    },
+    "38854": {
+      "page": "圖文選單",
+      "url": "/Richmenu",
+      "reason": "標題",
+      "matched_rule": "圖文選單|Richmenu"
+    },
+    "38825": {
+      "page": "非頁面／共用功能",
+      "url": "",
+      "reason": "標題",
+      "matched_rule": "API|JOB|排程|Webhook|webhook|Redis|資料庫|DB|SP|SQL|Sonarqube|SonarQube|架構|效能|快取|SSO|登入|login|登出|Session|Token|OTP|手機驗證|綁定|LIFF|LINE|Line SDK|AI助手|AI 摘要|聊天室|聊天|訊息|SignalR|Hub|Log|LOG|錯誤|異常|重構|版本|版號|環境|權限|元件|UI|前端|後端|資料遮蔽|個資|密碼|白名單|網址|LDAP|nginx|IP|int\\s*溢位|table|欄位|container|appsettings|DAO|Facade|依賴注入|FUGO|用戶狀態|事件紀錄|測試框架|電話隱碼|資料表|Controller|Model"
+    },
+    "38819": {
+      "page": "使用者管理",
+      "url": "/User",
+      "reason": "標題",
+      "matched_rule": "使用者管理|新增使用者|新增帳號|系統使用者|AD帳號|使用者帳號|使用者狀態|User"
+    },
+    "38792": {
+      "page": "非頁面／共用功能",
+      "url": "",
+      "reason": "內容",
+      "matched_rule": "API|JOB|排程|Webhook|webhook|Redis|資料庫|DB|SP|SQL|Sonarqube|SonarQube|架構|效能|快取|SSO|登入|login|登出|Session|Token|OTP|手機驗證|綁定|LIFF|LINE|Line SDK|AI助手|AI 摘要|聊天室|聊天|訊息|SignalR|Hub|Log|LOG|錯誤|異常|重構|版本|版號|環境|權限|元件|UI|前端|後端|資料遮蔽|個資|密碼|白名單|網址|LDAP|nginx|IP|int\\s*溢位|table|欄位|container|appsettings|DAO|Facade|依賴注入|FUGO|用戶狀態|事件紀錄|測試框架|電話隱碼|資料表|Controller|Model"
+    },
+    "38764": {
+      "page": "待人工確認頁面",
+      "url": "",
+      "reason": "未命中規則",
+      "matched_rule": ""
+    },
+    "38748": {
+      "page": "離線訊息管理",
+      "url": "/LeaveMessages",
+      "reason": "內容",
+      "matched_rule": "離線訊息|離線留言|LeaveMessages"
+    },
+    "38738": {
+      "page": "離線訊息管理",
+      "url": "/LeaveMessages",
+      "reason": "標題",
+      "matched_rule": "離線訊息|離線留言|LeaveMessages"
+    },
+    "38674": {
+      "page": "非頁面／共用功能",
+      "url": "",
+      "reason": "標題",
+      "matched_rule": "API|JOB|排程|Webhook|webhook|Redis|資料庫|DB|SP|SQL|Sonarqube|SonarQube|架構|效能|快取|SSO|登入|login|登出|Session|Token|OTP|手機驗證|綁定|LIFF|LINE|Line SDK|AI助手|AI 摘要|聊天室|聊天|訊息|SignalR|Hub|Log|LOG|錯誤|異常|重構|版本|版號|環境|權限|元件|UI|前端|後端|資料遮蔽|個資|密碼|白名單|網址|LDAP|nginx|IP|int\\s*溢位|table|欄位|container|appsettings|DAO|Facade|依賴注入|FUGO|用戶狀態|事件紀錄|測試框架|電話隱碼|資料表|Controller|Model"
+    },
+    "38670": {
+      "page": "使用者管理",
+      "url": "/User",
+      "reason": "標題",
+      "matched_rule": "使用者管理|新增使用者|新增帳號|系統使用者|AD帳號|使用者帳號|使用者狀態|User"
+    },
+    "38669": {
+      "page": "使用者管理",
+      "url": "/User",
+      "reason": "標題",
+      "matched_rule": "使用者管理|新增使用者|新增帳號|系統使用者|AD帳號|使用者帳號|使用者狀態|User"
+    },
+    "38661": {
+      "page": "客戶管理",
+      "url": "/Customer",
+      "reason": "標題",
+      "matched_rule": "客戶管理|修改客戶|客戶資料|客戶手機|會員資料|Customer"
+    },
+    "38655": {
+      "page": "客戶管理",
+      "url": "/Customer",
+      "reason": "內容",
+      "matched_rule": "客戶管理|修改客戶|客戶資料|客戶手機|會員資料|Customer"
+    },
+    "38654": {
+      "page": "非頁面／共用功能",
+      "url": "",
+      "reason": "標題",
+      "matched_rule": "API|JOB|排程|Webhook|webhook|Redis|資料庫|DB|SP|SQL|Sonarqube|SonarQube|架構|效能|快取|SSO|登入|login|登出|Session|Token|OTP|手機驗證|綁定|LIFF|LINE|Line SDK|AI助手|AI 摘要|聊天室|聊天|訊息|SignalR|Hub|Log|LOG|錯誤|異常|重構|版本|版號|環境|權限|元件|UI|前端|後端|資料遮蔽|個資|密碼|白名單|網址|LDAP|nginx|IP|int\\s*溢位|table|欄位|container|appsettings|DAO|Facade|依賴注入|FUGO|用戶狀態|事件紀錄|測試框架|電話隱碼|資料表|Controller|Model"
+    },
+    "38648": {
+      "page": "離線訊息管理",
+      "url": "/LeaveMessages",
+      "reason": "標題",
+      "matched_rule": "離線訊息|離線留言|LeaveMessages"
+    },
+    "38634": {
+      "page": "非頁面／共用功能",
+      "url": "",
+      "reason": "標題",
+      "matched_rule": "API|JOB|排程|Webhook|webhook|Redis|資料庫|DB|SP|SQL|Sonarqube|SonarQube|架構|效能|快取|SSO|登入|login|登出|Session|Token|OTP|手機驗證|綁定|LIFF|LINE|Line SDK|AI助手|AI 摘要|聊天室|聊天|訊息|SignalR|Hub|Log|LOG|錯誤|異常|重構|版本|版號|環境|權限|元件|UI|前端|後端|資料遮蔽|個資|密碼|白名單|網址|LDAP|nginx|IP|int\\s*溢位|table|欄位|container|appsettings|DAO|Facade|依賴注入|FUGO|用戶狀態|事件紀錄|測試框架|電話隱碼|資料表|Controller|Model"
+    },
+    "38623": {
+      "page": "使用者管理",
+      "url": "/User",
+      "reason": "標題",
+      "matched_rule": "使用者管理|新增使用者|新增帳號|系統使用者|AD帳號|使用者帳號|使用者狀態|User"
+    },
+    "38621": {
+      "page": "使用者管理",
+      "url": "/User",
+      "reason": "標題",
+      "matched_rule": "使用者管理|新增使用者|新增帳號|系統使用者|AD帳號|使用者帳號|使用者狀態|User"
+    },
+    "38615": {
+      "page": "對話查詢",
+      "url": "/Dialog",
+      "reason": "標題",
+      "matched_rule": "對話查詢|歷史紀錄查詢|聊天歷史紀錄查詢|ElasticSearchAPI|Dialog"
+    },
+    "38588": {
+      "page": "非頁面／共用功能",
+      "url": "",
+      "reason": "標題",
+      "matched_rule": "API|JOB|排程|Webhook|webhook|Redis|資料庫|DB|SP|SQL|Sonarqube|SonarQube|架構|效能|快取|SSO|登入|login|登出|Session|Token|OTP|手機驗證|綁定|LIFF|LINE|Line SDK|AI助手|AI 摘要|聊天室|聊天|訊息|SignalR|Hub|Log|LOG|錯誤|異常|重構|版本|版號|環境|權限|元件|UI|前端|後端|資料遮蔽|個資|密碼|白名單|網址|LDAP|nginx|IP|int\\s*溢位|table|欄位|container|appsettings|DAO|Facade|依賴注入|FUGO|用戶狀態|事件紀錄|測試框架|電話隱碼|資料表|Controller|Model"
+    },
+    "38586": {
+      "page": "非頁面／共用功能",
+      "url": "",
+      "reason": "標題",
+      "matched_rule": "API|JOB|排程|Webhook|webhook|Redis|資料庫|DB|SP|SQL|Sonarqube|SonarQube|架構|效能|快取|SSO|登入|login|登出|Session|Token|OTP|手機驗證|綁定|LIFF|LINE|Line SDK|AI助手|AI 摘要|聊天室|聊天|訊息|SignalR|Hub|Log|LOG|錯誤|異常|重構|版本|版號|環境|權限|元件|UI|前端|後端|資料遮蔽|個資|密碼|白名單|網址|LDAP|nginx|IP|int\\s*溢位|table|欄位|container|appsettings|DAO|Facade|依賴注入|FUGO|用戶狀態|事件紀錄|測試框架|電話隱碼|資料表|Controller|Model"
+    },
+    "38585": {
+      "page": "非頁面／共用功能",
+      "url": "",
+      "reason": "標題",
+      "matched_rule": "API|JOB|排程|Webhook|webhook|Redis|資料庫|DB|SP|SQL|Sonarqube|SonarQube|架構|效能|快取|SSO|登入|login|登出|Session|Token|OTP|手機驗證|綁定|LIFF|LINE|Line SDK|AI助手|AI 摘要|聊天室|聊天|訊息|SignalR|Hub|Log|LOG|錯誤|異常|重構|版本|版號|環境|權限|元件|UI|前端|後端|資料遮蔽|個資|密碼|白名單|網址|LDAP|nginx|IP|int\\s*溢位|table|欄位|container|appsettings|DAO|Facade|依賴注入|FUGO|用戶狀態|事件紀錄|測試框架|電話隱碼|資料表|Controller|Model"
+    },
+    "38580": {
+      "page": "離線訊息管理",
+      "url": "/LeaveMessages",
+      "reason": "標題",
+      "matched_rule": "離線訊息|離線留言|LeaveMessages"
+    },
+    "38574": {
+      "page": "圖文選單",
+      "url": "/Richmenu",
+      "reason": "標題",
+      "matched_rule": "圖文選單|Richmenu"
+    },
+    "38573": {
+      "page": "圖文選單",
+      "url": "/Richmenu",
+      "reason": "標題",
+      "matched_rule": "圖文選單|Richmenu"
+    },
+    "38572": {
+      "page": "圖文選單",
+      "url": "/Richmenu",
+      "reason": "標題",
+      "matched_rule": "圖文選單|Richmenu"
+    },
+    "38563": {
+      "page": "離線訊息管理",
+      "url": "/LeaveMessages",
+      "reason": "標題",
+      "matched_rule": "離線訊息|離線留言|LeaveMessages"
+    },
+    "38562": {
+      "page": "離線訊息管理",
+      "url": "/LeaveMessages",
+      "reason": "標題",
+      "matched_rule": "離線訊息|離線留言|LeaveMessages"
+    },
+    "38561": {
+      "page": "離線訊息管理",
+      "url": "/LeaveMessages",
+      "reason": "標題",
+      "matched_rule": "離線訊息|離線留言|LeaveMessages"
+    },
+    "38554": {
+      "page": "圖文選單",
+      "url": "/Richmenu",
+      "reason": "標題",
+      "matched_rule": "圖文選單|Richmenu"
+    },
+    "38553": {
+      "page": "離線訊息管理",
+      "url": "/LeaveMessages",
+      "reason": "標題",
+      "matched_rule": "離線訊息|離線留言|LeaveMessages"
+    },
+    "38455": {
+      "page": "非頁面／共用功能",
+      "url": "",
+      "reason": "標題",
+      "matched_rule": "API|JOB|排程|Webhook|webhook|Redis|資料庫|DB|SP|SQL|Sonarqube|SonarQube|架構|效能|快取|SSO|登入|login|登出|Session|Token|OTP|手機驗證|綁定|LIFF|LINE|Line SDK|AI助手|AI 摘要|聊天室|聊天|訊息|SignalR|Hub|Log|LOG|錯誤|異常|重構|版本|版號|環境|權限|元件|UI|前端|後端|資料遮蔽|個資|密碼|白名單|網址|LDAP|nginx|IP|int\\s*溢位|table|欄位|container|appsettings|DAO|Facade|依賴注入|FUGO|用戶狀態|事件紀錄|測試框架|電話隱碼|資料表|Controller|Model"
+    },
+    "38454": {
+      "page": "商品維護",
+      "url": "/Product",
+      "reason": "標題",
+      "matched_rule": "商品維護|商品檔案|商品管理|Product"
+    },
+    "38453": {
+      "page": "圖庫",
+      "url": "/Gallery",
+      "reason": "標題",
+      "matched_rule": "圖庫|圖片庫|圖庫管理|縮圖|FaceAI|Gallery"
+    },
+    "38452": {
+      "page": "客戶管理",
+      "url": "/Customer",
+      "reason": "標題",
+      "matched_rule": "客戶管理|修改客戶|客戶資料|客戶手機|會員資料|Customer"
+    },
+    "38451": {
+      "page": "指派",
+      "url": "/Assign",
+      "reason": "標題",
+      "matched_rule": "指派|派線|轉接|分配客戶|客服分流|Assign"
+    },
+    "38435": {
+      "page": "非頁面／共用功能",
+      "url": "",
+      "reason": "標題",
+      "matched_rule": "API|JOB|排程|Webhook|webhook|Redis|資料庫|DB|SP|SQL|Sonarqube|SonarQube|架構|效能|快取|SSO|登入|login|登出|Session|Token|OTP|手機驗證|綁定|LIFF|LINE|Line SDK|AI助手|AI 摘要|聊天室|聊天|訊息|SignalR|Hub|Log|LOG|錯誤|異常|重構|版本|版號|環境|權限|元件|UI|前端|後端|資料遮蔽|個資|密碼|白名單|網址|LDAP|nginx|IP|int\\s*溢位|table|欄位|container|appsettings|DAO|Facade|依賴注入|FUGO|用戶狀態|事件紀錄|測試框架|電話隱碼|資料表|Controller|Model"
+    }
+  }
+}

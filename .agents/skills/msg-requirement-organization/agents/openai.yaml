@@ -1,0 +1,4 @@
+interface:
+  display_name: "MSG 需求整理"
+  short_description: "Organize MSG requirements with menu and business-flow traceability"
+  default_prompt: "Use $msg-requirement-organization to rebuild MSG requirement categories and the 98/99 business-flow references."

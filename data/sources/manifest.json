@@ -19,23 +19,26 @@
   },
   "csp/訂單質檢.pdf": {
     "sha256": "b0fd149b4142cbecf21173c8a0c45bfae1c6b2451d01667c2e052e3f6baafda5",
-    "organized_in": ["docs/csp/test-data/test-data-order-qa.md"]
+    "organized_in": [
+      "docs/csp/test-data/test-data-order-qa.md",
+      "docs/csp/test-cases/test-cases-order-qa.md"
+    ]
   },
   "csp/調聽音檔.pdf": {
     "sha256": "68e5b7ee02676cb899468e02e2f6d9e04d380eab2d6d4d106141adeaa1683be6",
-    "organized_in": ["docs/csp/operations/audio-recordings.md"]
+    "organized_in": ["docs/csp/operations/22-調聽音檔.md"]
   },
   "csp/軟體電話測試情境.pdf": {
     "sha256": "e03c059919d8bf190e099ee27257a0b737e69c3fd3f1c16de51e838b1bcdb0b5",
-    "organized_in": ["docs/csp/operations/softphone.md"]
+    "organized_in": ["docs/csp/operations/軟體電話.md"]
   },
   "csp/軟體電話相關代碼.pdf": {
     "sha256": "2195a026af7ce9e9bfe4f5bce5b354add5a393f18cb535e1148938044cfa2b10",
-    "organized_in": ["docs/csp/operations/softphone.md"]
+    "organized_in": ["docs/csp/operations/軟體電話.md"]
   },
   "csp/軟體電話開發用.pdf": {
     "sha256": "d9ae01982f827b8d04e634145d078d90df83b0c7ce1ece234c42af1723621804",
-    "organized_in": ["docs/csp/operations/softphone.md"]
+    "organized_in": ["docs/csp/operations/軟體電話.md"]
   },
   "csp/音檔相關.pdf": {
     "sha256": "42f3d42b19ae07acd9e24304916ea7c83de7d909c96dd80e0f1d6ed79847b141",
@@ -43,7 +46,7 @@
   },
   "csp/MI操作手冊20251112.docx": {
     "sha256": "4b83ae07dd38d5ced5b4834758e4875a2d333daa9b9f03b07e5b52dc43720e74",
-    "organized_in": ["docs/csp/operations/mi-user-guide.md"]
+    "organized_in": ["docs/csp/operations/MI完整手冊.md"]
   },
   "csp/錯誤訊息排除總表_含提示與駐點資訊20260319.docx": {
     "sha256": "fe4962c67ec2dd8480d9708187f51d885fa680bcddba9b05f137f5e27761d257",
@@ -100,6 +103,27 @@
     "organized_in": [
       "docs/msg/test-data/test-data-environments.md",
       "docs/msg/operations/message-operations.md"
+    ]
+  },
+  "msg/redmine/issues_all.json": {
+    "sha256": "0d00519e3e50ce3f181d29bd2d28c827a8a0383d2c02ecaef44660f69e7e2fb3",
+    "organized_in": [
+      "data/sources/msg/redmine/summary_all.md",
+      "docs/msg/requirements/README.md",
+      "docs/msg/requirements/website-page-classification.json",
+      "docs/msg/requirements/page-classification-index.md"
+    ]
+  },
+  "msg/redmine/summary_all.md": {
+    "sha256": "1955f0bfb211eb4ee0c144826a5f689c0d65320ad56251adc28977123fb46c0d",
+    "organized_in": ["docs/msg/requirements/README.md"]
+  },
+  "msg/website-menus.json": {
+    "sha256": "70371204102b3338da3a9b213275e495a33a34a1573c14fd3e21e400fe2043c5",
+    "organized_in": [
+      "docs/msg/requirements/page-purpose-index.md",
+      "docs/msg/requirements/page-classification-index.md",
+      "docs/msg/requirements/website-page-classification.json"
     ]
   }
 }

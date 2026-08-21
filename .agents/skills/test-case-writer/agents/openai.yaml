@@ -1,0 +1,4 @@
+interface:
+  display_name: "測試案例整理"
+  short_description: "Create PO-friendly manual test cases"
+  default_prompt: "Use $test-case-writer to整理一般人員／PO 可執行的測試案例，並在需要時輸出 Markdown 或 Excel。"

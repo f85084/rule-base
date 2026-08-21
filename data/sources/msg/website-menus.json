@@ -1,0 +1,270 @@
+{
+  "stateCode": "0000",
+  "data": [
+    {
+      "id": 18,
+      "name": "權限管理",
+      "description": "測試修改111 ",
+      "icon": "account",
+      "url": null,
+      "sort": 0,
+      "accessLevel": null,
+      "childMenus": [
+        {
+          "id": 15,
+          "name": "功能管理",
+          "description": "功能",
+          "icon": "account",
+          "url": "/Function",
+          "sort": 1,
+          "accessLevel": 1,
+          "childMenus": null
+        },
+        {
+          "id": 16,
+          "name": "角色管理",
+          "description": "管理管理",
+          "icon": "role",
+          "url": "/Role",
+          "sort": 2,
+          "accessLevel": 1,
+          "childMenus": null
+        },
+        {
+          "id": 17,
+          "name": "使用者管理",
+          "description": "",
+          "icon": "string",
+          "url": "/User",
+          "sort": 3,
+          "accessLevel": 1,
+          "childMenus": null
+        },
+        {
+          "id": 86,
+          "name": "待確認使用者",
+          "description": "",
+          "icon": "",
+          "url": "/PendingUser",
+          "sort": 4,
+          "accessLevel": 1,
+          "childMenus": null
+        }
+      ]
+    },
+    {
+      "id": 116,
+      "name": "資訊報表",
+      "description": "",
+      "icon": "report",
+      "url": "",
+      "sort": 0,
+      "accessLevel": null,
+      "childMenus": [
+        {
+          "id": 120,
+          "name": "AI 費用報表",
+          "description": "",
+          "icon": "",
+          "url": "/AiCostReport",
+          "sort": 15,
+          "accessLevel": 2,
+          "childMenus": null
+        },
+        {
+          "id": 121,
+          "name": "統計資訊",
+          "description": "",
+          "icon": "",
+          "url": "/Metrics",
+          "sort": 0,
+          "accessLevel": 1,
+          "childMenus": null
+        },
+        {
+          "id": 122,
+          "name": "訊息統計資訊",
+          "description": "",
+          "icon": "",
+          "url": "/MessagesMetrics",
+          "sort": 10,
+          "accessLevel": 1,
+          "childMenus": null
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "name": "系統功能",
+      "description": "測試編輯",
+      "icon": "picture",
+      "url": null,
+      "sort": 2,
+      "accessLevel": null,
+      "childMenus": [
+        {
+          "id": 1,
+          "name": "圖庫",
+          "description": "insert test1",
+          "icon": "account",
+          "url": "/Gallery",
+          "sort": 1,
+          "accessLevel": 1,
+          "childMenus": null
+        },
+        {
+          "id": 11,
+          "name": "指派",
+          "description": "test",
+          "icon": "assign",
+          "url": "/Assign",
+          "sort": 5,
+          "accessLevel": 1,
+          "childMenus": null
+        },
+        {
+          "id": 43,
+          "name": "客戶管理",
+          "description": "ಥ_ಥ",
+          "icon": "",
+          "url": "/Customer",
+          "sort": 7,
+          "accessLevel": 2,
+          "childMenus": null
+        },
+        {
+          "id": 75,
+          "name": "離線訊息管理",
+          "description": "",
+          "icon": "",
+          "url": "/LeaveMessages",
+          "sort": 0,
+          "accessLevel": 1,
+          "childMenus": null
+        },
+        {
+          "id": 76,
+          "name": "商品維護",
+          "description": "",
+          "icon": "",
+          "url": "/Product",
+          "sort": 0,
+          "accessLevel": 2,
+          "childMenus": null
+        },
+        {
+          "id": 83,
+          "name": "圖文選單",
+          "description": "",
+          "icon": "",
+          "url": "/Richmenu",
+          "sort": 9,
+          "accessLevel": 1,
+          "childMenus": null
+        },
+        {
+          "id": 85,
+          "name": "對話查詢",
+          "description": "dialog",
+          "icon": "",
+          "url": "/Dialog",
+          "sort": 7,
+          "accessLevel": 2,
+          "childMenus": null
+        },
+        {
+          "id": 89,
+          "name": "直播設定",
+          "description": "",
+          "icon": "",
+          "url": "/Stream",
+          "sort": 9,
+          "accessLevel": 2,
+          "childMenus": null
+        },
+        {
+          "id": 93,
+          "name": "受眾管理",
+          "description": "受眾",
+          "icon": "",
+          "url": "/Audience",
+          "sort": 5,
+          "accessLevel": 2,
+          "childMenus": null
+        },
+        {
+          "id": 96,
+          "name": "客戶名單檢查",
+          "description": "客戶名單檢查",
+          "icon": "",
+          "url": "/CustomerCheck",
+          "sort": 7,
+          "accessLevel": 1,
+          "childMenus": null
+        },
+        {
+          "id": 97,
+          "name": "模板訊息",
+          "description": "test",
+          "icon": "",
+          "url": "/Combo",
+          "sort": 0,
+          "accessLevel": 2,
+          "childMenus": null
+        },
+        {
+          "id": 102,
+          "name": "遊戲管理",
+          "description": "",
+          "icon": "",
+          "url": "/GameManage",
+          "sort": 0,
+          "accessLevel": 1,
+          "childMenus": null
+        },
+        {
+          "id": 104,
+          "name": "照片合成功能",
+          "description": "",
+          "icon": "",
+          "url": "/FrameMergeActivity",
+          "sort": 999,
+          "accessLevel": 1,
+          "childMenus": null
+        },
+        {
+          "id": 105,
+          "name": "簽到活動管理",
+          "description": "簽到活動管理",
+          "icon": "",
+          "url": "/CheckIn",
+          "sort": 998,
+          "accessLevel": 1,
+          "childMenus": null
+        }
+      ]
+    },
+    {
+      "id": 117,
+      "name": "系統管理",
+      "description": "",
+      "icon": "admin",
+      "url": "",
+      "sort": 3,
+      "accessLevel": null,
+      "childMenus": [
+        {
+          "id": 118,
+          "name": "圖庫頁籤管理",
+          "description": "",
+          "icon": "",
+          "url": "/GalleryManage",
+          "sort": 0,
+          "accessLevel": 1,
+          "childMenus": null
+        }
+      ]
+    }
+  ],
+  "msg": "OK"
+}

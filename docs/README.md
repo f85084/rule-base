@@ -30,10 +30,14 @@
 - [Lab 測試環境](csp/test-data/test-data-lab-environments.md)
 - [Lab 測試訂單](csp/test-data/test-data-lab-orders.md)
 - [Lab 測試商品](csp/test-data/test-data-lab-products.md)
-- [訂單質檢測試](csp/test-data/test-data-order-qa.md)
 - [正式環境測試環境](csp/test-data/test-data-production-environments.md)
 - [正式環境測試訂單](csp/test-data/test-data-production-orders.md)
 - [正式環境測試商品](csp/test-data/test-data-production-products.md)
+
+### CSP 測試案例
+
+- [CSP 測試案例索引](csp/test-cases/README.md)
+- [訂單質檢測試案例](csp/test-cases/test-cases-order-qa.md)
 - [CSP 需求單與文件對照](csp/requirements/README.md)
 - [CSP 頁面分類 Index](csp/requirements/page-classification-index.md)
 - [CSP 頁面用途索引](csp/requirements/page-purpose-index.md)
@@ -50,10 +54,15 @@
 ### 測試資料
 
 - [MSG 環境資訊](msg/test-data/test-data-environments.md)
-- [Redmine #50368 報到管理](msg/test-data/Redmine-50368-報到管理.xlsx)
+
+### MSG 測試案例
+
+- [MSG 測試案例索引](msg/test-cases/README.md)
+- [Redmine #50368 報到管理](msg/test-cases/Redmine-50368-報到管理.xlsx)
 - [MSG 需求單與文件對照](msg/requirements/README.md)
 
 ### 規則與操作說明
 
+- [MSG 一般人員操作手冊](msg/operations/一般人員操作手冊.md)
 - [訊息系統操作與設定](msg/operations/message-operations.md)
 - [MSG 簽到印章設定流程](msg/operations/check-in-stamp-setup.md)

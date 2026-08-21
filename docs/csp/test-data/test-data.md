@@ -6,7 +6,7 @@
 
 | 主題 | 內容 | 檔案 |
 |---|---|---|
-| 訂單質檢測試 | 測試帳號、質檢流程、案例驗證與 `order_qa` 初始化欄位 | [test-data-order-qa.md](test-data-order-qa.md) |
+| 訂單質檢測試資料 | 測試帳號與 `order_qa` 初始化欄位 | [test-data-order-qa.md](test-data-order-qa.md) |
 
 ## Lab 測試資料
 
